@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Allow GraphCanvas wrapper to control cursor cleanly across all browsers/DPIs */
+.force-graph-container canvas {
+  cursor: inherit !important;
+}

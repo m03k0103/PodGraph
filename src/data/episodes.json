@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gakkyoku-312",
+    "podcastId": "gichi-higuchi",
+    "title": "#312 ポッドキャスト界を牽引する野村高文さんが登場！三人との意外な師弟関係とそれぞれの接点【ゲスト：野村高文さん】",
+    "publishedAt": "2026-01-12",
+    "guestIds": ["takahiro-nomura"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2oJD7Sbbls33RyurC8zjEa",
+      "pocketCasts": "https://pca.st/episode/gakkyoku-312"
+    }
+  },
+  {
+    "id": "gakkyoku-313",
+    "podcastId": "gichi-higuchi",
+    "title": "#313 Podcastは、伸ばし方より続け方【ゲスト：野村高文さん】",
+    "publishedAt": "2026-01-19",
+    "guestIds": ["takahiro-nomura"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5RlM5oSYZCWfdaCxJQejk9",
+      "pocketCasts": "https://pca.st/episode/gakkyoku-313"
+    }
+  },
+  {
+    "id": "newsconnect-83",
+    "podcastId": "news-connect",
+    "title": "【土曜版 #83】深井龍之介さんと語る、資本主義と人文知、そして最近の日々",
+    "publishedAt": "2026-06-20",
+    "guestIds": ["ryu-fukada"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/1EiRggj17tBgkoZHpv34Cn"
+    }
+  },
+  {
+    "id": "coten-shinoda",
+    "podcastId": "coten-radio",
+    "title": "【特別編】いま未来と向き合おう！COTEN Co-Lab ／ コンソーシアム へのご案内　聴き手：篠田真貴子さん",
+    "publishedAt": "2026-05-28",
+    "guestIds": ["makiko-shinoda"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4RsEdp8xJTvmi2cIItxWtr"
+    }
+  },
+  {
+    "id": "coten-obara-140",
+    "podcastId": "coten-radio",
+    "title": "【番外編＃140】昭和OSの終焉とAI時代の志①（4ステップで読む社会）　ゲスト：尾原和啓｜IT評論家",
+    "publishedAt": "2026-05-17",
+    "guestIds": ["kazuhiro-obara"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/13HHFuAl4Z7qfomCD3MSNS"
+    }
+  },
+  {
+    "id": "coten-obara-141",
+    "podcastId": "coten-radio",
+    "title": "【番外編＃141】昭和OSの終焉とAI時代の志②（DX第2回戦の本質）　ゲスト：尾原和啓｜IT評論家",
+    "publishedAt": "2026-05-20",
+    "guestIds": ["kazuhiro-obara"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1zZhIZ7JG0dNpwThGSdwVS"
+    }
+  },
+  {
+    "id": "coten-obara-142",
+    "podcastId": "coten-radio",
+    "title": "【番外編＃142】昭和OSの終焉とAI時代の志③（憤りから志へ）　ゲスト：尾原和啓｜IT評論家",
+    "publishedAt": "2026-05-24",
+    "guestIds": ["kazuhiro-obara"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3tBctWX8tHKqwE0Ycf2BNg"
+    }
+  }
+]

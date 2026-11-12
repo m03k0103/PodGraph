@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ryu-fukada",
+    "name": "深井 龍之介",
+    "aliases": ["深井さん", "深井龍之介", "Ryunosuke Fukai", "fukai"],
+    "bio": "株式会社COTEN 代表取締役CEO。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』『a scope』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/ryunosuke_coten"
+    }
+  },
+  {
+    "id": "seita-higuchi",
+    "name": "樋口 聖典",
+    "aliases": ["樋口さん", "樋口聖典", "Seinori Higuchi", "higuchi"],
+    "bio": "株式会社BOOK 代表取締役。ギチ・樋口兄弟。『コテンラジオ』『愛の楽曲工房』等のプロデューサー・MC。",
+    "links": {
+      "x": "https://x.com/higuchinosei"
+    }
+  },
+  {
+    "id": "dogen-yanto",
+    "name": "ヤンヤン",
+    "aliases": ["ヤンヤンさん", "杨", "Yangyang"],
+    "bio": "中国・武漢出身。多言語を操る『歴史を面白く学ぶコテンラジオ』のメインパーソナリティ・リサーチャー。"
+  },
+  {
+    "id": "takahiro-nomura",
+    "name": "野村 高文",
+    "aliases": ["野村さん", "野村高文", "Takafumi Nomura"],
+    "bio": "Podcastプロデューサー・編集者。『News Connect』『a scope』パーソナリティ。『愛の楽曲工房』にもゲスト出演。",
+    "links": {
+      "x": "https://x.com/nomuratakafumi"
+    }
+  },
+  {
+    "id": "makiko-shinoda",
+    "name": "篠田 真貴子",
+    "aliases": ["篠田さん", "篠田真貴子"],
+    "bio": "エール株式会社 取締役。『聴く力』著者。コテンラジオ番外編にゲスト出演。"
+  },
+  {
+    "id": "kazuhiro-obara",
+    "name": "尾原 和啓",
+    "aliases": ["尾原さん", "尾原和啓"],
+    "bio": "IT評論家。『プロセスエコノミー』『どこでも誰とでも働ける』著者。コテンラジオ番外編にゲスト出演。"
+  }
+]

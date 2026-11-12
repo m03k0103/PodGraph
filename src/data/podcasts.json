@@ -1,0 +1,47 @@
+[
+  {
+    "id": "coten-radio",
+    "title": "歴史を面白く学ぶコテンラジオ （COTEN RADIO）",
+    "description": "歴史を愛し、歴史を知りすぎてしまった深井龍之介、ヤンヤン、そして歴史初心者の樋口聖典が織りなす歴史トークバラエティ。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=cotenradio&backgroundColor=0f766e",
+    "hostIds": ["ryu-fukada", "seita-higuchi", "dogen-yanto"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/3qiAapMhh8UgWVfDWTSq2f",
+      "pocketCasts": "https://pca.st/coten"
+    },
+    "spotifyShowId": "3qiAapMhh8UgWVfDWTSq2f"
+  },
+  {
+    "id": "gichi-higuchi",
+    "title": "愛の楽曲工房",
+    "description": "樋口聖典、樋口太陽、青柳貴哉がお届けする、音楽・表現・人生のディープ雑談ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=ainogakkyoku&backgroundColor=b45309",
+    "hostIds": ["seita-higuchi"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/4R16jUMYzX3JfbrJkgYfsk"
+    },
+    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk"
+  },
+  {
+    "id": "a-scope",
+    "title": "a scope 〜リベラルアーツで世界を視る目が変わる〜",
+    "description": "深井龍之介と野村高文がリベラルアーツをテーマに研究者をゲストに招いて語り合う、第3回 JAPAN PODCAST AWARDS ベストナレッジ賞受賞番組。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=ascope&backgroundColor=1e1b4b",
+    "hostIds": ["ryu-fukada", "takahiro-nomura"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/6Wg8C5S0lonShoWReujAip"
+    },
+    "spotifyShowId": "6Wg8C5S0lonShoWReujAip"
+  },
+  {
+    "id": "news-connect",
+    "title": "News Connect あなたと経済をつなぐ5分間",
+    "description": "音声プロデューサー野村高文がお届けする経済ニュース＆週末特別対談ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=newsconnect&backgroundColor=7e22ce",
+    "hostIds": ["takahiro-nomura"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/1EiRggj17tBgkoZHpv34Cn"
+    },
+    "spotifyShowId": "1EiRggj17tBgkoZHpv34Cn"
+  }
+]

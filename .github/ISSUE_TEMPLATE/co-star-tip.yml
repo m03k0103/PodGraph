@@ -1,0 +1,47 @@
+name: 🎙️ 共演情報のタレコミ（追加リクエスト）
+description: ポッドキャスター同士のゲスト出演・共演情報を報告する
+title: "[共演情報] 番組名 / ゲスト名"
+labels: ["co-star-tip"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        PodGraph への共演情報提供ありがとうございます！以下の項目をご記入ください。
+  - type: input
+    id: podcast_name
+    attributes:
+      label: 番組名（ホスト側のポッドキャスト）
+      description: ゲストが招かれた番組の名前を入力してください
+      placeholder: "例: 〇〇ラジオ"
+    validations:
+      required: true
+  - type: input
+    id: episode_url
+    attributes:
+      label: Spotify エピソードURL（またはエピソードタイトル）
+      description: 該当エピソードの Spotify URL が分かれば貼り付けてください
+      placeholder: "https://open.spotify.com/episode/..."
+    validations:
+      required: true
+  - type: input
+    id: guest_names
+    attributes:
+      label: ゲスト出演したポッドキャスター名
+      description: 複数人いる場合はカンマ区切りで記入してください
+      placeholder: "例: 山田太郎 (△△FM)"
+    validations:
+      required: true
+  - type: input
+    id: pocket_casts_url
+    attributes:
+      label: Pocket Casts URL（任意）
+      placeholder: "https://pca.st/..."
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: 補足・メモ（任意）
+      description: 一部のメインMCが欠席していた場合や、X（旧Twitter）アカウント等の補足情報があればご記入ください
+    validations:
+      required: false
