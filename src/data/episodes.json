@@ -81,5 +81,45 @@
     "links": {
       "spotify": "https://open.spotify.com/episode/3qCdwKyS1RgW6z8Mz5jq2b"
     }
+  },
+  {
+    "id": "honma-no-honne-24",
+    "podcastId": "watashi-to-honne",
+    "title": "#24「『ホンマのホンネ』×『朝ポキ』コラボ～『俺はジェンダー問題を語りたいんだ！』朝ポキ神田大介さんとド直球で語り尽くすスペシャル回 前編」",
+    "publishedAt": "2025-02-25",
+    "guestIds": ["daisuke-kanda"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D%20%E7%A5%9E%E7%94%B0%E5%A4%A7%E4%BB%8B%20%E5%89%8D%E7%B7%A8"
+    }
+  },
+  {
+    "id": "honma-no-honne-25",
+    "podcastId": "watashi-to-honne",
+    "title": "#25「『ホンマのホンネ』×『朝ポキ』コラボ～『なぜ俺たちは賃金労働をしなきゃいけないんだ！』神田大介さんとド直球でジェンダー語り尽くすスペシャル回 後編」",
+    "publishedAt": "2025-03-05",
+    "guestIds": ["daisuke-kanda"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D%20%E7%A5%9E%E7%94%B0%E5%A4%A7%E4%BB%8B%20%E5%BE%8C%E7%B7%A8"
+    }
+  },
+  {
+    "id": "honma-no-honne-106",
+    "podcastId": "watashi-to-honne",
+    "title": "#106「政治部記者って何してるの？朝ポキでおなじみ “ふなさま”冨名腰さんに素朴な政治のギモンを聞いてみた」",
+    "publishedAt": "2026-10-14",
+    "guestIds": ["takashi-funakoshi"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D%20%E5%86%A8%E5%90%8D%E8%85%B0%20106"
+    }
+  },
+  {
+    "id": "honma-no-honne-107",
+    "podcastId": "watashi-to-honne",
+    "title": "#107「習近平主席と中国」のリアル 朝ポキ冨名腰さんに素朴なギモンを聞いてみた 第二弾！",
+    "publishedAt": "2026-10-21",
+    "guestIds": ["takashi-funakoshi"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%83%9B%E3%83%B3%E3%83%9E%E3%81%AE%E3%83%9B%E3%83%B3%E3%83%8D%20%E5%86%A8%E5%90%8D%E8%85%B0%20107"
+    }
   }
 ]

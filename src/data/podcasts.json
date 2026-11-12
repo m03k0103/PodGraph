@@ -98,5 +98,15 @@
     "links": {
       "spotify": "https://open.spotify.com/search/%E5%A0%B1%E8%AB%87%20HOU-DAN"
     }
+  },
+  {
+    "id": "watashi-to-honne",
+    "title": "「わたしとホンネ」～モヤハレニュース会議～",
+    "description": "テレビ朝日の本間智恵・外山薫・溝上由夏が、日々のニュースや暮らしの中のモヤモヤを本音で語り合うポッドキャスト（旧名称：ホンマのホンネ ～わたしたちのモヤモヤニュース会議～）。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=watashitohonne&backgroundColor=db2777",
+    "hostIds": ["chie-honma", "kaoru-toyama", "yuka-mizogami"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%A8%E3%83%9B%E3%83%B3%E3%83%8D%20%E3%83%A2%E3%83%A4%E3%83%8F%E3%83%AC"
+    }
   }
 ]
