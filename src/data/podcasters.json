@@ -3,7 +3,7 @@
     "id": "ryu-fukada",
     "name": "深井 龍之介",
     "aliases": ["深井さん", "深井龍之介", "Ryunosuke Fukai", "fukai"],
-    "bio": "株式会社COTEN 代表取締役CEO。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』『a scope』パーソナリティ。",
+    "bio": "株式会社COTEN 代表取締役CEO。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』『a scope』『深井・けんすうのまぼろし会議』パーソナリティ。",
     "links": {
       "x": "https://x.com/ryunosuke_coten"
     }
@@ -43,5 +43,14 @@
     "name": "尾原 和啓",
     "aliases": ["尾原さん", "尾原和啓"],
     "bio": "IT評論家。『プロセスエコノミー』『どこでも誰とでも働ける』著者。コテンラジオ番外編にゲスト出演。"
+  },
+  {
+    "id": "kensuu",
+    "name": "けんすう",
+    "aliases": ["けんすう", "古川健介", "古川 健介", "kensuu"],
+    "bio": "アル株式会社 代表取締役。起業家・エンジェル投資家。『深井・けんすうのまぼろし会議』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/kensuu"
+    }
   }
 ]

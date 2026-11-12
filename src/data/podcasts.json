@@ -43,5 +43,16 @@
       "spotify": "https://open.spotify.com/show/1EiRggj17tBgkoZHpv34Cn"
     },
     "spotifyShowId": "1EiRggj17tBgkoZHpv34Cn"
+  },
+  {
+    "id": "maboroshi-kaigi",
+    "title": "深井・けんすうのまぼろし会議",
+    "description": "株式会社COTEN代表の深井龍之介と起業家・投資家のけんすう（古川健介）が、その時々で話したいことを本音で語り合う1週間限定（消える）ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=maboroshikaigi&backgroundColor=0f172a",
+    "hostIds": ["ryu-fukada", "kensuu"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/24dWQdih85kk6TKa58VrGV"
+    },
+    "spotifyShowId": "24dWQdih85kk6TKa58VrGV"
   }
 ]
