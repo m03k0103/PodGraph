@@ -70,5 +70,14 @@
     "links": {
       "x": "https://x.com/KeiTanaka_Radio"
     }
+  },
+  {
+    "id": "daisuke-kanda",
+    "name": "神田 大介",
+    "aliases": ["神田さん", "神田大介", "Daisuke Kanda"],
+    "bio": "朝日新聞社 記者・ポッドキャスト『ニュースの現場から』チーフパーソナリティ。",
+    "links": {
+      "x": "https://x.com/kanda_daisuke"
+    }
   }
 ]

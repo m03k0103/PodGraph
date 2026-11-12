@@ -70,5 +70,15 @@
     "links": {
       "spotify": "https://open.spotify.com/episode/3tBctWX8tHKqwE0Ycf2BNg"
     }
+  },
+  {
+    "id": "news-no-genba-2286",
+    "podcastId": "news-no-genba",
+    "title": "起業家・けんすうさんが語るポッドキャストの可能性　「SNSが邪悪」な時代に音声が果たす役割 #2286",
+    "publishedAt": "2026-06-26",
+    "guestIds": ["kensuu"],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3qCdwKyS1RgW6z8Mz5jq2b"
+    }
   }
 ]
