@@ -48,9 +48,27 @@
     "id": "kensuu",
     "name": "けんすう",
     "aliases": ["けんすう", "古川健介", "古川 健介", "kensuu"],
-    "bio": "アル株式会社 代表取締役。起業家・エンジェル投資家。『深井・けんすうのまぼろし会議』『マダナイ』パーソナリティ。",
+    "bio": "アル株式会社 代表取締役。起業家・エンジェル投資家。『深井・けんすうのまぼろし会議』『マダナイ』『限界突破ライフハック』パーソナリティ。",
     "links": {
       "x": "https://x.com/kensuu"
+    }
+  },
+  {
+    "id": "ryunosuke-murokoshi",
+    "name": "室越 龍之介",
+    "aliases": ["室越さん", "室越龍之介", "むろこし", "Ryunosuke Murokoshi"],
+    "bio": "株式会社COTEN 文化人類学研究者。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』元MC・リサーチャー。",
+    "links": {
+      "x": "https://x.com/ryunosukemuro"
+    }
+  },
+  {
+    "id": "kei-tanaka",
+    "name": "田中 渓",
+    "aliases": ["田中さん", "田中渓", "Kei Tanaka"],
+    "bio": "元ゴールドマン・サックス証券投資部門日本共同統括、実業家・投資家。『限界突破ライフハック』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/KeiTanaka_Radio"
     }
   }
 ]

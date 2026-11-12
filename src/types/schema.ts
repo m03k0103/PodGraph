@@ -17,6 +17,7 @@ export interface Podcast {
   description?: string;
   imageUrl: string;
   hostIds: string[];
+  formerHostIds?: string[];
   links: {
     spotify: string;
     pocketCasts?: string;
@@ -51,6 +52,7 @@ export interface GraphNode {
   imageUrl?: string;
   fallbackText: string;
   degree: number;
+  isFormerHostOnly?: boolean;
   x?: number;
   y?: number;
 }

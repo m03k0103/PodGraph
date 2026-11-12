@@ -21,8 +21,14 @@ export function resolvePodcasterAvatar(
   return undefined;
 }
 
-// 名前から一意で安定した綺麗な背景グラデーション/カラーを生成する
-export function getAvatarColor(name: string): { bg: string; text: string; ring: string } {
+// 名前から一意で安定した綺麗な背景グラデーション/カラーを生成する（元MCのみの場合はグレー系）
+export function getAvatarColor(
+  name: string,
+  isFormer?: boolean
+): { bg: string; text: string; ring: string } {
+  if (isFormer) {
+    return { bg: '#334155', text: '#cbd5e1', ring: '#64748b' };
+  }
   const colorPalette = [
     { bg: '#065f46', text: '#6ee7b7', ring: '#10b981' }, // emerald
     { bg: '#1e3a8a', text: '#93c5fd', ring: '#3b82f6' }, // blue
@@ -52,7 +58,9 @@ export function getHostedPodcasters(
   podcasters: Podcaster[],
   podcasts: Podcast[]
 ): Podcaster[] {
-  const hostIdSet = new Set(podcasts.flatMap((p) => p.hostIds));
+  const hostIdSet = new Set(
+    podcasts.flatMap((p) => [...p.hostIds, ...(p.formerHostIds ?? [])])
+  );
   return podcasters.filter((p) => hostIdSet.has(p.id));
 }
 
@@ -63,6 +71,7 @@ export function buildPodcasterGraph(
 ): GraphData {
   const hostedPodcasters = getHostedPodcasters(podcasters, podcasts);
   const visiblePodcasterIds = new Set(hostedPodcasters.map((p) => p.id));
+  const activeHostIdSet = new Set(podcasts.flatMap((p) => p.hostIds));
   const podcastMap = new Map(podcasts.map((p) => [p.id, p]));
   const linkMap = new Map<string, GraphLink>();
 
@@ -87,9 +96,9 @@ export function buildPodcasterGraph(
     return link;
   };
 
-  // 1. 同じ番組のメインMC同士（レギュラー共演）
+  // 1. 同じ番組のメインMC同士（レギュラー共演、元MCも含む）
   for (const podcast of podcasts) {
-    const hosts = podcast.hostIds;
+    const hosts = Array.from(new Set([...podcast.hostIds, ...(podcast.formerHostIds ?? [])]));
     for (let i = 0; i < hosts.length; i++) {
       for (let j = i + 1; j < hosts.length; j++) {
         const link = ensureLink(hosts[i], hosts[j]);
@@ -145,14 +154,21 @@ export function buildPodcasterGraph(
 
   const nodes: GraphNode[] = hostedPodcasters.map((podcaster) => {
     const mainPodcasts = podcasts.filter((p) => p.hostIds.includes(podcaster.id));
+    const formerPodcasts = podcasts.filter((p) => p.formerHostIds?.includes(podcaster.id));
+    const isFormerHostOnly = !activeHostIdSet.has(podcaster.id);
+    const subtitle =
+      mainPodcasts.length > 0
+        ? mainPodcasts.map((p) => p.title).join(' / ')
+        : formerPodcasts.map((p) => `${p.title} (元MC)`).join(' / ');
     return {
       id: podcaster.id,
       type: 'podcaster',
       label: podcaster.name,
-      subtitle: mainPodcasts.map((p) => p.title).join(' / '),
+      subtitle,
       imageUrl: resolvePodcasterAvatar(podcaster, podcasts),
       fallbackText: getFallbackText(podcaster.name),
       degree: degreeMap.get(podcaster.id) ?? 0,
+      isFormerHostOnly,
     };
   });
 

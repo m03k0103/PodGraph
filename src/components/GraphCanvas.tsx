@@ -191,8 +191,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       if (isSelected || isHovered) {
         ctx.beginPath();
         ctx.arc(x, y, r + 5, 0, 2 * Math.PI);
-        ctx.fillStyle =
-          mode === 'podcaster' ? 'rgba(16, 185, 129, 0.45)' : 'rgba(99, 102, 241, 0.45)';
+        ctx.fillStyle = node.isFormerHostOnly
+          ? 'rgba(148, 163, 184, 0.45)'
+          : mode === 'podcaster'
+            ? 'rgba(16, 185, 129, 0.45)'
+            : 'rgba(99, 102, 241, 0.45)';
         ctx.fill();
       }
 
@@ -206,9 +209,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       ctx.fillStyle = node.type === 'podcaster' ? '#0f172a' : '#1e1b4b';
       ctx.fill();
       ctx.lineWidth = isSelected ? 3.5 : 2;
-      const avatarColors = getAvatarColor(node.label);
+      const avatarColors = getAvatarColor(node.label, node.isFormerHostOnly);
       ctx.strokeStyle = isSelected
-        ? '#10b981'
+        ? node.isFormerHostOnly
+          ? '#94a3b8'
+          : '#10b981'
         : node.type === 'podcaster'
           ? avatarColors.ring
           : '#818cf8';
@@ -298,7 +303,14 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         // 太い実線（同じ番組のレギュラー同士 / MC兼任）
         ctx.setLineDash([]);
         ctx.lineWidth = isHighlighted ? 5 : 3.6;
-        ctx.strokeStyle = isHighlighted ? '#34d399' : '#10b981';
+        const isFormerLink = Boolean(link.source.isFormerHostOnly || link.target.isFormerHostOnly);
+        ctx.strokeStyle = isFormerLink
+          ? isHighlighted
+            ? '#94a3b8'
+            : '#64748b'
+          : isHighlighted
+            ? '#34d399'
+            : '#10b981';
       } else {
         // ゲスト共演（共演回数に応じて太さを変化させる）
         const guestCount = link.guestEpisodeIds.length;

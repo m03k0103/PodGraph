@@ -46,7 +46,7 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
   const podcastMap = new Map(podcasts.map((p) => [p.id, p]));
   const episodeMap = new Map(episodes.map((e) => [e.id, e]));
 
-  const renderAvatar = (person?: Podcaster, sizeClass = 'h-12 w-12 text-sm') => {
+  const renderAvatar = (person?: Podcaster, sizeClass = 'h-12 w-12 text-sm', isFormer = false) => {
     if (!person) {
       return (
         <div className={`${sizeClass} flex shrink-0 items-center justify-center rounded-full bg-slate-800 text-slate-400 font-bold`}>
@@ -54,7 +54,7 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
         </div>
       );
     }
-    const colors = getAvatarColor(person.name);
+    const colors = getAvatarColor(person.name, isFormer);
     return (
       <div
         className={`${sizeClass} flex shrink-0 items-center justify-center rounded-full font-bold shadow-md`}
@@ -215,6 +215,8 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
             if (!person) return null;
 
             const mainPodcasts = podcasts.filter((p) => p.hostIds.includes(person.id));
+            const formerPodcasts = podcasts.filter((p) => p.formerHostIds?.includes(person.id));
+            const isFormerHostOnly = mainPodcasts.length === 0 && formerPodcasts.length > 0;
             const guestEpisodes = episodes
               .filter((e) => e.guestIds.includes(person.id))
               .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
@@ -231,7 +233,7 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
               <>
                 {/* プロフィール概要 */}
                 <div className="flex items-start gap-4">
-                  {renderAvatar(person, 'h-16 w-16 text-lg')}
+                  {renderAvatar(person, 'h-16 w-16 text-lg', isFormerHostOnly)}
                   <div className="min-w-0 flex-1">
                     <h2 className="text-xl font-bold text-white">{person.name}</h2>
                     {person.bio && (
@@ -344,6 +346,73 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
                   )}
                 </section>
 
+                {/* 元メインMCとして出演していたポッドキャスト一覧 */}
+                {formerPodcasts.length > 0 && (
+                  <section>
+                    <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400">
+                      <Mic className="h-4 w-4" />
+                      <span>元メインMC番組 ({formerPodcasts.length})</span>
+                    </h3>
+                    <div className="space-y-2.5">
+                      {formerPodcasts.map((show) => {
+                        const coHosts = show.hostIds
+                          .filter((id) => id !== person.id)
+                          .map((id) => podcasterMap.get(id))
+                          .filter((p): p is Podcaster => Boolean(p));
+
+                        return (
+                          <div
+                            key={show.id}
+                            className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 transition hover:border-slate-700"
+                          >
+                            <div className="flex items-start gap-3">
+                              <img
+                                src={show.imageUrl}
+                                alt={show.title}
+                                className="h-12 w-12 shrink-0 rounded-lg border border-slate-700 bg-slate-800 object-cover"
+                              />
+                              <div className="min-w-0 flex-1">
+                                <div className="flex flex-wrap items-center gap-2">
+                                  <button
+                                    type="button"
+                                    onClick={() => onSelectPodcast(show.id)}
+                                    className="text-left text-sm font-bold text-slate-200 hover:text-white cursor-pointer"
+                                  >
+                                    {show.title}
+                                  </button>
+                                  <span className="rounded-full bg-slate-700/70 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
+                                    元MC
+                                  </span>
+                                </div>
+                                {show.description && (
+                                  <p className="mt-1 line-clamp-2 text-xs text-slate-400">
+                                    {show.description}
+                                  </p>
+                                )}
+                                {coHosts.length > 0 && (
+                                  <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                                    <span className="text-[11px] text-slate-400">MC:</span>
+                                    {coHosts.map((ch) => (
+                                      <button
+                                        key={ch.id}
+                                        type="button"
+                                        onClick={() => onSelectPodcaster(ch.id)}
+                                        className="rounded-full bg-slate-800 px-2 py-0.5 text-[11px] font-medium text-slate-300 hover:bg-slate-700 cursor-pointer"
+                                      >
+                                        {ch.name}
+                                      </button>
+                                    ))}
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </section>
+                )}
+
                 {/* ゲストとして出演したポッドキャストのエピソード一覧 */}
                 <section>
                   <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
@@ -384,6 +453,10 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
             if (!show) return null;
 
             const hosts = show.hostIds
+              .map((id) => podcasterMap.get(id))
+              .filter((p): p is Podcaster => Boolean(p));
+
+            const formerHosts = (show.formerHostIds ?? [])
               .map((id) => podcasterMap.get(id))
               .filter((p): p is Podcaster => Boolean(p));
 
@@ -456,6 +529,39 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
                     ))}
                   </div>
                 </section>
+
+                {/* 元メインMC一覧 */}
+                {formerHosts.length > 0 && (
+                  <section>
+                    <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400">
+                      <Users className="h-4 w-4" />
+                      <span>元メインMC ({formerHosts.length})</span>
+                    </h3>
+                    <div className="grid grid-cols-1 gap-2">
+                      {formerHosts.map((h) => (
+                        <button
+                          key={h.id}
+                          type="button"
+                          onClick={() => onSelectPodcaster(h.id)}
+                          className="flex items-center gap-3 rounded-xl border border-slate-800 bg-slate-900/60 p-2.5 text-left transition hover:border-slate-600 hover:bg-slate-900 cursor-pointer"
+                        >
+                          {renderAvatar(h, 'h-10 w-10 text-xs', true)}
+                          <div className="min-w-0 flex-1">
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm font-semibold text-slate-200">{h.name}</span>
+                              <span className="rounded-full bg-slate-700/70 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
+                                元MC
+                              </span>
+                            </div>
+                            {h.bio && (
+                              <div className="truncate text-xs text-slate-400">{h.bio}</div>
+                            )}
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </section>
+                )}
 
                 {/* この番組のゲスト出演回一覧 */}
                 <section>

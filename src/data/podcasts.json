@@ -5,6 +5,7 @@
     "description": "歴史を愛し、歴史を知りすぎてしまった深井龍之介、ヤンヤン、そして歴史初心者の樋口聖典が織りなす歴史トークバラエティ。",
     "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=cotenradio&backgroundColor=0f766e",
     "hostIds": ["ryu-fukada", "seita-higuchi", "dogen-yanto"],
+    "formerHostIds": ["ryunosuke-murokoshi"],
     "links": {
       "spotify": "https://open.spotify.com/show/3qiAapMhh8UgWVfDWTSq2f",
       "pocketCasts": "https://pca.st/coten"
@@ -65,5 +66,16 @@
       "spotify": "https://open.spotify.com/show/033jcbhjRJsPGoho3ALPlm"
     },
     "spotifyShowId": "033jcbhjRJsPGoho3ALPlm"
+  },
+  {
+    "id": "genkai-toppa-lifehack",
+    "title": "限界突破ライフハック",
+    "description": "毎日朝3時45分に起きる投資家・田中渓と、様々なガジェットを使い倒す起業家・けんすうが、日常生活のハックとその思考プロセスを語り合うポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=genkaitoppa&backgroundColor=0369a1",
+    "hostIds": ["kei-tanaka", "kensuu"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/4CcQlw0zqIRvWsO4sR2GuV"
+    },
+    "spotifyShowId": "4CcQlw0zqIRvWsO4sR2GuV"
   }
 ]

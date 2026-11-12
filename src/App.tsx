@@ -40,7 +40,9 @@ export const App: React.FC = () => {
     if (!selection) return null;
     if (selection.kind === 'podcaster') {
       if (mode === 'podcaster') return selection.id;
-      const mainShow = podcasts.find((p) => p.hostIds.includes(selection.id));
+      const mainShow = podcasts.find(
+        (p) => p.hostIds.includes(selection.id) || p.formerHostIds?.includes(selection.id)
+      );
       return mainShow?.id ?? null;
     }
     if (selection.kind === 'podcast') {
