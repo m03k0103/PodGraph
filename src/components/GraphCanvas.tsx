@@ -409,6 +409,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           nodeCanvasObject={drawNode}
           nodePointerAreaPaint={paintNodePointerArea}
           linkCanvasObject={drawLink}
+          enableNodeDrag={true}
+          onNodeDragEnd={(node: any) => {
+            node.fx = node.x;
+            node.fy = node.y;
+          }}
           showPointerCursor={false}
           cooldownTicks={120}
         />
@@ -437,7 +442,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
             </span>
           </div>
           <div className="text-[10px] text-slate-400 pt-0.5">
-            💡 ノード（丸）やエッジ（線）をクリックすると詳細が開きます
+            💡 クリックで詳細表示・ドラッグでノードを移動できます
           </div>
         </div>
       </div>
