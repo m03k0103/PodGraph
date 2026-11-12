@@ -88,5 +88,15 @@
       "spotify": "https://open.spotify.com/show/392h0MYfvMTndEVzf2cOvC"
     },
     "spotifyShowId": "392h0MYfvMTndEVzf2cOvC"
+  },
+  {
+    "id": "hou-dan",
+    "title": "報談 【HOU-DAN】",
+    "description": "朝日新聞社の同期入社である冨名腰隆と神田大介が、政治や社会のニュースを縦横無尽に、深く面白く語り合う朝日新聞ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=houdan&backgroundColor=991b1b",
+    "hostIds": ["takashi-funakoshi", "daisuke-kanda"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E5%A0%B1%E8%AB%87%20HOU-DAN"
+    }
   }
 ]
