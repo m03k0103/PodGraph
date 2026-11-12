@@ -54,5 +54,16 @@
       "spotify": "https://open.spotify.com/show/24dWQdih85kk6TKa58VrGV"
     },
     "spotifyShowId": "24dWQdih85kk6TKa58VrGV"
+  },
+  {
+    "id": "madanai",
+    "title": "マダナイ",
+    "description": "樋口聖典とけんすうが企画や構成を立てず、整理される前のリアルな思考をそのまま語り合うポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=madanai&backgroundColor=be123c",
+    "hostIds": ["seita-higuchi", "kensuu"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/033jcbhjRJsPGoho3ALPlm"
+    },
+    "spotifyShowId": "033jcbhjRJsPGoho3ALPlm"
   }
 ]
