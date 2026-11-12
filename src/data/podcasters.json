@@ -114,5 +114,69 @@
     "aliases": ["溝上さん", "溝上由夏", "Yuka Mizogami"],
     "bio": "テレビ朝日 報道局プロデューサー。『「わたしとホンネ」～モヤハレニュース会議～』（旧：ホンマのホンネ）パーソナリティ。",
     "links": {}
+  },
+  {
+    "id": "kae",
+    "name": "かえ",
+    "aliases": ["かえさん", "Kae"],
+    "bio": "ノラ人間。『のらじお』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "takashi-sano",
+    "name": "佐野 貴",
+    "aliases": ["佐野さん", "たかちん", "Takashi Sano"],
+    "bio": "株式会社Play Robotics 代表取締役CEO。『あなたの悩み、メタ化します』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/takachiiiiii3"
+    }
+  },
+  {
+    "id": "hiroyuki-araki",
+    "name": "荒木 博行",
+    "aliases": ["荒木さん", "荒木博行", "Hiroyuki Araki"],
+    "bio": "株式会社学びデザイン 代表取締役。Voicyパーソナリティ。『超相対性理論』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kotaro-watanabe",
+    "name": "渡邉 康太郎",
+    "aliases": ["渡邉さん", "渡邉康太郎", "Kotaro Watanabe"],
+    "bio": "Takram コンテクストデザイナー、慶應義塾大学SFC特別招聘教授。『超相対性理論』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/waternavy"
+    }
+  },
+  {
+    "id": "hiroshi-yamamoto",
+    "name": "山本 ひろし",
+    "aliases": ["山本さん", "山本ひろし", "山本泰士", "Hiroshi Yamamoto"],
+    "bio": "ポッドキャストプロデューサー。『トリカゴ放送』『さくら通信』『弁護士放送』『英ワタ』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/yamamo10hiro4"
+    }
+  },
+  {
+    "id": "tsuyoshi-sakura",
+    "name": "さくら 剛",
+    "aliases": ["さくらさん", "さくら剛", "Tsuyoshi Sakura"],
+    "bio": "作家。『さくら通信』『英ワタ』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/sakuratsuyoshi"
+    }
+  },
+  {
+    "id": "yoshikawa-lawyer",
+    "name": "ヨシカワ弁護士",
+    "aliases": ["ヨシカワさん", "ヨシカワ弁護士", "Yoshikawa"],
+    "bio": "現役弁護士。『弁護士放送』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "sosui-ido",
+    "name": "射導 送水",
+    "aliases": ["射導さん", "送水さん", "射導送水", "Sosui Ido"],
+    "bio": "ポッドキャスター・ネットラジオ配信者。『鯖ラジオ』パーソナリティ。",
+    "links": {}
   }
 ]

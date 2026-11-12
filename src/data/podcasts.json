@@ -118,5 +118,129 @@
     "links": {
       "spotify": "https://open.spotify.com/search/%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84%20%E3%81%93%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%AFSNS%E3%81%A7%E3%81%99"
     }
+  },
+  {
+    "id": "a-scope",
+    "title": "a scope ~リベラルアーツで世界を視る目が変わる~",
+    "description": "深井龍之介（COTEN）と野村高文が各分野の研究者・専門家をゲストに迎え、リベラルアーツを切り口に現代社会を捉え直すNewsPicks制作のポッドキャスト。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f52e441830f592a251fbeea46",
+    "hostIds": ["ryu-fukada", "takahiro-nomura"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/5J4aIjFLjTF06PiFrZ5lhW"
+    },
+    "spotifyShowId": "5J4aIjFLjTF06PiFrZ5lhW"
+  },
+  {
+    "id": "no-radio",
+    "title": "のらじお",
+    "description": "ノラ人間muro（室越龍之介）とノラ人間かえによる、哲学や日常の雑談をゆったり深めるポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=noradio&backgroundColor=475569",
+    "hostIds": ["ryunosuke-murokoshi", "kae"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%81%AE%E3%82%89%E3%81%98%E3%81%8A%20muro%20%E3%81%8B%E3%81%88"
+    }
+  },
+  {
+    "id": "kensuu-speak",
+    "title": "けんすうスピーク",
+    "description": "アル株式会社代表のけんすう（古川健介）が、AI時代の生存戦略やこれからの時代の生き方を語る朝ラジオ・ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=kensuuspeak&backgroundColor=0284c7",
+    "hostIds": ["kensuu"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AF"
+    }
+  },
+  {
+    "id": "anata-no-nayami-metaka",
+    "title": "あなたの悩み、メタ化します",
+    "description": "深井龍之介（COTEN）と佐野貴（Play Robotics）が、悩めるゲストとともに目先の答えではなく背景にある「構造」や「前提」を紐解くポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=metaka&backgroundColor=4338ca",
+    "hostIds": ["ryu-fukada", "takashi-sano"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%82%A9%E3%81%BF%E3%80%81%E3%83%A1%E3%82%BF%E5%8C%96%E3%81%97%E3%81%BE%E3%81%99"
+    }
+  },
+  {
+    "id": "higuchi-sekai",
+    "title": "樋口聖典の世界",
+    "description": "樋口聖典（株式会社BOOK）が日々考えたことや感じたことを、車中から等身大のトーンで語り下ろす個人ジャーナル・ポッドキャスト。",
+    "imageUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1f6f859335427899c2b94edbb6",
+    "hostIds": ["seita-higuchi"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/4R16jUMYzX3JfbrJkgYfsk"
+    },
+    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk"
+  },
+  {
+    "id": "kanda-daisuke-keiken",
+    "title": "神田大介の経験",
+    "description": "朝日新聞の神田大介が、「長い自己紹介」として自身の経験や人生の歩みを語る個人ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=kandakeiken&backgroundColor=0f766e",
+    "hostIds": ["daisuke-kanda"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E7%A5%9E%E7%94%B0%E5%A4%A7%E4%BB%8B%E3%81%AE%E7%B5%8C%E9%A8%93"
+    }
+  },
+  {
+    "id": "cho-sotaisei-riron",
+    "title": "超相対性理論",
+    "description": "荒木博行（学びデザイン）、深井龍之介（COTEN）、渡邉康太郎（Takram）が具体と抽象を行き来し、知と知を結びつけて語り合う知性派ポッドキャスト。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1fd325af4013c4f67dfbdfcb13",
+    "hostIds": ["hiroyuki-araki", "ryu-fukada", "kotaro-watanabe"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/5xCiKGwndGU37pIuJTXpmD"
+    },
+    "spotifyShowId": "5xCiKGwndGU37pIuJTXpmD"
+  },
+  {
+    "id": "torikago-hoso",
+    "title": "トリカゴ放送",
+    "description": "山本ひろしがパーソナリティを務め、海外の裏情報や歴史、雑談を語る老舗インターネットラジオ・ポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=torikago&backgroundColor=065f46",
+    "hostIds": ["hiroshi-yamamoto"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E3%83%88%E3%83%AA%E3%82%AB%E3%82%B0%E6%94%BE%E9%80%81"
+    }
+  },
+  {
+    "id": "sakura-tsushin",
+    "title": "さくら通信",
+    "description": "作家のさくら剛とトリカゴ放送の山本ひろしがバカバカしい雑談から深い思索まで繰り広げる大人気ネットラジオ。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f5e549d3f4829680a3fa2973b",
+    "hostIds": ["tsuyoshi-sakura", "hiroshi-yamamoto"],
+    "links": {
+      "spotify": "https://open.spotify.com/show/6TPJwP0oJtDb8tletkXYrH"
+    },
+    "spotifyShowId": "6TPJwP0oJtDb8tletkXYrH"
+  },
+  {
+    "id": "bengoshi-hoso",
+    "title": "弁護士放送",
+    "description": "現役のヨシカワ弁護士とトリカゴ放送の山本ひろしが、裁判や法律の裏側を面白おかしく身近に解説するポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=bengoshihoso&backgroundColor=1e3a8a",
+    "hostIds": ["yoshikawa-lawyer", "hiroshi-yamamoto"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E5%BC%8F%E8%AD%B7%E5%A3%AB%E6%94%BE%E9%80%81"
+    }
+  },
+  {
+    "id": "eiwata",
+    "title": "英ワタ",
+    "description": "さくら剛と山本ひろしが英語で有名人や物に「憑依」してクイズ形式で出題する、英語学習者向けポッドキャスト。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=eiwata&backgroundColor=7c2d12",
+    "hostIds": ["tsuyoshi-sakura", "hiroshi-yamamoto"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E8%8B%B1%E3%83%AF%E3%82%BF"
+    }
+  },
+  {
+    "id": "saba-radio",
+    "title": "鯖ラジオ",
+    "description": "射導送水らによる「オヤジ達が送る愛ある物へのグダトーク」。映画やサブカルチャーを熱く語る長寿インターネットラジオ。",
+    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=sabaradio&backgroundColor=334155",
+    "hostIds": ["sosui-ido"],
+    "links": {
+      "spotify": "https://open.spotify.com/search/%E9%AF%96%E3%83%A9%E3%82%B8%E3%82%AA"
+    }
   }
 ]
