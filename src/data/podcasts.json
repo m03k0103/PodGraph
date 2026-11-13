@@ -246,9 +246,9 @@
   {
     "id": "sousui-radio",
     "title": "送水ラジオ",
-    "description": "坂口さんとヤマモト君（山本ひろし）が送る、生きることに疲れた中年男性に向けたお笑い音声コンテンツ（トリカゴ放送）。",
+    "description": "坂口さん（射導送水）とヤマモト君（山本ひろし）が送る、生きることに疲れた中年男性に向けたお笑い音声コンテンツ（トリカゴ放送）。",
     "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=sousuiradio&backgroundColor=047857",
-    "hostIds": ["tomonori-sakaguchi", "hiroshi-yamamoto"],
+    "hostIds": ["sosui-ido", "hiroshi-yamamoto"],
     "links": {
       "spotify": "https://open.spotify.com/search/%E9%80%81%E6%B0%B4%E3%83%A9%E3%82%B8%E3%82%AA"
     }
