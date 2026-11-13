@@ -1,9 +1,19 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
-import ForceGraph2D, { type ForceGraphMethods } from 'react-force-graph-2d';
+import React, { useEffect, useMemo, useRef, useState, useCallback } from 'react';
+import ForceGraph2D, {
+  type ForceGraphMethods,
+  type LinkObject,
+  type NodeObject,
+} from 'react-force-graph-2d';
 import { ZoomIn, ZoomOut, Maximize2 } from 'lucide-react';
 import type { GraphData, GraphLink, GraphMode, GraphNode } from '../types/schema';
-import { getAvatarColor } from '../lib/graphBuilder';
-import { getNodeRadius, hitTestGraph } from '../lib/hitTest';
+import { hitTestGraph } from '../lib/hitTest';
+import {
+  drawGraphLink,
+  drawGraphNode,
+  paintGraphNodePointerArea,
+  type ResolvedGraphLink,
+} from '../lib/graphRenderer';
+import { useImageCache } from '../hooks/useImageCache';
 
 interface GraphCanvasProps {
   mode: GraphMode;
@@ -16,6 +26,9 @@ interface GraphCanvasProps {
   onBackgroundClick: () => void;
 }
 
+type FGNode = NodeObject<GraphNode>;
+type FGLink = LinkObject<GraphNode, GraphLink>;
+
 export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   mode,
   graphData,
@@ -26,12 +39,12 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   onLinkClick,
   onBackgroundClick,
 }) => {
-  const fgRef = useRef<ForceGraphMethods<any, any> | undefined>(undefined);
+  const fgRef = useRef<ForceGraphMethods<FGNode, FGLink> | undefined>(undefined);
   const canvasContainerRef = useRef<HTMLDivElement>(null);
   const measureCtxRef = useRef<CanvasRenderingContext2D | null>(null);
   const pointerDownRef = useRef<{ x: number; y: number } | null>(null);
-  const imageCacheRef = useRef<Map<string, HTMLImageElement>>(new Map());
-  const [, setImageTick] = useState(0);
+  const imageCache = useImageCache(graphData.nodes);
+
   const [hoverNodeId, setHoverNodeId] = useState<string | null>(null);
   const [hoverLinkId, setHoverLinkId] = useState<string | null>(null);
   const [cursor, setCursor] = useState<'default' | 'pointer' | 'grabbing'>('default');
@@ -49,32 +62,18 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     return () => window.removeEventListener('resize', onResize);
   }, []);
 
-  // ノード画像のプリロード＆キャッシュ
-  useEffect(() => {
-    for (const node of graphData.nodes) {
-      if (!node.imageUrl || imageCacheRef.current.has(node.imageUrl)) continue;
-      const img = new Image();
-      img.crossOrigin = 'anonymous';
-      img.src = node.imageUrl;
-      img.onload = () => {
-        imageCacheRef.current.set(node.imageUrl!, img);
-        setImageTick((t) => t + 1);
-      };
-    }
-  }, [graphData.nodes]);
-
   // 力学パラメータ調整（ノード間の距離を広げて見やすくする）
   useEffect(() => {
     const fg = fgRef.current;
     if (!fg) return;
-    const charge = fg.d3Force('charge') as any;
-    if (charge && typeof charge.strength === 'function') {
-      charge.strength(-420);
-    }
-    const linkForce = fg.d3Force('link') as any;
-    if (linkForce && typeof linkForce.distance === 'function') {
-      linkForce.distance((link: GraphLink) => (link.relationType === 'regular' ? 95 : 135));
-    }
+    const charge = fg.d3Force('charge') as { strength?: (val: number) => void } | undefined;
+    charge?.strength?.(-420);
+
+    const linkForce = fg.d3Force('link') as
+      | { distance?: (fn: (link: GraphLink) => number) => void }
+      | undefined;
+    linkForce?.distance?.((link: GraphLink) => (link.relationType === 'regular' ? 95 : 135));
+
     fg.d3ReheatSimulation();
   }, [graphData, mode]);
 
@@ -90,13 +89,15 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
   // ハイライト対象の隣接ノード判定
   const activeNodeId = hoverNodeId ?? selectedNodeId;
-  const connectedNodeIds = React.useMemo(() => {
+  const connectedNodeIds = useMemo(() => {
     const set = new Set<string>();
     if (!activeNodeId) return set;
     set.add(activeNodeId);
     for (const link of graphData.links) {
-      const sId = typeof link.source === 'object' ? (link.source as any).id : link.source;
-      const tId = typeof link.target === 'object' ? (link.target as any).id : link.target;
+      const sId =
+        typeof link.source === 'object' ? (link.source as GraphNode).id : link.source;
+      const tId =
+        typeof link.target === 'object' ? (link.target as GraphNode).id : link.target;
       if (sId === activeNodeId) set.add(tId);
       if (tId === activeNodeId) set.add(sId);
     }
@@ -138,195 +139,33 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   );
 
   const paintNodePointerArea = useCallback(
-    (nodeObj: any, color: string, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      const node = nodeObj as GraphNode;
-      const x = node.x ?? 0;
-      const y = node.y ?? 0;
-      const r = getNodeRadius(node);
-
-      // force-graph executes an extra ctx.restore() on shadow canvas for replace mode
-      ctx.save();
-      ctx.fillStyle = color;
-      ctx.beginPath();
-      ctx.arc(x, y, r + 6, 0, 2 * Math.PI);
-      ctx.fill();
-
-      const fontSize = Math.max(10, 12 / Math.pow(globalScale || 1, 0.35));
-      ctx.font = `600 ${fontSize}px sans-serif`;
-      const textWidth = ctx.measureText(node.label).width;
-      const paddingX = 8;
-      const paddingY = 6;
-      const labelY = y + r + fontSize * 0.85 + 2;
-
-      ctx.beginPath();
-      ctx.rect(
-        x - textWidth / 2 - paddingX,
-        labelY - fontSize / 2 - paddingY,
-        textWidth + paddingX * 2,
-        fontSize + paddingY * 2
-      );
-      ctx.fill();
+    (nodeObj: FGNode, color: string, ctx: CanvasRenderingContext2D, globalScale: number) => {
+      paintGraphNodePointerArea(nodeObj as GraphNode, color, ctx, globalScale);
     },
     []
   );
 
   const drawNode = useCallback(
-    (nodeObj: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      const node = nodeObj as GraphNode;
-      const x = node.x ?? 0;
-      const y = node.y ?? 0;
-      const r = getNodeRadius(node);
-
-      const isSelected = node.id === selectedNodeId;
-      const isHovered = node.id === hoverNodeId;
-      const isDimmed = activeNodeId !== null && !connectedNodeIds.has(node.id);
-
-      // force-graph's paintNodes executes an extra ctx.restore() when nodeCanvasObjectMode is 'replace'
-      // We start with an outer ctx.save() so the canvas matrix stack stays balanced across all nodes.
-      ctx.save();
-      ctx.save();
-      ctx.globalAlpha = isDimmed ? 0.25 : 1;
-
-      // 選択・ホバー時の発光リング
-      if (isSelected || isHovered) {
-        ctx.beginPath();
-        ctx.arc(x, y, r + 5, 0, 2 * Math.PI);
-        ctx.fillStyle = node.isFormerHostOnly
-          ? 'rgba(148, 163, 184, 0.45)'
-          : mode === 'podcaster'
-            ? 'rgba(16, 185, 129, 0.45)'
-            : 'rgba(99, 102, 241, 0.45)';
-        ctx.fill();
-      }
-
-      // ノード外枠・クリップパス（人物モードは円形、番組モードは角丸四角形）
-      ctx.beginPath();
-      if (node.type === 'podcast' && typeof ctx.roundRect === 'function') {
-        ctx.roundRect(x - r, y - r, r * 2, r * 2, 6);
-      } else {
-        ctx.arc(x, y, r, 0, 2 * Math.PI);
-      }
-      ctx.fillStyle = node.type === 'podcaster' ? '#0f172a' : '#1e1b4b';
-      ctx.fill();
-      ctx.lineWidth = isSelected ? 3.5 : 2;
-      const avatarColors = getAvatarColor(node.label, node.isFormerHostOnly);
-      ctx.strokeStyle = isSelected
-        ? node.isFormerHostOnly
-          ? '#94a3b8'
-          : '#10b981'
-        : node.type === 'podcaster'
-          ? avatarColors.ring
-          : '#818cf8';
-      ctx.stroke();
-
-      // アイコン画像またはイニシャル描画
-      ctx.save();
-      ctx.clip();
-      const cachedImg = node.imageUrl ? imageCacheRef.current.get(node.imageUrl) : undefined;
-      if (cachedImg) {
-        ctx.drawImage(cachedImg, x - r, y - r, r * 2, r * 2);
-      } else {
-        // 人物用イニシャルアバター
-        ctx.fillStyle = avatarColors.bg;
-        ctx.fillRect(x - r, y - r, r * 2, r * 2);
-        ctx.fillStyle = avatarColors.text;
-        ctx.font = `bold ${Math.max(10, r * 0.72)}px sans-serif`;
-        ctx.textAlign = 'center';
-        ctx.textBaseline = 'middle';
-        ctx.fillText(node.fallbackText, x, y);
-      }
-      ctx.restore();
-
-      // ノード名ラベル描画
-      const fontSize = Math.max(10, 12 / Math.pow(globalScale, 0.35));
-      ctx.font = `600 ${fontSize}px sans-serif`;
-      const textWidth = ctx.measureText(node.label).width;
-      const paddingX = 6;
-      const paddingY = 3;
-      const labelY = y + r + fontSize * 0.85 + 2;
-
-      ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
-      if (typeof ctx.roundRect === 'function') {
-        ctx.beginPath();
-        ctx.roundRect(
-          x - textWidth / 2 - paddingX,
-          labelY - fontSize / 2 - paddingY,
-          textWidth + paddingX * 2,
-          fontSize + paddingY * 2,
-          4
-        );
-        ctx.fill();
-      } else {
-        ctx.fillRect(
-          x - textWidth / 2 - paddingX,
-          labelY - fontSize / 2 - paddingY,
-          textWidth + paddingX * 2,
-          fontSize + paddingY * 2
-        );
-      }
-
-      ctx.fillStyle = isSelected ? '#6ee7b7' : '#f1f5f9';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(node.label, x, labelY);
-
-      ctx.restore();
-      // Notice: force-graph will execute the second ctx.restore() when nodeCanvasObjectMode is 'replace'
+    (nodeObj: FGNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
+      drawGraphNode(nodeObj as GraphNode, ctx, globalScale, {
+        mode,
+        selectedNodeId,
+        hoverNodeId,
+        activeNodeId,
+        connectedNodeIds,
+        imageCache,
+      });
     },
-    [activeNodeId, connectedNodeIds, hoverNodeId, mode, selectedNodeId]
+    [activeNodeId, connectedNodeIds, hoverNodeId, imageCache, mode, selectedNodeId]
   );
 
   const drawLink = useCallback(
-    (linkObj: any, ctx: CanvasRenderingContext2D) => {
-      const link = linkObj as GraphLink & { source: GraphNode; target: GraphNode };
-      const sx = link.source.x ?? 0;
-      const sy = link.source.y ?? 0;
-      const tx = link.target.x ?? 0;
-      const ty = link.target.y ?? 0;
-
-      const isSelected = link.id === selectedLinkId;
-      const isHovered = link.id === hoverLinkId;
-      const isHighlighted = isSelected || isHovered;
-      const isConnectedToActive =
-        activeNodeId !== null &&
-        (link.source.id === activeNodeId || link.target.id === activeNodeId);
-      const isDimmed = activeNodeId !== null && !isConnectedToActive && !isHighlighted;
-
-      ctx.save();
-      ctx.globalAlpha = isDimmed ? 0.15 : 0.9;
-
-      ctx.beginPath();
-      ctx.moveTo(sx, sy);
-      ctx.lineTo(tx, ty);
-
-      if (link.relationType === 'regular') {
-        // 太い実線（同じ番組のレギュラー同士 / MC兼任）
-        ctx.setLineDash([]);
-        ctx.lineWidth = isHighlighted ? 5 : 3.6;
-        const isFormerLink = Boolean(link.source.isFormerHostOnly || link.target.isFormerHostOnly);
-        ctx.strokeStyle = isFormerLink
-          ? isHighlighted
-            ? '#94a3b8'
-            : '#64748b'
-          : isHighlighted
-            ? '#34d399'
-            : '#10b981';
-      } else {
-        // ゲスト共演（共演回数に応じて太さを変化させる）
-        const guestCount = link.guestEpisodeIds.length;
-        ctx.setLineDash(guestCount === 1 ? [5, 4] : []);
-        ctx.lineWidth = isHighlighted
-          ? 4.5
-          : Math.min(1.5 + (guestCount - 1) * 1.1, 4.2);
-        ctx.strokeStyle = isHighlighted
-          ? '#a5b4fc'
-          : isConnectedToActive
-            ? '#818cf8'
-            : '#64748b';
-      }
-
-      ctx.stroke();
-      ctx.restore();
+    (linkObj: FGLink, ctx: CanvasRenderingContext2D) => {
+      drawGraphLink(linkObj as ResolvedGraphLink, ctx, {
+        selectedLinkId,
+        hoverLinkId,
+        activeNodeId,
+      });
     },
     [activeNodeId, hoverLinkId, selectedLinkId]
   );
@@ -399,18 +238,18 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           setCursor('default');
         }}
       >
-        <ForceGraph2D
+        <ForceGraph2D<FGNode, FGLink>
           ref={fgRef}
           width={dimensions.width}
           height={dimensions.height}
-          graphData={graphData}
+          graphData={graphData as { nodes: FGNode[]; links: FGLink[] }}
           backgroundColor="#020617"
           nodeRelSize={16}
           nodeCanvasObject={drawNode}
           nodePointerAreaPaint={paintNodePointerArea}
           linkCanvasObject={drawLink}
           enableNodeDrag={true}
-          onNodeDragEnd={(node: any) => {
+          onNodeDragEnd={(node) => {
             node.fx = node.x;
             node.fy = node.y;
           }}
@@ -441,13 +280,13 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
                 : '点線 / 実線：MCが他番組へゲスト出演'}
             </span>
           </div>
-          <div className="text-[10px] text-slate-400 pt-0.5">
+          <div className="pt-0.5 text-[10px] text-slate-400">
             💡 クリックで詳細表示・ドラッグでノードを移動できます
           </div>
         </div>
       </div>
 
-      {/* 右下（ポップアップ非表示時でも操作しやすい位置）：ズーム操作ボタン */}
+      {/* 右下：ズーム操作ボタン */}
       <div className="pointer-events-auto fixed bottom-4 right-4 z-10 flex flex-col gap-1.5 rounded-xl border border-slate-800 bg-slate-900/85 p-1.5 shadow-xl backdrop-blur-md">
         <button
           type="button"

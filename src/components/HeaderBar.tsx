@@ -1,6 +1,7 @@
 import React, { useMemo, useState, useRef, useEffect } from 'react';
 import { Search, Users, Radio, MessageSquarePlus, X } from 'lucide-react';
 import type { GraphMode, Podcast, Podcaster } from '../types/schema';
+import { searchEntities } from '../lib/search';
 
 interface HeaderBarProps {
   mode: GraphMode;
@@ -37,22 +38,10 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const searchResults = useMemo(() => {
-    const trimmed = query.trim().toLowerCase();
-    if (!trimmed) return { matchedPodcasters: [], matchedPodcasts: [] };
-
-    const matchedPodcasters = podcasters.filter((p) => {
-      const target = [p.name, ...(p.aliases ?? []), p.bio ?? ''].join(' ').toLowerCase();
-      return target.includes(trimmed);
-    });
-
-    const matchedPodcasts = podcasts.filter((p) => {
-      const target = [p.title, p.description ?? ''].join(' ').toLowerCase();
-      return target.includes(trimmed);
-    });
-
-    return { matchedPodcasters, matchedPodcasts };
-  }, [query, podcasters, podcasts]);
+  const searchResults = useMemo(
+    () => searchEntities(query, podcasters, podcasts),
+    [query, podcasters, podcasts]
+  );
 
   const hasResults =
     searchResults.matchedPodcasters.length > 0 ||

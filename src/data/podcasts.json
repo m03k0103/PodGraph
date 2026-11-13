@@ -25,14 +25,14 @@
   },
   {
     "id": "a-scope",
-    "title": "a scope 〜リベラルアーツで世界を視る目が変わる〜",
-    "description": "深井龍之介と野村高文がリベラルアーツをテーマに研究者をゲストに招いて語り合う、第3回 JAPAN PODCAST AWARDS ベストナレッジ賞受賞番組。",
-    "imageUrl": "https://api.dicebear.com/9.x/shapes/svg?seed=ascope&backgroundColor=1e1b4b",
+    "title": "a scope ~リベラルアーツで世界を視る目が変わる~",
+    "description": "深井龍之介（COTEN）と野村高文が各分野の研究者・専門家をゲストに迎え、リベラルアーツを切り口に現代社会を捉え直す第3回 JAPAN PODCAST AWARDS ベストナレッジ賞受賞番組。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f52e441830f592a251fbeea46",
     "hostIds": ["ryu-fukada", "takahiro-nomura"],
     "links": {
-      "spotify": "https://open.spotify.com/show/6Wg8C5S0lonShoWReujAip"
+      "spotify": "https://open.spotify.com/show/5J4aIjFLjTF06PiFrZ5lhW"
     },
-    "spotifyShowId": "6Wg8C5S0lonShoWReujAip"
+    "spotifyShowId": "5J4aIjFLjTF06PiFrZ5lhW"
   },
   {
     "id": "news-connect",
@@ -118,17 +118,6 @@
     "links": {
       "spotify": "https://open.spotify.com/search/%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84%20%E3%81%93%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%AFSNS%E3%81%A7%E3%81%99"
     }
-  },
-  {
-    "id": "a-scope",
-    "title": "a scope ~リベラルアーツで世界を視る目が変わる~",
-    "description": "深井龍之介（COTEN）と野村高文が各分野の研究者・専門家をゲストに迎え、リベラルアーツを切り口に現代社会を捉え直すNewsPicks制作のポッドキャスト。",
-    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f52e441830f592a251fbeea46",
-    "hostIds": ["ryu-fukada", "takahiro-nomura"],
-    "links": {
-      "spotify": "https://open.spotify.com/show/5J4aIjFLjTF06PiFrZ5lhW"
-    },
-    "spotifyShowId": "5J4aIjFLjTF06PiFrZ5lhW"
   },
   {
     "id": "no-radio",

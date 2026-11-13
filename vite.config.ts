@@ -4,4 +4,15 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'graph-vendor': ['react-force-graph-2d'],
+          icons: ['lucide-react'],
+        },
+      },
+    },
+  },
 });
