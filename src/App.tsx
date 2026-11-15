@@ -35,7 +35,7 @@ const podcasts = podcastsData as Podcast[];
 const episodes = episodesData as GuestEpisode[];
 
 export const App: React.FC = () => {
-  const [mode, setMode] = useState<GraphMode>('podcaster');
+  const [mode, setMode] = useState<GraphMode>('podcast');
   const [theme, setTheme] = useState<ThemeMode>(getInitialTheme);
   const [selection, setSelection] = useState<PopupSelection | null>(null);
   const [focusTrigger, setFocusTrigger] = useState(0);
