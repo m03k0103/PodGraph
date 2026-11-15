@@ -56,16 +56,29 @@ describe('data integrity', () => {
       }
     }
     for (const show of podcasts) {
-      expect(show.links.spotify).toMatch(/^https:\/\//);
+      if (show.links.spotify) {
+        expect(show.links.spotify).toMatch(/^https:\/\//);
+      }
       if (show.links.pocketCasts) {
         expect(show.links.pocketCasts).toMatch(/^https:\/\//);
       }
+      expect(Boolean(show.links.spotify || show.links.pocketCasts)).toBe(true);
     }
     for (const ep of episodes) {
-      expect(ep.links.spotify).toMatch(/^https:\/\//);
+      if (ep.links.spotify) {
+        expect(ep.links.spotify).toMatch(/^https:\/\//);
+      }
       if (ep.links.pocketCasts) {
         expect(ep.links.pocketCasts).toMatch(/^https:\/\//);
       }
+      expect(Boolean(ep.links.spotify || ep.links.pocketCasts)).toBe(true);
+    }
+  });
+
+  it('podcasts.json のすべての番組に有効なアートワークURL (imageUrl) が設定されている', () => {
+    for (const show of podcasts) {
+      expect(typeof show.imageUrl).toBe('string');
+      expect(show.imageUrl).toMatch(/^https:\/\//);
     }
   });
 });

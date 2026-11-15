@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { hitTestGraph, getNodeRadius } from '../hitTest';
+import { splitPodcasterNameLines } from '../graphRenderer';
 import type { GraphLink, GraphNode } from '../../types/schema';
 
 describe('hitTestGraph', () => {
@@ -51,12 +52,21 @@ describe('hitTestGraph', () => {
     if (hit2?.kind === 'node') expect(hit2.node.id).toBe('makiko-shinoda');
   });
 
-  it('hits node text label area below the node circle', () => {
+  it('hits within podcaster circle radius and misses outside the circle', () => {
     const r = getNodeRadius(nodes[1]);
-    const labelY = 110 + r + 12 * 0.85 + 2;
-    const hitLabel = hitTestGraph(-380 - 20, labelY, 1, nodes, links, mockMeasure);
-    expect(hitLabel?.kind).toBe('node');
-    if (hitLabel?.kind === 'node') expect(hitLabel.node.id).toBe('makiko-shinoda');
+    const hitEdge = hitTestGraph(-380 + r, 110, 1, nodes, links, mockMeasure);
+    expect(hitEdge?.kind).toBe('node');
+    if (hitEdge?.kind === 'node') expect(hitEdge.node.id).toBe('makiko-shinoda');
+
+    const missBelow = hitTestGraph(-380, 110 + r + 15, 1, nodes, links, mockMeasure);
+    expect(missBelow).toBeNull();
+  });
+
+  it('splits podcaster full names into at most 2 lines for inside-circle rendering', () => {
+    expect(splitPodcasterNameLines('深井 龍之介')).toEqual(['深井', '龍之介']);
+    expect(splitPodcasterNameLines('丸山 ゴンザレス')).toEqual(['丸山', 'ゴンザレス']);
+    expect(splitPodcasterNameLines('けんすう')).toEqual(['けんすう']);
+    expect(splitPodcasterNameLines('ヨシカワ弁護士')).toEqual(['ヨシカワ', '弁護士']);
   });
 
   it('hits co-starring link badge and segment, and returns null on empty background', () => {

@@ -2,7 +2,12 @@
   {
     "id": "ryu-fukada",
     "name": "深井 龍之介",
-    "aliases": ["深井さん", "深井龍之介", "Ryunosuke Fukai", "fukai"],
+    "aliases": [
+      "深井さん",
+      "深井龍之介",
+      "Ryunosuke Fukai",
+      "fukai"
+    ],
     "bio": "株式会社COTEN 代表取締役CEO。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』『a scope』『深井・けんすうのまぼろし会議』パーソナリティ。",
     "links": {
       "x": "https://x.com/ryunosuke_coten"
@@ -11,7 +16,12 @@
   {
     "id": "seita-higuchi",
     "name": "樋口 聖典",
-    "aliases": ["樋口さん", "樋口聖典", "Seinori Higuchi", "higuchi"],
+    "aliases": [
+      "樋口さん",
+      "樋口聖典",
+      "Seinori Higuchi",
+      "higuchi"
+    ],
     "bio": "株式会社BOOK 代表取締役。ギチ・樋口兄弟。『コテンラジオ』『愛の楽曲工房』『マダナイ』等のプロデューサー・MC。",
     "links": {
       "x": "https://x.com/higuchinosei"
@@ -20,13 +30,21 @@
   {
     "id": "dogen-yanto",
     "name": "ヤンヤン",
-    "aliases": ["ヤンヤンさん", "杨", "Yangyang"],
+    "aliases": [
+      "ヤンヤンさん",
+      "杨",
+      "Yangyang"
+    ],
     "bio": "中国・武漢出身。多言語を操る『歴史を面白く学ぶコテンラジオ』のメインパーソナリティ・リサーチャー。"
   },
   {
     "id": "takahiro-nomura",
     "name": "野村 高文",
-    "aliases": ["野村さん", "野村高文", "Takafumi Nomura"],
+    "aliases": [
+      "野村さん",
+      "野村高文",
+      "Takafumi Nomura"
+    ],
     "bio": "Podcastプロデューサー・編集者。『News Connect』『a scope』パーソナリティ。『愛の楽曲工房』にもゲスト出演。",
     "links": {
       "x": "https://x.com/nomuratakafumi"
@@ -35,19 +53,30 @@
   {
     "id": "makiko-shinoda",
     "name": "篠田 真貴子",
-    "aliases": ["篠田さん", "篠田真貴子"],
+    "aliases": [
+      "篠田さん",
+      "篠田真貴子"
+    ],
     "bio": "エール株式会社 取締役。『聴く力』著者。コテンラジオ番外編にゲスト出演。"
   },
   {
     "id": "kazuhiro-obara",
     "name": "尾原 和啓",
-    "aliases": ["尾原さん", "尾原和啓"],
+    "aliases": [
+      "尾原さん",
+      "尾原和啓"
+    ],
     "bio": "IT評論家。『プロセスエコノミー』『どこでも誰とでも働ける』著者。コテンラジオ番外編にゲスト出演。"
   },
   {
     "id": "kensuu",
     "name": "けんすう",
-    "aliases": ["けんすう", "古川健介", "古川 健介", "kensuu"],
+    "aliases": [
+      "けんすう",
+      "古川健介",
+      "古川 健介",
+      "kensuu"
+    ],
     "bio": "アル株式会社 代表取締役。起業家・エンジェル投資家。『深井・けんすうのまぼろし会議』『マダナイ』『限界突破ライフハック』パーソナリティ。",
     "links": {
       "x": "https://x.com/kensuu"
@@ -56,7 +85,12 @@
   {
     "id": "ryunosuke-murokoshi",
     "name": "室越 龍之介",
-    "aliases": ["室越さん", "室越龍之介", "むろこし", "Ryunosuke Murokoshi"],
+    "aliases": [
+      "室越さん",
+      "室越龍之介",
+      "むろこし",
+      "Ryunosuke Murokoshi"
+    ],
     "bio": "株式会社COTEN 文化人類学研究者。『歴史を面白く学ぶコテンラジオ （COTEN RADIO）』元MC・リサーチャー。",
     "links": {
       "x": "https://x.com/ryunosukemuro"
@@ -65,7 +99,11 @@
   {
     "id": "kei-tanaka",
     "name": "田中 渓",
-    "aliases": ["田中さん", "田中渓", "Kei Tanaka"],
+    "aliases": [
+      "田中さん",
+      "田中渓",
+      "Kei Tanaka"
+    ],
     "bio": "元ゴールドマン・サックス証券投資部門日本共同統括、実業家・投資家。『限界突破ライフハック』パーソナリティ。",
     "links": {
       "x": "https://x.com/KeiTanaka_Radio"
@@ -74,7 +112,11 @@
   {
     "id": "daisuke-kanda",
     "name": "神田 大介",
-    "aliases": ["神田さん", "神田大介", "Daisuke Kanda"],
+    "aliases": [
+      "神田さん",
+      "神田大介",
+      "Daisuke Kanda"
+    ],
     "bio": "朝日新聞社 記者・ポッドキャスト『ニュースの現場から』チーフパーソナリティ。『ドーナツ ～このポッドキャストはSNSです』にも出演。",
     "links": {
       "x": "https://x.com/kanda_daisuke"
@@ -83,49 +125,77 @@
   {
     "id": "shinya-nakajima",
     "name": "中島 晋也",
-    "aliases": ["中島さん", "中島晋也", "Shinya Nakajima"],
+    "aliases": [
+      "中島さん",
+      "中島晋也",
+      "Shinya Nakajima"
+    ],
     "bio": "朝日新聞社 デジタル編成本部次長。ポッドキャスト『ニュースの現場から』『ドーナツ ～このポッドキャストはSNSです』に出演。",
     "links": {}
   },
   {
     "id": "takashi-funakoshi",
     "name": "冨名腰 隆",
-    "aliases": ["冨名腰", "冨名腰さん", "冨名腰隆", "Takashi Funakoshi"],
+    "aliases": [
+      "冨名腰",
+      "冨名腰さん",
+      "冨名腰隆",
+      "Takashi Funakoshi"
+    ],
     "bio": "朝日新聞社 記者（政治取材・中国特派員など）。同期の神田大介と『報談 【HOU-DAN】』パーソナリティ。",
     "links": {}
   },
   {
     "id": "chie-honma",
     "name": "本間 智恵",
-    "aliases": ["本間アナ", "本間智恵", "Chie Honma"],
+    "aliases": [
+      "本間アナ",
+      "本間智恵",
+      "Chie Honma"
+    ],
     "bio": "テレビ朝日アナウンサー。『「わたしとホンネ」～モヤハレニュース会議～』（旧：ホンマのホンネ）パーソナリティ。",
     "links": {}
   },
   {
     "id": "kaoru-toyama",
     "name": "外山 薫",
-    "aliases": ["外山さん", "外山薫", "Kaoru Toyama"],
+    "aliases": [
+      "外山さん",
+      "外山薫",
+      "Kaoru Toyama"
+    ],
     "bio": "テレビ朝日 報道局デスク・プロデューサー。『「わたしとホンネ」～モヤハレニュース会議～』（旧：ホンマのホンネ）パーソナリティ。",
     "links": {}
   },
   {
     "id": "yuka-mizogami",
     "name": "溝上 由夏",
-    "aliases": ["溝上さん", "溝上由夏", "Yuka Mizogami"],
+    "aliases": [
+      "溝上さん",
+      "溝上由夏",
+      "Yuka Mizogami"
+    ],
     "bio": "テレビ朝日 報道局プロデューサー。『「わたしとホンネ」～モヤハレニュース会議～』（旧：ホンマのホンネ）パーソナリティ。",
     "links": {}
   },
   {
     "id": "kae",
     "name": "かえ",
-    "aliases": ["かえさん", "Kae"],
+    "aliases": [
+      "かえさん",
+      "Kae"
+    ],
     "bio": "ノラ人間。『のらじお』パーソナリティ。",
     "links": {}
   },
   {
     "id": "takashi-sano",
     "name": "佐野 貴",
-    "aliases": ["佐野さん", "たかちん", "Takashi Sano"],
+    "aliases": [
+      "佐野さん",
+      "たかちん",
+      "Takashi Sano"
+    ],
     "bio": "株式会社Play Robotics 代表取締役CEO。『あなたの悩み、メタ化します』パーソナリティ。",
     "links": {
       "x": "https://x.com/takachiiiiii3"
@@ -134,14 +204,22 @@
   {
     "id": "hiroyuki-araki",
     "name": "荒木 博行",
-    "aliases": ["荒木さん", "荒木博行", "Hiroyuki Araki"],
+    "aliases": [
+      "荒木さん",
+      "荒木博行",
+      "Hiroyuki Araki"
+    ],
     "bio": "株式会社学びデザイン 代表取締役。Voicyパーソナリティ。『超相対性理論』パーソナリティ。",
     "links": {}
   },
   {
     "id": "kotaro-watanabe",
     "name": "渡邉 康太郎",
-    "aliases": ["渡邉さん", "渡邉康太郎", "Kotaro Watanabe"],
+    "aliases": [
+      "渡邉さん",
+      "渡邉康太郎",
+      "Kotaro Watanabe"
+    ],
     "bio": "Takram コンテクストデザイナー、慶應義塾大学SFC特別招聘教授。『超相対性理論』パーソナリティ。",
     "links": {
       "x": "https://x.com/waternavy"
@@ -150,7 +228,12 @@
   {
     "id": "hiroshi-yamamoto",
     "name": "山本 ひろし",
-    "aliases": ["山本さん", "山本ひろし", "山本泰士", "Hiroshi Yamamoto"],
+    "aliases": [
+      "山本さん",
+      "山本ひろし",
+      "山本泰士",
+      "Hiroshi Yamamoto"
+    ],
     "bio": "ポッドキャストプロデューサー。『トリカゴ放送』『さくら通信』『弁護士放送』『英ワタ』『送水ラジオ』パーソナリティ。",
     "links": {
       "x": "https://x.com/yamamo10hiro4"
@@ -159,7 +242,11 @@
   {
     "id": "tsuyoshi-sakura",
     "name": "さくら 剛",
-    "aliases": ["さくらさん", "さくら剛", "Tsuyoshi Sakura"],
+    "aliases": [
+      "さくらさん",
+      "さくら剛",
+      "Tsuyoshi Sakura"
+    ],
     "bio": "作家。『さくら通信』『英ワタ』パーソナリティ。",
     "links": {
       "x": "https://x.com/sakuratsuyoshi"
@@ -168,15 +255,1221 @@
   {
     "id": "yoshikawa-lawyer",
     "name": "ヨシカワ弁護士",
-    "aliases": ["ヨシカワさん", "ヨシカワ弁護士", "Yoshikawa"],
+    "aliases": [
+      "ヨシカワさん",
+      "ヨシカワ弁護士",
+      "Yoshikawa"
+    ],
     "bio": "現役弁護士。『弁護士放送』パーソナリティ。",
     "links": {}
   },
   {
     "id": "sosui-ido",
     "name": "射導 送水",
-    "aliases": ["射導さん", "送水さん", "射導送水", "坂口さん", "坂口とものり", "坂口トモノリ", "Sosui Ido", "Tomonori Sakaguchi"],
+    "aliases": [
+      "射導さん",
+      "送水さん",
+      "射導送水",
+      "坂口さん",
+      "坂口とものり",
+      "坂口トモノリ",
+      "Sosui Ido",
+      "Tomonori Sakaguchi"
+    ],
     "bio": "ポッドキャスター・ネットラジオ配信者。『鯖ラジオ』『送水ラジオ』パーソナリティ（送水ラジオでは「坂口さん」名義）。",
+    "links": {}
+  },
+  {
+    "id": "daiki-mizuno",
+    "name": "水野 太貴",
+    "aliases": [
+      "水野さん",
+      "水野太貴",
+      "Daiki Mizuno"
+    ],
+    "bio": "言語オタク・書籍編集者。『ゆる言語学ラジオ』パーソナリティ。『MEDIA TALK』にもゲスト出演。",
+    "links": {
+      "x": "https://x.com/yuru_mizuno"
+    }
+  },
+  {
+    "id": "ken-horimoto",
+    "name": "堀元 見",
+    "aliases": [
+      "堀元さん",
+      "堀元見",
+      "Ken Horimoto"
+    ],
+    "bio": "コンテンツクリエイター・作家。『ゆる言語学ラジオ』パーソナリティ。『MEDIA TALK』にもゲスト出演。",
+    "links": {
+      "x": "https://x.com/kenhori2"
+    }
+  },
+  {
+    "id": "jus",
+    "name": "JUS",
+    "aliases": [
+      "JUSさん",
+      "ジャス",
+      "JUS"
+    ],
+    "bio": "ポッドキャスター。元『桜川マキシム』、『ちりぬる』パーソナリティ。『トリカゴ放送』にもゲスト出演。",
+    "links": {}
+  },
+  {
+    "id": "yoichi-arashi",
+    "name": "嵐 よういち",
+    "aliases": [
+      "嵐さん",
+      "嵐よういち",
+      "Yoichi Arashi"
+    ],
+    "bio": "旅行作家・エッセイスト。『海外ブラックロード』パーソナリティ。『トリカゴ放送』にも多数ゲスト出演。",
+    "links": {
+      "x": "https://x.com/arashiyoichi"
+    }
+  },
+  {
+    "id": "maruyama-gonzales",
+    "name": "丸山 ゴンザレス",
+    "aliases": [
+      "丸山さん",
+      "丸山ゴンザレス",
+      "ゴンザレス",
+      "Maruyama Gonzales"
+    ],
+    "bio": "ジャーナリスト・編集者・旅行作家。『海外ブラックロード』パーソナリティ。『トリカゴ放送』にもゲスト出演。",
+    "links": {
+      "x": "https://x.com/maruyamagonza"
+    }
+  },
+  {
+    "id": "masahiro-kobayashi",
+    "name": "小林 昌裕",
+    "aliases": [
+      "小林学長",
+      "小林昌裕",
+      "Masahiro Kobayashi"
+    ],
+    "bio": "副業専門スクール「副業アカデミー」代表。ポッドキャスト『副業解禁！稼ぐ力と学ぶ力』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yoshiyuki-matsubara",
+    "name": "松原 由幸",
+    "aliases": [
+      "松原由幸"
+    ],
+    "bio": "学研の図鑑LIVE編集部 編集長。『聞く図鑑』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "shoji-kiku-zukan",
+    "name": "庄司 日和",
+    "aliases": [
+      "庄司",
+      "庄司さん",
+      "庄司日和"
+    ],
+    "bio": "学研の図鑑LIVE編集部員。『聞く図鑑』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "nireyoko",
+    "name": "ニレヨーコ",
+    "aliases": [],
+    "bio": "編集工学研究所 ほんのれん編集部。『ほんのれんラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "harunya",
+    "name": "はるにゃ",
+    "aliases": [],
+    "bio": "編集工学研究所 ほんのれん編集部。『ほんのれんラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "loy-kapobura",
+    "name": "LOY",
+    "aliases": [],
+    "bio": "『カウチポテトブラザーズ（カポブラ）』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "desuke",
+    "name": "ですけ",
+    "aliases": [],
+    "bio": "『カウチポテトブラザーズ（カポブラ）』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "akira-shinmaki",
+    "name": "新牧 アキラ",
+    "aliases": [
+      "新牧アキラ"
+    ],
+    "bio": "『カウチポテトブラザーズ（カポブラ）』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kensuke-nonami",
+    "name": "野波 健祐",
+    "aliases": [
+      "野波健祐"
+    ],
+    "bio": "朝日新聞「好書好日」編集部。『好書好日 本好きの昼休み』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kon-pitpa",
+    "name": "KON",
+    "aliases": [
+      "KONさん"
+    ],
+    "bio": "Podcastディレクター。『ポッドキャストが出来るまで』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ryo-sasaki",
+    "name": "佐々木 亮",
+    "aliases": [
+      "佐々木亮"
+    ],
+    "bio": "元NASA研究員・天文学者。『佐々木亮の宇宙ばなし』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yo-inyo",
+    "name": "牧野 曜",
+    "aliases": [
+      "よう",
+      "牧野曜"
+    ],
+    "bio": "生命科学研究者。『いんよう！』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yandel",
+    "name": "病理医ヤンデル",
+    "aliases": [
+      "市原真",
+      "ヤンデル"
+    ],
+    "bio": "病理医。『いんよう！』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "shochan-goten",
+    "name": "しょうちゃん",
+    "aliases": [],
+    "bio": "『ゲイと女の5点ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "vaja",
+    "name": "ヴァジャ",
+    "aliases": [],
+    "bio": "『ゲイと女の5点ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ryohei-kamide",
+    "name": "上出 遼平",
+    "aliases": [
+      "上出遼平"
+    ],
+    "bio": "映像ディレクター・作家。『上出遼平 NY御馳走帖』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tetsuro-miyatake",
+    "name": "宮武 徹郎",
+    "aliases": [
+      "宮武徹郎"
+    ],
+    "bio": "『Off Topic // オフトピック』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "miki-kusano",
+    "name": "草野 美木",
+    "aliases": [
+      "草野美木"
+    ],
+    "bio": "『Off Topic // オフトピック』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "fumika-hideshima",
+    "name": "秀島 史香",
+    "aliases": [
+      "秀島史香"
+    ],
+    "bio": "ラジオDJ・ナレーター。",
+    "links": {}
+  },
+  {
+    "id": "shokei-matsumoto",
+    "name": "松本 紹圭",
+    "aliases": [
+      "松本紹圭"
+    ],
+    "bio": "僧侶。『Temple Morning Radio』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yutori-freeter",
+    "name": "ゆとりフリーター",
+    "aliases": [],
+    "bio": "音声配信者・エッセイスト。『ゆとりは笑ってバズりたい』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tsuru-noukanotane",
+    "name": "鶴 竣之祐",
+    "aliases": [
+      "つるちゃん",
+      "鶴竣之祐"
+    ],
+    "bio": "福岡の若手農家。『ノウカノタネ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kotty-noukanotane",
+    "name": "久保田 夕夏",
+    "aliases": [
+      "コッティー",
+      "久保田夕夏"
+    ],
+    "bio": "福岡の若手農家。『ノウカノタネ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tetsu-noukanotane",
+    "name": "毛利 哲也",
+    "aliases": [
+      "テツ兄",
+      "毛利哲也"
+    ],
+    "bio": "福岡の若手農家。『ノウカノタネ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ren-scientalk",
+    "name": "レン",
+    "aliases": [],
+    "bio": "研究者。『サイエントーク』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ema-scientalk",
+    "name": "エマ",
+    "aliases": [],
+    "bio": "『サイエントーク』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "makoto-haruna",
+    "name": "春名 まこと",
+    "aliases": [
+      "春名まこと"
+    ],
+    "bio": "『コペテンナイト』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "mizuho-ashihara",
+    "name": "葦原 みづほ",
+    "aliases": [
+      "葦原みづほ"
+    ],
+    "bio": "『コペテンナイト』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "enenenu-team",
+    "name": "ゑねねぬ（長崎新聞）",
+    "aliases": [
+      "ゑねねぬ",
+      "えねねぬ"
+    ],
+    "bio": "長崎新聞ポッドキャスト『ゑねねぬ』出演メンバー。",
+    "links": {}
+  },
+  {
+    "id": "kobe-shimbun-guest",
+    "name": "喜田 美咲",
+    "aliases": [
+      "喜田美咲",
+      "神戸新聞記者",
+      "神戸新聞"
+    ],
+    "bio": "神戸新聞社 記者。",
+    "links": {}
+  },
+  {
+    "id": "okinawa-times-guest",
+    "name": "沖縄タイムス記者",
+    "aliases": [
+      "沖縄タイムス"
+    ],
+    "bio": "沖縄タイムス社 記者。",
+    "links": {}
+  },
+  {
+    "id": "buccho-kashiwagi",
+    "name": "ぶっちょカシワギ",
+    "aliases": [
+      "ぶっちょさん",
+      "B・カシワギ"
+    ],
+    "bio": "『青春あるでひど』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "aniwagi-hakase",
+    "name": "アニワギはかせ",
+    "aliases": [],
+    "bio": "『青春あるでひど』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "asami-tonraji",
+    "name": "あさみ",
+    "aliases": [
+      "あさみ（豚に麻将）"
+    ],
+    "bio": "ポッドキャスト『豚に麻将』『あさ会話』MC。",
+    "links": {
+      "x": "https://x.com/asakaiwa_asami"
+    }
+  },
+  {
+    "id": "lulu-kouno",
+    "name": "河野 ルル",
+    "aliases": [
+      "河野ルル"
+    ],
+    "bio": "世界を旅する絵描き・壁画家。『ルンルンヤンヤンラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "takaya-aoyagi",
+    "name": "青柳 貴哉",
+    "aliases": [
+      "青柳貴哉",
+      "青柳考哉"
+    ],
+    "bio": "お笑いコンビ「ギチ」。『ギチの完全人間ランド』『愛の楽曲工房』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "toda-selku",
+    "name": "トダセルク",
+    "aliases": [],
+    "bio": "放送作家。『丸山ゴンザレスの怖くて奇妙な物件の話』進行・パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "shigeki-kiyono",
+    "name": "清野 茂樹",
+    "aliases": [
+      "清野茂樹"
+    ],
+    "bio": "アナウンサー・実況アナ。『真夜中のハーリー＆レイス』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "azusa-mizuno",
+    "name": "水野 梓",
+    "aliases": [
+      "水野梓"
+    ],
+    "bio": "朝日新聞社 記者・withnews編集長。『MEDIA TALK』等でMCを担当。",
+    "links": {}
+  },
+  {
+    "id": "rei-sanada",
+    "name": "真田 嶺",
+    "aliases": [
+      "真田嶺"
+    ],
+    "bio": "朝日新聞社 音声チーム。『MEDIA TALK』等でMC・音源編集を担当。",
+    "links": {}
+  },
+  {
+    "id": "rieko-oki",
+    "name": "大木 理恵子",
+    "aliases": [
+      "大木理恵子"
+    ],
+    "bio": "朝日新聞社。『MEDIA TALK』等でMCを担当。",
+    "links": {}
+  },
+  {
+    "id": "mayu-horie",
+    "name": "堀江 麻友",
+    "aliases": [
+      "堀江麻友"
+    ],
+    "bio": "朝日新聞社 音声チーム。『MEDIA TALK』等でMC・音源編集を担当。",
+    "links": {}
+  },
+  {
+    "id": "masahito-iinuma",
+    "name": "飯沼 優仁",
+    "aliases": [
+      "飯沼優仁"
+    ],
+    "bio": "朝日新聞社。『MEDIA TALK』等でMC・音源編集を担当。",
+    "links": {}
+  },
+  {
+    "id": "hikaru-mokuta",
+    "name": "杢田 光",
+    "aliases": [
+      "杢田光"
+    ],
+    "bio": "朝日新聞社 音声チーム。『MEDIA TALK』等に出演。",
+    "links": {}
+  },
+  {
+    "id": "shuhei-yamashita",
+    "name": "山下 周平",
+    "aliases": [
+      "山下周平"
+    ],
+    "bio": "朝日新聞社 音声チーム。『MEDIA TALK』等に出演。",
+    "links": {}
+  },
+  {
+    "id": "umeko-honnoren",
+    "name": "ウメコ",
+    "aliases": [],
+    "bio": "編集工学研究所 ほんのれん編集部。『ほんのれんラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "taichiro-yoshino",
+    "name": "吉野 太一郎",
+    "aliases": [
+      "吉野太一郎"
+    ],
+    "bio": "朝日新聞「好書好日」編集部。『好書好日 本好きの昼休み』に出演。",
+    "links": {}
+  },
+  {
+    "id": "santa-yutori",
+    "name": "三太",
+    "aliases": [
+      "三太さん"
+    ],
+    "bio": "『ゆとりは笑ってバズりたい』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "daisuke-rokukura",
+    "name": "六倉 大輔",
+    "aliases": [
+      "六倉大輔"
+    ],
+    "bio": "長崎新聞記者。ポッドキャスト『ゑねねぬ』に出演。",
+    "links": {}
+  },
+  {
+    "id": "yusuke-shitara",
+    "name": "設楽 悠介",
+    "aliases": [
+      "設楽悠介"
+    ],
+    "bio": "幻冬舎「あたらしい経済」編集長。『Podcast総研』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "samuibotaro",
+    "name": "さむいぼ太郎",
+    "aliases": [],
+    "bio": "『さむいぼラジオ〜ニッポンのタブー〜』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "makoto-otake",
+    "name": "大竹 まこと",
+    "aliases": [
+      "大竹まこと"
+    ],
+    "bio": "タレント・俳優。『大竹まこと ゴールデンラジオ！』メインパーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "keiji-kameyama",
+    "name": "亀山 敬司",
+    "aliases": [
+      "亀山敬司",
+      "亀っち"
+    ],
+    "bio": "DMM.com会長。『亀っちの部屋ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "peter-barakan",
+    "name": "ピーター・バラカン",
+    "aliases": [
+      "Peter Barakan"
+    ],
+    "bio": "ブロードキャスター。『Tokyo Midtown presents The Lifestyle MUSEUM』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "nao-hashimoto",
+    "name": "橋本 直",
+    "aliases": [
+      "橋本直"
+    ],
+    "bio": "お笑いコンビ「銀シャリ」。『橋本直と鈴木真海子のCROSSPOD』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "mamiko-suzuki",
+    "name": "鈴木 真海子",
+    "aliases": [
+      "鈴木真海子"
+    ],
+    "bio": "ラップユニット「chelmico」。『橋本直と鈴木真海子のCROSSPOD』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "chunichi-ashitanotane",
+    "name": "中日新聞記者",
+    "aliases": [
+      "あしたのたね"
+    ],
+    "bio": "中日新聞ポッドキャスト『中日新聞 あしたのたね』出演メンバー。",
+    "links": {}
+  },
+  {
+    "id": "nakamura-140",
+    "name": "nakamura",
+    "aliases": [],
+    "bio": "ライター。『140字以上のゲイ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "michibata-dokoka",
+    "name": "道端 ドコカ",
+    "aliases": [
+      "道端ドコカ"
+    ],
+    "bio": "『道端ドコカの迷い道』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kojo-ryozoku-tuesday",
+    "name": "公序良俗チューズデイ",
+    "aliases": [],
+    "bio": "『ゲイの週末は一旦お宇宙へ帰ります。』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "gen-ishii",
+    "name": "石井 玄",
+    "aliases": [
+      "石井玄"
+    ],
+    "bio": "株式会社玄石代表取締役・ラジオプロデューサー。『滔々咄（とうとうばなし）』『RUNNING ALOHA』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kekkon-radio-team",
+    "name": "結婚スタイルマガジン編集部",
+    "aliases": [],
+    "bio": "『結婚ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "akihiro-uono",
+    "name": "宇尾野 彰大",
+    "aliases": [
+      "宇尾野彰大"
+    ],
+    "bio": "株式会社事業人 共同代表。『おいしい組織』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kiku-cinra-team",
+    "name": "聞くCINRA編集部",
+    "aliases": [
+      "CINRA"
+    ],
+    "bio": "『聞くCINRA』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "hiroe-imai",
+    "name": "今井 浩恵",
+    "aliases": [
+      "今井浩恵"
+    ],
+    "bio": "株式会社シロ会長・ブランドプロデューサー。『月刊 TABI SHIRO｜タビシロ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "shuichi-izumi",
+    "name": "泉 秀一",
+    "aliases": [
+      "泉秀一"
+    ],
+    "bio": "ノンフィクションライター。『月刊 TABI SHIRO｜タビシロ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "chiki-ogiue",
+    "name": "荻上 チキ",
+    "aliases": [
+      "荻上チキ"
+    ],
+    "bio": "評論家・ラジオパーソナリティ。『荻上チキ・Session』メインパーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "unplugged-team",
+    "name": "UNPLUGGED",
+    "aliases": [],
+    "bio": "『UNPLUGGED PODCAST』ホスト。",
+    "links": {}
+  },
+  {
+    "id": "shintaro-uchinuma",
+    "name": "内沼 晋太郎",
+    "aliases": [
+      "内沼晋太郎"
+    ],
+    "bio": "ブック・コーディネーター。『本の惑星』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "doshiroto-hotel",
+    "name": "ど素人ホテル再建計画",
+    "aliases": [],
+    "bio": "『令和の成功者図鑑 by ど素人ホテル再建計画』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "sakura-inoue",
+    "name": "井上 咲楽",
+    "aliases": [
+      "井上咲楽"
+    ],
+    "bio": "タレント。『井上咲楽のキャベツは踊った』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "daisaku-kawase",
+    "name": "河瀬 大作",
+    "aliases": [
+      "河瀬大作"
+    ],
+    "bio": "テレビプロデューサー。『RUNNING ALOHA』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "hana-hakase",
+    "name": "Hana博士",
+    "aliases": [
+      "Hana",
+      "林英恵",
+      "林 英恵"
+    ],
+    "bio": "公衆衛生学者・行動科学者。『聞く健康習慣 Hana博士の体調最高ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "moegara",
+    "name": "燃え殻",
+    "aliases": [],
+    "bio": "作家。『BEFORE DAWN』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "investors-sunday-host",
+    "name": "Investor's Sunday",
+    "aliases": [],
+    "bio": "interfm『Investor's Sunday』ホスト。",
+    "links": {}
+  },
+  {
+    "id": "hiruma-kurokawa",
+    "name": "黒川 晝車",
+    "aliases": [
+      "黒川晝車"
+    ],
+    "bio": "『ゆる民俗学ラジオ』メインパーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "takumi-urashita",
+    "name": "浦下 拓巳",
+    "aliases": [
+      "浦下拓巳"
+    ],
+    "bio": "チェリスト。『ゆる民俗学ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "cdi-hechamocha",
+    "name": "CDIコンサルタント",
+    "aliases": [],
+    "bio": "『へちゃもちゃradio - 経営コンサルタントの本棚』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "saito-koetake",
+    "name": "サイトー",
+    "aliases": [],
+    "bio": "音声包装研究所 所長。『コエテイク / KOETAKE』MC。",
+    "links": {}
+  },
+  {
+    "id": "takahashi-koetake",
+    "name": "タカハシ",
+    "aliases": [],
+    "bio": "音声包装研究所 所員。『コエテイク / KOETAKE』MC。",
+    "links": {}
+  },
+  {
+    "id": "yuasa-localnight",
+    "name": "ユアサ",
+    "aliases": [],
+    "bio": "宿とスタジオKICHI。『ローカルナイトニッポン』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "cija",
+    "name": "Cija（シージャ）",
+    "aliases": [
+      "Cija",
+      "シージャ"
+    ],
+    "bio": "フラワーデザイナー。『Cija's TABLE TALK シージャのテーブルトーク』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "isshu-meyasubako",
+    "name": "イッシュウ",
+    "aliases": [],
+    "bio": "『完全人間ランドの目安箱』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "mao-interview",
+    "name": "Mao",
+    "aliases": [],
+    "bio": "『Inter-view / 雑談系』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tatsu-kanaderu",
+    "name": "タツ",
+    "aliases": [
+      "タツ（細胞学）"
+    ],
+    "bio": "細胞学者。『奏でる細胞 MUSIC SCIENCE PODCAST』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yurika-kanaderu",
+    "name": "ゆりか",
+    "aliases": [
+      "ゆりか（リベラルアーツ講師）"
+    ],
+    "bio": "リベラルアーツ講師。『奏でる細胞 MUSIC SCIENCE PODCAST』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "sumireko-poison",
+    "name": "すみれ子",
+    "aliases": [
+      "すみれ子ThePoisonLady"
+    ],
+    "bio": "『アテクシの屍を越えてって♡』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "oshaberinarika-host",
+    "name": "おしゃべりな理科",
+    "aliases": [],
+    "bio": "『おしゃべりな理科』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kanemaru-plantlife",
+    "name": "かねまる",
+    "aliases": [
+      "かねまる@化学プラント技術者"
+    ],
+    "bio": "化学プラント技術者。『技術者かねまるの「プラントライフ」』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "daiki-haraguchi",
+    "name": "原口 大輝",
+    "aliases": [
+      "原口大輝"
+    ],
+    "bio": "アナウンサー。『オトナル原口大輝のエスケープジャーニー』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "winenowa-host",
+    "name": "ワインの輪",
+    "aliases": [],
+    "bio": "『ワインの輪』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yuma-recboy",
+    "name": "ユウマ",
+    "aliases": [],
+    "bio": "『.RECboy』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "katsu-recboy",
+    "name": "カツ",
+    "aliases": [],
+    "bio": "『.RECboy』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ushiwaka-kounoubu",
+    "name": "ウシワカ",
+    "aliases": [],
+    "bio": "『工業高校農業部』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "masubou-kounoubu",
+    "name": "ますぼう",
+    "aliases": [],
+    "bio": "『工業高校農業部』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tokyo-shoseki-rika",
+    "name": "東京書籍『新しい理科』",
+    "aliases": [],
+    "bio": "『聴く『新しい理科』』ホスト。",
+    "links": {}
+  },
+  {
+    "id": "makoto-mizushiro",
+    "name": "水城 真琴",
+    "aliases": [
+      "水城真琴"
+    ],
+    "bio": "『推し活2次元LIFEラジオ #おしにじ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "sbcast-host",
+    "name": "SBCast.",
+    "aliases": [],
+    "bio": "まちづくりエージェント SIDE BEACH CITY.『SBCast.』ホスト。",
+    "links": {}
+  },
+  {
+    "id": "tsun-sputan",
+    "name": "TsuN",
+    "aliases": [],
+    "bio": "『スプタン男のみんな違ってみんな良い』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yoshiki-koshiyama",
+    "name": "越山 嘉祈",
+    "aliases": [
+      "越山嘉祈"
+    ],
+    "bio": "『ゆる天文学ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "ryosuke-fujii",
+    "name": "藤井 亮輔",
+    "aliases": [
+      "藤井亮輔"
+    ],
+    "bio": "『ゆる天文学ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "tokihiro-hirata",
+    "name": "平田 トキヒロ",
+    "aliases": [
+      "平田トキヒロ"
+    ],
+    "bio": "『ゆる哲学ラジオ』『ゆる生態学ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yoshinobu-yuru",
+    "name": "よしのぶ",
+    "aliases": [
+      "ヨシノブ"
+    ],
+    "bio": "『ゆる生態学ラジオ』『ゆる哲学ラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "nicholas-keiichi",
+    "name": "ニコラス・ケイイチ",
+    "aliases": [
+      "ニコラスケイイチ"
+    ],
+    "bio": "『人生のロスタイムラジオ~中年オヤジが捧げる人生のトリセツ~』パーソナリティ。"
+  },
+  {
+    "id": "oneflat-ippei",
+    "name": "ワンフラット・イッペイ",
+    "aliases": [
+      "イッペイ"
+    ],
+    "bio": "『人生のロスタイムラジオ~中年オヤジが捧げる人生のトリセツ~』MC。"
+  },
+  {
+    "id": "leal-sciencelover",
+    "name": "一般社団法人LeaL",
+    "aliases": [
+      "サイエンスラバー"
+    ],
+    "bio": "ポッドキャスト『科学の視点を明日のヒントに！サイエンスラバー』制作・運営。"
+  },
+  {
+    "id": "kotaro-takeuchi",
+    "name": "竹内 孝太朗",
+    "aliases": [
+      "竹内孝太朗"
+    ],
+    "bio": "モノグサ株式会社代表取締役CEO。『教えるを学ぶラジオ』パーソナリティ。"
+  },
+  {
+    "id": "tora-toranpo",
+    "name": "とら",
+    "aliases": [
+      "高円寺とらんぽりん"
+    ],
+    "bio": "高円寺Cafe&Bar「とらんぽりん」店主。『「とらんPodcast」 #とらんポ』パーソナリティ。"
+  },
+  {
+    "id": "shogo-imamura",
+    "name": "今村 翔吾",
+    "aliases": [
+      "今村翔吾"
+    ],
+    "bio": "直木賞作家。『今村翔吾×山崎怜奈の言って聞かせて』パーソナリティ。"
+  },
+  {
+    "id": "rena-yamazaki",
+    "name": "山崎 怜奈",
+    "aliases": [
+      "山崎怜奈"
+    ],
+    "bio": "タレント・ラジオパーソナリティ。『今村翔吾×山崎怜奈の言って聞かせて』パーソナリティ。"
+  },
+  {
+    "id": "listen-platform",
+    "name": "LISTEN",
+    "aliases": [
+      "リッスン"
+    ],
+    "bio": "文字起こしとコミュニティ機能を備えた音声配信プラットフォーム『LISTEN』公式。"
+  },
+  {
+    "id": "taitan",
+    "name": "TaiTan",
+    "aliases": [
+      "タイタン"
+    ],
+    "bio": "Dos Monosのラッパー。『奇奇怪怪』パーソナリティ。"
+  },
+  {
+    "id": "shukei-tamaki",
+    "name": "玉置 周啓",
+    "aliases": [
+      "玉置周啓"
+    ],
+    "bio": "MONO NO AWAREのボーカル＆ギター。『奇奇怪怪』パーソナリティ。"
+  },
+  {
+    "id": "jane-su",
+    "name": "ジェーン・スー",
+    "aliases": [
+      "ジェーンスー"
+    ],
+    "bio": "コラムニスト・ラジオパーソナリティ。『ジェーン・スー 生活は踊る』パーソナリティ。"
+  },
+  {
+    "id": "shibusawakun-fm",
+    "name": "しぶさわくんFM",
+    "aliases": [
+      "あや",
+      "りんたろう"
+    ],
+    "bio": "東京都北区を拠点とするエンタメ情報番組『アップデート 〜しぶさわくんFM〜』。"
+  },
+  {
+    "id": "japan-podcast-assoc",
+    "name": "日本ポッドキャスト協会",
+    "aliases": [
+      "JPA"
+    ],
+    "bio": "日本のポッドキャスト文化の発展を目的とした団体。『日本ポッドキャスト協会 ニュースレター』配信。"
+  },
+  {
+    "id": "shibucho",
+    "name": "しぶちょー",
+    "aliases": [
+      "しぶちょーさん"
+    ],
+    "bio": "工作機械業界で働く技術者。『ものづくりnoラジオ-しぶちょー技術研究所』パーソナリティ。"
+  },
+  {
+    "id": "chikara-onodera",
+    "name": "小野寺 力",
+    "aliases": [
+      "小野寺力",
+      "Gyoza Jockey"
+    ],
+    "bio": "一般社団法人焼き餃子協会代表理事。『聴く餃子🥟』パーソナリティ。"
+  },
+  {
+    "id": "hangout-genbaroku",
+    "name": "HANGOUT",
+    "aliases": [
+      "ポッドキャスト現場録"
+    ],
+    "bio": "元ラジオ局員のポッドキャストプロデューサー2人による制作ユニット。『ポッドキャスト現場録』配信。"
+  },
+  {
+    "id": "gamio-manimani",
+    "name": "がみお",
+    "aliases": [
+      "がみおさん"
+    ],
+    "bio": "『好き趣味発見！まにまにラジオ』パーソナリティ。"
+  },
+  {
+    "id": "gissan-manimani",
+    "name": "ぎっさん",
+    "aliases": [
+      "ぎっさん"
+    ],
+    "bio": "『好き趣味発見！まにまにラジオ』パーソナリティ。"
+  },
+  {
+    "id": "taisuke-yagi",
+    "name": "八木 太亮",
+    "aliases": [
+      "八木太亮",
+      "オトナル八木",
+      "Taisuke Yagi"
+    ],
+    "bio": "株式会社オトナル代表取締役。『オトマーケ｜音声とマーケティングを考えるポッドキャスト』メインパーソナリティ。"
+  },
+  {
+    "id": "shinjiro-koizumi",
+    "name": "小泉 進次郎",
+    "aliases": [
+      "小泉進次郎",
+      "Shinjiro Koizumi"
+    ],
+    "bio": "衆議院議員。『小泉進次郎のポッドキャスト』パーソナリティ。"
+  },
+  {
+    "id": "carlos-smokey",
+    "name": "カルロス",
+    "aliases": [
+      "キャプテン カルロス"
+    ],
+    "bio": "『スタジオスモーキー - 旅と街歩き時々出会い -』主宰・パーソナリティ。"
+  },
+  {
+    "id": "kosuke-minowa",
+    "name": "箕輪 厚介",
+    "aliases": [
+      "箕輪厚介",
+      "箕輪"
+    ],
+    "bio": "編集者・実業家。『箕輪・けんすうのご神託ラジオ』パーソナリティ。"
+  },
+  {
+    "id": "naoya-nishiyama",
+    "name": "西山 直也",
+    "aliases": [
+      "西山直也",
+      "FUBI 西山直也"
+    ],
+    "bio": "株式会社FUBI代表取締役。『小泉進次郎のポッドキャスト』企画・制作・出演、『COTEN RADIO』編集・制作。"
+  },
+  {
+    "id": "kosuke-watanabe-smallbiz",
+    "name": "渡辺 孝祐",
+    "aliases": [
+      "渡辺孝祐"
+    ],
+    "bio": "スモールビジネス経営者。『ぼくらのスモールビジネス』パーソナリティ。"
+  },
+  {
+    "id": "miho-saito-smallbiz",
+    "name": "齋藤 実帆",
+    "aliases": [
+      "齋藤実帆"
+    ],
+    "bio": "クリエイティブディレクター。『ぼくらのスモールビジネス』パーソナリティ。"
+  },
+  {
+    "id": "yuki-imai-hypothesis",
+    "name": "今井 雄紀",
+    "aliases": [
+      "今井雄紀"
+    ],
+    "bio": "編集者・株式会社ツドイ代表。『編集者のハイポシシス』パーソナリティ。"
+  },
+  {
+    "id": "daiki-sawada",
+    "name": "澤田 大樹",
+    "aliases": [
+      "澤田大樹"
+    ],
+    "bio": "TBSラジオ国会担当記者。『セイジドウラク』パーソナリティ。"
+  },
+  {
+    "id": "jeffrey-miyahara",
+    "name": "宮原 ジェフリー",
+    "aliases": [
+      "宮原ジェフリー"
+    ],
+    "bio": "選挙ライター・キュレーター。『セイジドウラク』パーソナリティ。"
+  },
+  {
+    "id": "thank-you-tatsuo",
+    "name": "サンキュータツオ",
+    "aliases": [],
+    "bio": "お笑いコンビ「米粒写経」、『東京ポッド許可局』パーソナリティ。日本語学者・文筆家。",
+    "links": {}
+  },
+  {
+    "id": "makita-sports",
+    "name": "マキタスポーツ",
+    "aliases": [],
+    "bio": "芸人、ミュージシャン、俳優。『東京ポッド許可局』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "petit-kashima",
+    "name": "プチ鹿島",
+    "aliases": [],
+    "bio": "時事芸人。『東京ポッド許可局』パーソナリティ。",
     "links": {}
   }
 ]

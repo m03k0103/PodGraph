@@ -40,12 +40,12 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
         <img
           src={show.imageUrl}
           alt={show.title}
-          className="h-16 w-16 shrink-0 rounded-2xl border border-indigo-500/40 bg-slate-800 object-cover"
+          className="h-16 w-16 shrink-0 rounded-2xl border border-indigo-500/40 bg-[var(--bg-badge)] object-cover"
         />
         <div className="min-w-0 flex-1">
-          <h2 className="text-xl font-bold text-white">{show.title}</h2>
+          <h2 className="theme-text-primary text-xl font-bold">{show.title}</h2>
           {show.description && (
-            <p className="mt-1.5 text-xs leading-relaxed text-slate-300">{show.description}</p>
+            <p className="theme-text-secondary mt-1.5 text-xs leading-relaxed">{show.description}</p>
           )}
           <div className="mt-3">
             <ShowLinks
@@ -59,9 +59,9 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
 
       {/* メインMC一覧 */}
       <section>
-        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-400">
+        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-600 [data-theme='dark']_&:text-emerald-400">
           <Users className="h-4 w-4" />
-          <span>メインパーソナリティ ({hosts.length})</span>
+          <span className="tabular-nums">メインパーソナリティ ({hosts.length})</span>
         </h3>
         <div className="grid grid-cols-1 gap-2">
           {hosts.map((h) => (
@@ -69,12 +69,12 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
               key={h.id}
               type="button"
               onClick={() => onSelectPodcaster(h.id)}
-              className="flex items-center gap-3 rounded-xl border border-slate-800 bg-slate-900/80 p-2.5 text-left transition hover:border-emerald-500/50 hover:bg-slate-900 cursor-pointer"
+              className="theme-surface-card flex items-center gap-3 rounded-xl border p-2.5 text-left transition hover:border-emerald-500/50 hover:bg-[var(--bg-glass-hover)] cursor-pointer"
             >
               <PodcasterAvatar person={h} sizeClass="h-10 w-10 text-xs" />
               <div className="min-w-0 flex-1">
-                <div className="text-sm font-semibold text-white">{h.name}</div>
-                {h.bio && <div className="truncate text-xs text-slate-400">{h.bio}</div>}
+                <div className="theme-text-primary text-sm font-semibold">{h.name}</div>
+                {h.bio && <div className="theme-text-muted truncate text-xs">{h.bio}</div>}
               </div>
             </button>
           ))}
@@ -84,9 +84,9 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
       {/* 元メインMC一覧 */}
       {formerHosts.length > 0 && (
         <section>
-          <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400">
+          <h3 className="theme-text-muted mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
             <Users className="h-4 w-4" />
-            <span>元メインMC ({formerHosts.length})</span>
+            <span className="tabular-nums">元メインMC ({formerHosts.length})</span>
           </h3>
           <div className="grid grid-cols-1 gap-2">
             {formerHosts.map((h) => (
@@ -94,17 +94,17 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
                 key={h.id}
                 type="button"
                 onClick={() => onSelectPodcaster(h.id)}
-                className="flex items-center gap-3 rounded-xl border border-slate-800 bg-slate-900/60 p-2.5 text-left transition hover:border-slate-600 hover:bg-slate-900 cursor-pointer"
+                className="theme-surface-card flex items-center gap-3 rounded-xl border p-2.5 text-left transition hover:border-[var(--border-color)] hover:bg-[var(--bg-glass-hover)] cursor-pointer"
               >
                 <PodcasterAvatar person={h} sizeClass="h-10 w-10 text-xs" isFormer />
                 <div className="min-w-0 flex-1">
                   <div className="flex items-center gap-2">
-                    <span className="text-sm font-semibold text-slate-200">{h.name}</span>
-                    <span className="rounded-full bg-slate-700/70 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
+                    <span className="theme-text-primary text-sm font-semibold">{h.name}</span>
+                    <span className="theme-text-secondary rounded-full bg-[var(--bg-badge)] px-2 py-0.5 text-[10px] font-semibold">
                       元MC
                     </span>
                   </div>
-                  {h.bio && <div className="truncate text-xs text-slate-400">{h.bio}</div>}
+                  {h.bio && <div className="theme-text-muted truncate text-xs">{h.bio}</div>}
                 </div>
               </button>
             ))}
@@ -114,12 +114,12 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
 
       {/* この番組のゲスト出演回一覧 */}
       <section>
-        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
+        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600 [data-theme='dark']_&:text-amber-400">
           <Sparkles className="h-4 w-4" />
-          <span>ゲスト出演回（共演エピソード）一覧 ({showGuestEpisodes.length})</span>
+          <span className="tabular-nums">ゲスト出演回（共演エピソード）一覧 ({showGuestEpisodes.length})</span>
         </h3>
         {showGuestEpisodes.length === 0 ? (
-          <p className="rounded-xl border border-slate-800/80 bg-slate-900/40 p-3 text-xs text-slate-400">
+          <p className="theme-surface-card theme-text-muted rounded-xl border p-3 text-xs">
             登録されているゲスト出演回はありません
           </p>
         ) : (

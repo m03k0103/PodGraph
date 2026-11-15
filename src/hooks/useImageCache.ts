@@ -13,7 +13,6 @@ export function useImageCache(nodes: GraphNode[]): Map<string, HTMLImageElement>
     for (const node of nodes) {
       if (!node.imageUrl || imageCacheRef.current.has(node.imageUrl)) continue;
       const img = new Image();
-      img.crossOrigin = 'anonymous';
       img.src = node.imageUrl;
       img.onload = () => {
         imageCacheRef.current.set(node.imageUrl!, img);

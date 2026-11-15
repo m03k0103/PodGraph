@@ -97,7 +97,9 @@ export function buildPodcasterGraph(
   };
 
   // 1. 同じ番組のメインMC同士（レギュラー共演、元MCも含む）
+  //    ※ media-talk は複数MCの分担制のため、実際にエピソードで共演が確認できたペアのみを繋ぐ
   for (const podcast of podcasts) {
+    if (podcast.id === 'media-talk') continue;
     const hosts = Array.from(new Set([...podcast.hostIds, ...(podcast.formerHostIds ?? [])]));
     for (let i = 0; i < hosts.length; i++) {
       for (let j = i + 1; j < hosts.length; j++) {
@@ -105,6 +107,28 @@ export function buildPodcasterGraph(
         if (link && !link.regularPodcastIds.includes(podcast.id)) {
           link.regularPodcastIds.push(podcast.id);
           link.relationType = 'regular';
+        }
+      }
+    }
+  }
+
+  // 1b. media-talk のMC同士の実際の共演関係（publishedAt 昇順で最古の1件を記録）
+  const mediaTalkCoHostEpisodes = episodes
+    .filter((ep) => ep.podcastId === 'media-talk' && (ep.hostIdsOverride?.length ?? 0) >= 2)
+    .sort((a, b) => a.publishedAt.localeCompare(b.publishedAt));
+
+  for (const episode of mediaTalkCoHostEpisodes) {
+    const hosts = Array.from(new Set(episode.hostIdsOverride ?? []));
+    for (let i = 0; i < hosts.length; i++) {
+      for (let j = i + 1; j < hosts.length; j++) {
+        const link = ensureLink(hosts[i], hosts[j]);
+        if (!link) continue;
+        if (!link.regularPodcastIds.includes('media-talk')) {
+          link.regularPodcastIds.push('media-talk');
+          link.relationType = 'regular';
+        }
+        if (!link.earliestRegularEpisodeId) {
+          link.earliestRegularEpisodeId = episode.id;
         }
       }
     }

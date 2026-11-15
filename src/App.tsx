@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useCallback } from 'react';
+import React, { useMemo, useState, useCallback, useEffect } from 'react';
 import podcastersData from './data/podcasters.json';
 import podcastsData from './data/podcasts.json';
 import episodesData from './data/episodes.json';
@@ -14,7 +14,21 @@ import type {
   Podcast,
   Podcaster,
   PopupSelection,
+  ThemeMode,
 } from './types/schema';
+
+const THEME_STORAGE_KEY = 'podgraph_theme';
+
+function getInitialTheme(): ThemeMode {
+  if (typeof window === 'undefined') return 'light';
+  try {
+    const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
+    if (stored === 'dark' || stored === 'light') return stored;
+  } catch {
+    // ignore storage errors
+  }
+  return 'light';
+}
 
 const podcasters = podcastersData as Podcaster[];
 const podcasts = podcastsData as Podcast[];
@@ -22,8 +36,18 @@ const episodes = episodesData as GuestEpisode[];
 
 export const App: React.FC = () => {
   const [mode, setMode] = useState<GraphMode>('podcaster');
+  const [theme, setTheme] = useState<ThemeMode>(getInitialTheme);
   const [selection, setSelection] = useState<PopupSelection | null>(null);
   const [focusTrigger, setFocusTrigger] = useState(0);
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // ignore storage errors
+    }
+  }, [theme]);
 
   const visiblePodcasters = useMemo(
     () => getHostedPodcasters(podcasters, podcasts),
@@ -88,10 +112,14 @@ export const App: React.FC = () => {
   }, []);
 
   return (
-    <main className="relative h-screen w-screen overflow-hidden bg-slate-950 select-none">
+    <main className="relative h-screen w-screen overflow-hidden bg-[var(--bg-primary)]">
       <HeaderBar
         mode={mode}
         onModeChange={handleModeChange}
+        theme={theme}
+        onThemeChange={setTheme}
+        nodeCount={graphData.nodes.length}
+        linkCount={graphData.links.length}
         podcasters={visiblePodcasters}
         podcasts={podcasts}
         onSelectPodcaster={handleSelectPodcaster}
@@ -100,6 +128,7 @@ export const App: React.FC = () => {
 
       <GraphCanvas
         mode={mode}
+        theme={theme}
         graphData={graphData}
         selectedNodeId={selectedNodeId}
         selectedLinkId={selectedLinkId}

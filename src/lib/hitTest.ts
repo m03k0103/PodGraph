@@ -5,6 +5,9 @@ export type HitResult =
   | { kind: 'link'; link: GraphLink };
 
 export function getNodeRadius(node: GraphNode): number {
+  if (node.type === 'podcaster') {
+    return 20 + Math.min(node.degree, 8) * 2.0;
+  }
   return 14 + Math.min(node.degree, 8) * 2.2;
 }
 
@@ -18,14 +21,12 @@ export function hitTestGraph(
   globalScale: number,
   nodes: GraphNode[],
   links: GraphLink[],
-  measureTextWidth: (text: string, font: string) => number
+  _measureTextWidth: (text: string, font: string) => number,
+  _mode: 'podcaster' | 'podcast' = 'podcaster'
 ): HitResult | null {
   const scale = globalScale || 1;
 
   // 1. ノード判定（後から描画される最前面ノードを優先）
-  const nodeLabelFontSize = Math.max(10, 12 / Math.pow(scale, 0.35));
-  const nodeLabelFont = `600 ${nodeLabelFontSize}px sans-serif`;
-
   for (let i = nodes.length - 1; i >= 0; i--) {
     const node = nodes[i];
     const x = node.x;
@@ -34,23 +35,12 @@ export function hitTestGraph(
 
     const r = getNodeRadius(node);
 
-    // アイコン円の当たり判定
-    if (Math.hypot(gx - x, gy - y) <= r + 6) {
-      return { kind: 'node', node };
-    }
-
-    // 名前ラベル矩形の当たり判定
-    const tw = measureTextWidth(node.label, nodeLabelFont);
-    const paddingX = 8;
-    const paddingY = 6;
-    const labelY = y + r + nodeLabelFontSize * 0.85 + 2;
-
-    if (
-      gx >= x - tw / 2 - paddingX &&
-      gx <= x + tw / 2 + paddingX &&
-      gy >= labelY - nodeLabelFontSize / 2 - paddingY &&
-      gy <= labelY + nodeLabelFontSize / 2 + paddingY
-    ) {
+    // アイコン円または角丸矩形の当たり判定（人物名も円内に描画されるため円のみで判定）
+    if (node.type === 'podcast') {
+      if (Math.abs(gx - x) <= r + 4 && Math.abs(gy - y) <= r + 4) {
+        return { kind: 'node', node };
+      }
+    } else if (Math.hypot(gx - x, gy - y) <= r + 6) {
       return { kind: 'node', node };
     }
   }

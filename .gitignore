@@ -3,3 +3,5 @@ dist
 .env
 .env.local
 *.log
+.server_port
+.server_pid

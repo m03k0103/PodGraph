@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useEffect } from 'react';
 import { Link2, Radio, Users, X } from 'lucide-react';
 import type {
   GraphLink,
@@ -45,6 +45,17 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
     [episodes]
   );
 
+  useEffect(() => {
+    if (!selection) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [selection, onClose]);
+
   if (!selection) return null;
 
   const selectedPerson =
@@ -57,26 +68,26 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
   return (
     <aside
       aria-label="詳細情報ポップアップ"
-      className="fixed right-0 bottom-0 z-30 flex max-h-[82vh] w-full flex-col rounded-t-3xl border-t border-slate-800 bg-slate-950/95 shadow-2xl backdrop-blur-xl sm:top-20 sm:right-4 sm:bottom-4 sm:max-h-none sm:w-[430px] sm:rounded-2xl sm:border"
+      className="theme-surface-glass select-text fixed right-0 bottom-0 z-30 flex max-h-[82vh] w-full flex-col rounded-t-3xl border-t backdrop-blur-xl sm:top-20 sm:right-4 sm:bottom-4 sm:max-h-none sm:w-[430px] sm:rounded-2xl sm:border"
     >
       {/* ヘッダーバー */}
-      <div className="flex items-center justify-between border-b border-slate-800/80 px-5 py-3.5">
-        <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-slate-400">
+      <div className="theme-border flex items-center justify-between border-b px-5 py-3.5">
+        <div className="theme-text-muted flex items-center gap-2 text-xs font-semibold uppercase tracking-wider">
           {selection.kind === 'podcaster' && (
             <>
-              <Users className="h-4 w-4 text-emerald-400" />
+              <Users className="h-4 w-4 text-emerald-500" />
               <span>ポッドキャスター詳細</span>
             </>
           )}
           {selection.kind === 'podcast' && (
             <>
-              <Radio className="h-4 w-4 text-indigo-400" />
+              <Radio className="h-4 w-4 text-indigo-500" />
               <span>ポッドキャスト番組詳細</span>
             </>
           )}
           {selection.kind === 'link' && (
             <>
-              <Link2 className="h-4 w-4 text-amber-400" />
+              <Link2 className="h-4 w-4 text-amber-500" />
               <span>共演・関係性の詳細</span>
             </>
           )}
@@ -84,7 +95,7 @@ export const DetailPopup: React.FC<DetailPopupProps> = ({
         <button
           type="button"
           onClick={onClose}
-          className="rounded-lg p-1.5 text-slate-400 hover:bg-slate-800 hover:text-white cursor-pointer"
+          className="theme-text-muted rounded-lg p-1.5 transition hover:bg-[var(--bg-glass-hover)] hover:text-[var(--text-primary)] cursor-pointer"
           aria-label="ポップアップを閉じる"
         >
           <X className="h-5 w-5" />

@@ -49,9 +49,9 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
           isFormer={isFormerHostOnly}
         />
         <div className="min-w-0 flex-1">
-          <h2 className="text-xl font-bold text-white">{person.name}</h2>
+          <h2 className="theme-text-primary text-xl font-bold">{person.name}</h2>
           {person.bio && (
-            <p className="mt-1.5 text-xs leading-relaxed text-slate-300">{person.bio}</p>
+            <p className="theme-text-secondary mt-1.5 text-xs leading-relaxed">{person.bio}</p>
           )}
           {person.links?.x && (
             <div className="mt-2.5">
@@ -59,10 +59,10 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
                 href={person.links.x}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-700 bg-slate-900 px-2.5 py-1 text-xs font-medium text-slate-200 hover:border-slate-600 hover:bg-slate-800"
+                className="theme-surface-card theme-text-secondary inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1 text-xs font-medium transition hover:border-[var(--border-color)] hover:bg-[var(--bg-glass-hover)]"
               >
                 <span>𝕏 (Twitter)</span>
-                <ExternalLink className="h-3 w-3 text-slate-400" />
+                <ExternalLink className="theme-text-muted h-3 w-3" />
               </a>
             </div>
           )}
@@ -71,12 +71,12 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
 
       {/* メインで出演しているポッドキャスト一覧 */}
       <section>
-        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-400">
+        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-emerald-600 [data-theme='dark']_&:text-emerald-400">
           <Mic className="h-4 w-4" />
-          <span>メインで出演しているポッドキャスト ({mainPodcasts.length})</span>
+          <span className="tabular-nums">メインで出演しているポッドキャスト ({mainPodcasts.length})</span>
         </h3>
         {mainPodcasts.length === 0 ? (
-          <p className="rounded-xl border border-slate-800/80 bg-slate-900/40 p-3 text-xs text-slate-400">
+          <p className="theme-surface-card theme-text-muted rounded-xl border p-3 text-xs">
             登録されているメイン番組はありません
           </p>
         ) : (
@@ -90,36 +90,36 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
               return (
                 <div
                   key={show.id}
-                  className="rounded-xl border border-slate-800 bg-slate-900/80 p-3.5 transition hover:border-slate-700"
+                  className="theme-surface-card rounded-xl border p-3.5 transition hover:border-[var(--border-color)]"
                 >
                   <div className="flex items-start gap-3">
                     <img
                       src={show.imageUrl}
                       alt={show.title}
-                      className="h-12 w-12 shrink-0 rounded-lg border border-slate-700 bg-slate-800 object-cover"
+                      className="theme-border h-12 w-12 shrink-0 rounded-lg border bg-[var(--bg-badge)] object-cover"
                     />
                     <div className="min-w-0 flex-1">
                       <button
                         type="button"
                         onClick={() => onSelectPodcast(show.id)}
-                        className="text-left text-sm font-bold text-white hover:text-emerald-300 cursor-pointer"
+                        className="theme-text-primary text-left text-sm font-bold hover:text-emerald-600 [data-theme='dark']_&:hover:text-emerald-300 cursor-pointer"
                       >
                         {show.title}
                       </button>
                       {show.description && (
-                        <p className="mt-1 line-clamp-2 text-xs text-slate-400">
+                        <p className="theme-text-muted mt-1 line-clamp-2 text-xs">
                           {show.description}
                         </p>
                       )}
                       {coHosts.length > 0 && (
                         <div className="mt-2 flex flex-wrap items-center gap-1.5">
-                          <span className="text-[11px] text-slate-400">共同MC:</span>
+                          <span className="theme-text-muted text-[11px]">共同MC:</span>
                           {coHosts.map((ch) => (
                             <button
                               key={ch.id}
                               type="button"
                               onClick={() => onSelectPodcaster(ch.id)}
-                              className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[11px] font-medium text-emerald-300 hover:bg-emerald-500/25 cursor-pointer"
+                              className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-[11px] font-medium text-emerald-700 hover:bg-emerald-500/25 [data-theme='dark']_&:text-emerald-300 cursor-pointer"
                             >
                               {ch.name}
                             </button>
@@ -146,9 +146,9 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
       {/* 元メインMCとして出演していたポッドキャスト一覧 */}
       {formerPodcasts.length > 0 && (
         <section>
-          <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-400">
+          <h3 className="theme-text-muted mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider">
             <Mic className="h-4 w-4" />
-            <span>元メインMC番組 ({formerPodcasts.length})</span>
+            <span className="tabular-nums">元メインMC番組 ({formerPodcasts.length})</span>
           </h3>
           <div className="space-y-2.5">
             {formerPodcasts.map((show) => {
@@ -160,41 +160,41 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
               return (
                 <div
                   key={show.id}
-                  className="rounded-xl border border-slate-800 bg-slate-900/60 p-3.5 transition hover:border-slate-700"
+                  className="theme-surface-card rounded-xl border p-3.5 transition hover:border-[var(--border-color)]"
                 >
                   <div className="flex items-start gap-3">
                     <img
                       src={show.imageUrl}
                       alt={show.title}
-                      className="h-12 w-12 shrink-0 rounded-lg border border-slate-700 bg-slate-800 object-cover"
+                      className="theme-border h-12 w-12 shrink-0 rounded-lg border bg-[var(--bg-badge)] object-cover"
                     />
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-2">
                         <button
                           type="button"
                           onClick={() => onSelectPodcast(show.id)}
-                          className="text-left text-sm font-bold text-slate-200 hover:text-white cursor-pointer"
+                          className="theme-text-primary text-left text-sm font-bold hover:opacity-80 cursor-pointer"
                         >
                           {show.title}
                         </button>
-                        <span className="rounded-full bg-slate-700/70 px-2 py-0.5 text-[10px] font-semibold text-slate-300">
+                        <span className="theme-text-secondary rounded-full bg-[var(--bg-badge)] px-2 py-0.5 text-[10px] font-semibold">
                           元MC
                         </span>
                       </div>
                       {show.description && (
-                        <p className="mt-1 line-clamp-2 text-xs text-slate-400">
+                        <p className="theme-text-muted mt-1 line-clamp-2 text-xs">
                           {show.description}
                         </p>
                       )}
                       {coHosts.length > 0 && (
                         <div className="mt-2 flex flex-wrap items-center gap-1.5">
-                          <span className="text-[11px] text-slate-400">MC:</span>
+                          <span className="theme-text-muted text-[11px]">MC:</span>
                           {coHosts.map((ch) => (
                             <button
                               key={ch.id}
                               type="button"
                               onClick={() => onSelectPodcaster(ch.id)}
-                              className="rounded-full bg-slate-800 px-2 py-0.5 text-[11px] font-medium text-slate-300 hover:bg-slate-700 cursor-pointer"
+                              className="theme-text-secondary rounded-full bg-[var(--bg-badge)] px-2 py-0.5 text-[11px] font-medium hover:bg-[var(--bg-glass-hover)] cursor-pointer"
                             >
                               {ch.name}
                             </button>
@@ -212,12 +212,12 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
 
       {/* ゲストとして出演したポッドキャストのエピソード一覧 */}
       <section>
-        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-400">
+        <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-amber-600 [data-theme='dark']_&:text-amber-400">
           <Sparkles className="h-4 w-4" />
-          <span>ゲスト出演したエピソード ({guestEpisodes.length})</span>
+          <span className="tabular-nums">ゲスト出演したエピソード ({guestEpisodes.length})</span>
         </h3>
         {guestEpisodes.length === 0 ? (
-          <p className="rounded-xl border border-slate-800/80 bg-slate-900/40 p-3 text-xs text-slate-400">
+          <p className="theme-surface-card theme-text-muted rounded-xl border p-3 text-xs">
             登録されているゲスト出演回はありません
           </p>
         ) : (
@@ -240,9 +240,9 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
       {/* MC側としてゲストを迎えた回 */}
       {hostedGuestEpisodes.length > 0 && (
         <section>
-          <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-indigo-400">
+          <h3 className="mb-3 flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-indigo-600 [data-theme='dark']_&:text-indigo-400">
             <Sparkles className="h-4 w-4" />
-            <span>ゲストを迎えたエピソード ({hostedGuestEpisodes.length})</span>
+            <span className="tabular-nums">ゲストを迎えたエピソード ({hostedGuestEpisodes.length})</span>
           </h3>
           <div className="space-y-3">
             {hostedGuestEpisodes.map((ep) => (

@@ -5,7 +5,7 @@ import ForceGraph2D, {
   type NodeObject,
 } from 'react-force-graph-2d';
 import { ZoomIn, ZoomOut, Maximize2 } from 'lucide-react';
-import type { GraphData, GraphLink, GraphMode, GraphNode } from '../types/schema';
+import type { GraphData, GraphLink, GraphMode, GraphNode, ThemeMode } from '../types/schema';
 import { hitTestGraph } from '../lib/hitTest';
 import {
   drawGraphLink,
@@ -17,6 +17,7 @@ import { useImageCache } from '../hooks/useImageCache';
 
 interface GraphCanvasProps {
   mode: GraphMode;
+  theme: ThemeMode;
   graphData: GraphData;
   selectedNodeId: string | null;
   selectedLinkId: string | null;
@@ -31,6 +32,7 @@ type FGLink = LinkObject<GraphNode, GraphLink>;
 
 export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   mode,
+  theme,
   graphData,
   selectedNodeId,
   selectedLinkId,
@@ -132,23 +134,25 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         scale,
         graphData.nodes,
         graphData.links,
-        measureTextWidth
+        measureTextWidth,
+        mode
       );
     },
-    [graphData.links, graphData.nodes, measureTextWidth]
+    [graphData.links, graphData.nodes, measureTextWidth, mode]
   );
 
   const paintNodePointerArea = useCallback(
     (nodeObj: FGNode, color: string, ctx: CanvasRenderingContext2D, globalScale: number) => {
-      paintGraphNodePointerArea(nodeObj as GraphNode, color, ctx, globalScale);
+      paintGraphNodePointerArea(nodeObj as GraphNode, color, ctx, globalScale, mode);
     },
-    []
+    [mode]
   );
 
   const drawNode = useCallback(
     (nodeObj: FGNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
       drawGraphNode(nodeObj as GraphNode, ctx, globalScale, {
         mode,
+        theme,
         selectedNodeId,
         hoverNodeId,
         activeNodeId,
@@ -156,25 +160,26 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         imageCache,
       });
     },
-    [activeNodeId, connectedNodeIds, hoverNodeId, imageCache, mode, selectedNodeId]
+    [activeNodeId, connectedNodeIds, hoverNodeId, imageCache, mode, selectedNodeId, theme]
   );
 
   const drawLink = useCallback(
     (linkObj: FGLink, ctx: CanvasRenderingContext2D) => {
       drawGraphLink(linkObj as ResolvedGraphLink, ctx, {
+        theme,
         selectedLinkId,
         hoverLinkId,
         activeNodeId,
       });
     },
-    [activeNodeId, hoverLinkId, selectedLinkId]
+    [activeNodeId, hoverLinkId, selectedLinkId, theme]
   );
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-slate-950">
+    <div className="relative h-screen w-screen overflow-hidden bg-[var(--bg-primary)]">
       <div
         ref={canvasContainerRef}
-        className="h-full w-full"
+        className="h-full w-full select-none"
         style={{ cursor }}
         onPointerDownCapture={(e) => {
           if (e.button === 0 && e.target instanceof HTMLCanvasElement) {
@@ -243,7 +248,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           width={dimensions.width}
           height={dimensions.height}
           graphData={graphData as { nodes: FGNode[]; links: FGLink[] }}
-          backgroundColor="#020617"
+          backgroundColor={theme === 'light' ? '#f8fafc' : '#020617'}
           nodeRelSize={16}
           nodeCanvasObject={drawNode}
           nodePointerAreaPaint={paintNodePointerArea}
@@ -259,11 +264,11 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       </div>
 
       {/* 左下：凡例（レジェンド）パネル */}
-      <div className="pointer-events-auto fixed bottom-4 left-4 z-10 rounded-2xl border border-slate-800/90 bg-slate-900/85 p-3 text-xs text-slate-300 shadow-xl backdrop-blur-md">
-        <div className="mb-1.5 font-semibold text-slate-100">
+      <div className="theme-surface-glass pointer-events-auto fixed bottom-4 left-4 z-10 rounded-2xl border p-3 text-xs backdrop-blur-md">
+        <div className="theme-text-primary mb-1.5 font-semibold">
           {mode === 'podcaster' ? '👤 人物モードの凡例' : '🎙️ 番組モードの凡例'}
         </div>
-        <div className="space-y-1.5 text-[11px]">
+        <div className="theme-text-secondary space-y-1.5 text-[11px]">
           <div className="flex items-center gap-2">
             <span className="inline-block h-1 w-6 rounded bg-emerald-500" />
             <span>
@@ -273,28 +278,28 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
             </span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="inline-block h-0.5 w-6 border-b-2 border-dashed border-indigo-400" />
+            <span className="inline-block h-0.5 w-6 border-b-2 border-dashed border-indigo-500" />
             <span>
               {mode === 'podcaster'
-                ? '点線 / 実線：ゲスト共演（回数に応じて太く表示）'
-                : '点線 / 実線：MCが他番組へゲスト出演'}
+                ? '点線：ゲスト共演'
+                : '点線：MCが他番組へゲスト出演'}
             </span>
           </div>
-          <div className="pt-0.5 text-[10px] text-slate-400">
+          <div className="theme-text-muted pt-0.5 text-[10px]">
             💡 クリックで詳細表示・ドラッグでノードを移動できます
           </div>
         </div>
       </div>
 
       {/* 右下：ズーム操作ボタン */}
-      <div className="pointer-events-auto fixed bottom-4 right-4 z-10 flex flex-col gap-1.5 rounded-xl border border-slate-800 bg-slate-900/85 p-1.5 shadow-xl backdrop-blur-md">
+      <div className="theme-surface-glass pointer-events-auto fixed bottom-4 right-4 z-10 flex flex-col gap-1.5 rounded-xl border p-1.5 backdrop-blur-md">
         <button
           type="button"
           onClick={() => {
             const currentZoom = fgRef.current?.zoom() ?? 1;
             fgRef.current?.zoom(currentZoom * 1.35, 300);
           }}
-          className="rounded-lg p-2 text-slate-300 hover:bg-slate-800 hover:text-white cursor-pointer"
+          className="theme-text-secondary rounded-lg p-2 transition hover:bg-[var(--bg-glass-hover)] hover:text-[var(--text-primary)] cursor-pointer"
           title="拡大"
           aria-label="拡大"
         >
@@ -306,7 +311,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
             const currentZoom = fgRef.current?.zoom() ?? 1;
             fgRef.current?.zoom(currentZoom / 1.35, 300);
           }}
-          className="rounded-lg p-2 text-slate-300 hover:bg-slate-800 hover:text-white cursor-pointer"
+          className="theme-text-secondary rounded-lg p-2 transition hover:bg-[var(--bg-glass-hover)] hover:text-[var(--text-primary)] cursor-pointer"
           title="縮小"
           aria-label="縮小"
         >
@@ -315,7 +320,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         <button
           type="button"
           onClick={() => fgRef.current?.zoomToFit(450, 70)}
-          className="rounded-lg p-2 text-slate-300 hover:bg-slate-800 hover:text-white cursor-pointer"
+          className="theme-text-secondary rounded-lg p-2 transition hover:bg-[var(--bg-glass-hover)] hover:text-[var(--text-primary)] cursor-pointer"
           title="全体を表示"
           aria-label="全体を表示"
         >

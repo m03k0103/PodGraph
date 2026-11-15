@@ -1,9 +1,10 @@
-import type { GraphLink, GraphMode, GraphNode } from '../types/schema';
+import type { GraphLink, GraphMode, GraphNode, ThemeMode } from '../types/schema';
 import { getAvatarColor } from './graphBuilder';
 import { getNodeRadius } from './hitTest';
 
 export interface NodeRenderState {
   mode: GraphMode;
+  theme: ThemeMode;
   selectedNodeId: string | null;
   hoverNodeId: string | null;
   activeNodeId: string | null;
@@ -12,33 +13,42 @@ export interface NodeRenderState {
 }
 
 export interface LinkRenderState {
+  theme: ThemeMode;
   selectedLinkId: string | null;
   hoverLinkId: string | null;
   activeNodeId: string | null;
 }
 
-function fillRoundedRect(
-  ctx: CanvasRenderingContext2D,
-  x: number,
-  y: number,
-  width: number,
-  height: number,
-  radius: number
-): void {
-  if (typeof ctx.roundRect === 'function') {
-    ctx.beginPath();
-    ctx.roundRect(x, y, width, height, radius);
-    ctx.fill();
-  } else {
-    ctx.fillRect(x, y, width, height);
+/**
+ * 人物名（フルネーム）を円内描画向けに最大2行へ分割する。
+ */
+export function splitPodcasterNameLines(label: string): string[] {
+  const trimmed = label.trim();
+  if (!trimmed) return ['?'];
+
+  const parts = trimmed.split(/\s+/).filter(Boolean);
+  if (parts.length === 2) {
+    return parts;
   }
+  if (parts.length > 2) {
+    const mid = Math.ceil(parts.length / 2);
+    return [parts.slice(0, mid).join(' '), parts.slice(mid).join(' ')];
+  }
+
+  // スペースを含まない短い名前は1行、5文字以上は2行へ折り返す
+  if (trimmed.length <= 4) {
+    return [trimmed];
+  }
+  const mid = Math.ceil(trimmed.length / 2);
+  return [trimmed.slice(0, mid), trimmed.slice(mid)];
 }
 
 export function paintGraphNodePointerArea(
   node: GraphNode,
   color: string,
   ctx: CanvasRenderingContext2D,
-  globalScale: number
+  _globalScale: number,
+  _mode: GraphMode = 'podcaster'
 ): void {
   const x = node.x ?? 0;
   const y = node.y ?? 0;
@@ -48,33 +58,21 @@ export function paintGraphNodePointerArea(
   ctx.save();
   ctx.fillStyle = color;
   ctx.beginPath();
-  ctx.arc(x, y, r + 6, 0, 2 * Math.PI);
-  ctx.fill();
-
-  const fontSize = Math.max(10, 12 / Math.pow(globalScale || 1, 0.35));
-  ctx.font = `600 ${fontSize}px sans-serif`;
-  const textWidth = ctx.measureText(node.label).width;
-  const paddingX = 8;
-  const paddingY = 6;
-  const labelY = y + r + fontSize * 0.85 + 2;
-
-  ctx.beginPath();
-  ctx.rect(
-    x - textWidth / 2 - paddingX,
-    labelY - fontSize / 2 - paddingY,
-    textWidth + paddingX * 2,
-    fontSize + paddingY * 2
-  );
+  if (node.type === 'podcast' && typeof ctx.roundRect === 'function') {
+    ctx.roundRect(x - r - 3, y - r - 3, (r + 3) * 2, (r + 3) * 2, 8);
+  } else {
+    ctx.arc(x, y, r + 6, 0, 2 * Math.PI);
+  }
   ctx.fill();
 }
 
 export function drawGraphNode(
   node: GraphNode,
   ctx: CanvasRenderingContext2D,
-  globalScale: number,
+  _globalScale: number,
   state: NodeRenderState
 ): void {
-  const { mode, selectedNodeId, hoverNodeId, activeNodeId, connectedNodeIds, imageCache } = state;
+  const { mode, theme, selectedNodeId, hoverNodeId, activeNodeId, connectedNodeIds, imageCache } = state;
   const x = node.x ?? 0;
   const y = node.y ?? 0;
   const r = getNodeRadius(node);
@@ -108,7 +106,14 @@ export function drawGraphNode(
   } else {
     ctx.arc(x, y, r, 0, 2 * Math.PI);
   }
-  ctx.fillStyle = node.type === 'podcaster' ? '#0f172a' : '#1e1b4b';
+  ctx.fillStyle =
+    theme === 'light'
+      ? node.type === 'podcaster'
+        ? '#ffffff'
+        : '#eef2ff'
+      : node.type === 'podcaster'
+        ? '#0f172a'
+        : '#1e1b4b';
   ctx.fill();
 
   ctx.lineWidth = isSelected ? 3.5 : 2;
@@ -119,10 +124,12 @@ export function drawGraphNode(
       : '#10b981'
     : node.type === 'podcaster'
       ? avatarColors.ring
-      : '#818cf8';
+      : theme === 'light'
+        ? '#6366f1'
+        : '#818cf8';
   ctx.stroke();
 
-  // アイコン画像またはイニシャル描画
+  // アイコン画像または円内ラベル描画
   ctx.save();
   ctx.clip();
   const cachedImg = node.imageUrl ? imageCache.get(node.imageUrl) : undefined;
@@ -132,35 +139,34 @@ export function drawGraphNode(
     ctx.fillStyle = avatarColors.bg;
     ctx.fillRect(x - r, y - r, r * 2, r * 2);
     ctx.fillStyle = avatarColors.text;
-    ctx.font = `bold ${Math.max(10, r * 0.72)}px sans-serif`;
     ctx.textAlign = 'center';
     ctx.textBaseline = 'middle';
-    ctx.fillText(node.fallbackText, x, y);
+
+    if (node.type === 'podcaster') {
+      const lines = splitPodcasterNameLines(node.label);
+      const refSize = 10;
+      ctx.font = `700 ${refSize}px sans-serif`;
+      const maxRefWidth = Math.max(...lines.map((line) => ctx.measureText(line).width), 1);
+      // 2行時は上下オフセットを考慮し、円弦に収まる最大幅・高さからフォントサイズを算出
+      const availableWidth = lines.length === 1 ? r * 1.62 : r * 1.54;
+      const maxByHeight = lines.length === 1 ? r * 0.54 : r * 0.42;
+      const fitSize = (availableWidth / maxRefWidth) * refSize;
+      const fontSize = Math.max(5.5, Math.min(maxByHeight, fitSize));
+      ctx.font = `700 ${fontSize}px sans-serif`;
+
+      if (lines.length === 1) {
+        ctx.fillText(lines[0], x, y);
+      } else {
+        const lineHeight = fontSize * 1.18;
+        ctx.fillText(lines[0], x, y - lineHeight / 2);
+        ctx.fillText(lines[1], x, y + lineHeight / 2);
+      }
+    } else {
+      ctx.font = `bold ${Math.max(10, r * 0.72)}px sans-serif`;
+      ctx.fillText(node.fallbackText, x, y);
+    }
   }
   ctx.restore();
-
-  // ノード名ラベル描画
-  const fontSize = Math.max(10, 12 / Math.pow(globalScale, 0.35));
-  ctx.font = `600 ${fontSize}px sans-serif`;
-  const textWidth = ctx.measureText(node.label).width;
-  const paddingX = 6;
-  const paddingY = 3;
-  const labelY = y + r + fontSize * 0.85 + 2;
-
-  ctx.fillStyle = 'rgba(15, 23, 42, 0.85)';
-  fillRoundedRect(
-    ctx,
-    x - textWidth / 2 - paddingX,
-    labelY - fontSize / 2 - paddingY,
-    textWidth + paddingX * 2,
-    fontSize + paddingY * 2,
-    4
-  );
-
-  ctx.fillStyle = isSelected ? '#6ee7b7' : '#f1f5f9';
-  ctx.textAlign = 'center';
-  ctx.textBaseline = 'middle';
-  ctx.fillText(node.label, x, labelY);
 
   ctx.restore();
 }
@@ -175,7 +181,7 @@ export function drawGraphLink(
   ctx: CanvasRenderingContext2D,
   state: LinkRenderState
 ): void {
-  const { selectedLinkId, hoverLinkId, activeNodeId } = state;
+  const { theme, selectedLinkId, hoverLinkId, activeNodeId } = state;
   const sx = link.source.x ?? 0;
   const sy = link.source.y ?? 0;
   const tx = link.target.x ?? 0;
@@ -203,19 +209,28 @@ export function drawGraphLink(
     ctx.strokeStyle = isFormerLink
       ? isHighlighted
         ? '#94a3b8'
-        : '#64748b'
+        : theme === 'light'
+          ? '#94a3b8'
+          : '#64748b'
       : isHighlighted
-        ? '#34d399'
+        ? theme === 'light'
+          ? '#059669'
+          : '#34d399'
         : '#10b981';
   } else {
-    const guestCount = link.guestEpisodeIds.length;
-    ctx.setLineDash(guestCount === 1 ? [5, 4] : []);
-    ctx.lineWidth = isHighlighted ? 4.5 : Math.min(1.5 + (guestCount - 1) * 1.1, 4.2);
+    ctx.setLineDash([5, 4]);
+    ctx.lineWidth = isHighlighted ? 3.2 : 1.8;
     ctx.strokeStyle = isHighlighted
-      ? '#a5b4fc'
+      ? theme === 'light'
+        ? '#4f46e5'
+        : '#a5b4fc'
       : isConnectedToActive
-        ? '#818cf8'
-        : '#64748b';
+        ? theme === 'light'
+          ? '#6366f1'
+          : '#818cf8'
+        : theme === 'light'
+          ? '#94a3b8'
+          : '#64748b';
   }
 
   ctx.stroke();

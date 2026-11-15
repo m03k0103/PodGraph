@@ -1,4 +1,5 @@
 export type GraphMode = 'podcaster' | 'podcast';
+export type ThemeMode = 'light' | 'dark';
 
 export interface Podcaster {
   id: string;
@@ -19,7 +20,7 @@ export interface Podcast {
   hostIds: string[];
   formerHostIds?: string[];
   links: {
-    spotify: string;
+    spotify?: string;
     pocketCasts?: string;
   };
   spotifyShowId?: string;
@@ -33,7 +34,7 @@ export interface GuestEpisode {
   guestIds: string[];
   hostIdsOverride?: string[];
   links: {
-    spotify: string;
+    spotify?: string;
     pocketCasts?: string;
   };
 }
@@ -66,6 +67,7 @@ export interface GraphLink {
   regularPodcastIds: string[];
   sharedHostIds: string[];
   guestEpisodeIds: string[];
+  earliestRegularEpisodeId?: string;
 }
 
 export interface GraphData {
