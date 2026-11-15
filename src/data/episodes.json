@@ -4484,5 +4484,17 @@
     "links": {
       "spotify": "https://open.spotify.com/episode/6HjzP53ToeEjY0PdKz6eNj"
     }
+  },
+  {
+    "id": "coten-kawabe-20251221",
+    "podcastId": "coten-radio",
+    "title": "【番外編＃130】推し活の世界 ― 変化と熱狂が紡ぐハロプロ界隈　ゲスト：LINEヤフー会長 川邊健太郎氏",
+    "publishedAt": "2025-12-21",
+    "guestIds": [
+      "kentaro-kawabe"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/7bnJDIG9XjtZQK9TVVGdKU"
+    }
   }
 ]

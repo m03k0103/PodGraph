@@ -1863,5 +1863,19 @@
       "spotify": "https://open.spotify.com/show/6PfIz8XaU5nJaNFPbIuzmI"
     },
     "spotifyShowId": "6PfIz8XaU5nJaNFPbIuzmI"
+  },
+  {
+    "id": "kawabe-no-kaishoku",
+    "title": "川邊の会食～人生最高インタビュー～",
+    "description": "経営者と猟師と漁師の3足の草鞋を履いている川邊健太郎がインタビュアーを務めるPodcast番組。ときに2時間半に及ぶ会食で、ゲストのライフタイム・ベストとなる人生最高のインタビューを目指す。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5e/7c/c2/5e7cc2b8-fb11-ab0a-00d5-1d9cd17d2e19/mza_7835121249979024338.jpg/600x600bb.jpg",
+    "hostIds": [
+      "kentaro-kawabe"
+    ],
+    "formerHostIds": [],
+    "links": {
+      "spotify": "https://open.spotify.com/show/6h0rcXpsJiw6C3xWJIheFT"
+    },
+    "spotifyShowId": "6h0rcXpsJiw6C3xWJIheFT"
   }
 ]
