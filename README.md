@@ -42,3 +42,7 @@ npm run build
    ```bash
    npm run approve:candidates
    ```
+
+## セキュリティスキャン (OWASP ZAP DAST)
+
+GitHub Actions (`.github/workflows/zap-dast.yml`) により、PR / `main` プッシュ時のベースラインスキャンおよび定期フルスキャンを実施します。ローカル再現手順・`.zap/rules.tsv` の調整方法は [docs/security-scan.md](docs/security-scan.md) を参照してください。
