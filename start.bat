@@ -140,12 +140,21 @@ def main() -> None:
 
     print(f"[*] ポート {target_port} でローカルサーバーを起動しています...")
 
-    # 4. バックグラウンドで python -m http.server --directory dist を起動
+    # 4. バックグラウンドで scripts/serve_dist.py (--directory dist) を起動
     creation_flags = 0
     if sys.platform == "win32":
         creation_flags = subprocess.DETACHED_PROCESS | subprocess.CREATE_NEW_PROCESS_GROUP
 
-    server_cmd = [sys.executable, "-m", "http.server", str(target_port), "--directory", str(DIST_DIR)]
+    server_cmd = [
+        sys.executable,
+        str(ROOT_DIR / "scripts" / "serve_dist.py"),
+        "--port",
+        str(target_port),
+        "--directory",
+        str(DIST_DIR),
+        "--bind",
+        "127.0.0.1",
+    ]
     try:
         proc = subprocess.Popen(
             server_cmd,

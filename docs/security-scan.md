@@ -21,7 +21,7 @@ Docker Desktop / Docker Engine がインストールされている環境で、�
 ### ステップ 1: ローカルサーバー起動（別ターミナル）
 
 ```bash
-npm run build && python3 -m http.server 8010 --directory dist --bind 127.0.0.1
+npm run build && python3 scripts/serve_dist.py --port 8010 --directory dist --bind 127.0.0.1
 ```
 
 ### ステップ 2: ZAP ベースラインスキャン実行
@@ -58,3 +58,12 @@ docker run --rm --add-host=host.docker.internal:host-gateway \
   10038	IGNORE	(Content Security Policy Header Not Set - managed by CDN)
   ```
 - 詳細な共通仕様は `D:\dev\Orchestration\docs\security-scan.md` を参照してください。
+
+## 4. セキュリティヘッダー設定 (Track C)
+
+初回 DAST スキャンで検出されたヘッダー未設定および `Server` バージョン露出に対応するため、以下のハードニングを実施しています。
+
+- **単一設定ファイル (`scripts/security-headers.json`)**: `Content-Security-Policy`、`X-Frame-Options: DENY`、`X-Content-Type-Options: nosniff`、`Referrer-Policy`、`Permissions-Policy`、`Cross-Origin-Opener-Policy: same-origin`、`Cross-Origin-Embedder-Policy: credentialless`、`Cross-Origin-Resource-Policy: same-origin`、`Cache-Control` および `<meta>` 用 CSP (`metaCsp`) を一元定義。
+- **ハードニング配信サーバー (`scripts/serve_dist.py`)**: `start.bat` および CI (`.github/workflows/zap-dast.yml`) で共通利用し、200/404 を含む全レスポンスへ上記ヘッダーを付与するとともに、`Server` ヘッダーの隠蔽およびディレクトリ一覧表示の抑止（404 返却）を行います。
+- **ビルド時 `<meta>` CSP 注入 (`vite.config.ts`)**: 本番ビルド時 (`apply: 'build'`) のみ `dist/index.html` の `<head>` に `<meta http-equiv="Content-Security-Policy">` を注入し、GitHub Pages 上でも CSP を適用します（`npm run dev` の Vite HMR には影響しません）。
+- **外部アートワーク両立設計**: 多数のポッドキャスト配信 CDN からカバー画像を読み込むため `img-src 'self' data: https:` と `Cross-Origin-Embedder-Policy: credentialless` を採用し、サイト分離と外部画像表示を両立しています。また `react-force-graph-2d` / `float-tooltip` の CSS ルールを `src/index.css` へ外出しし、ビルド時に動的 `<style>` 挿入を除去することで `style-src 'self'`（`'unsafe-inline'`・ハッシュ不要）を実現しています。

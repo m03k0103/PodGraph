@@ -10,7 +10,7 @@
 10049	IGNORE	(Storable and Cacheable Content - local HTTP server)
 10050	IGNORE	(Retrieved from Cache - local HTTP server)
 
-# Security headers typically managed by CDN/Proxy (GitHub Pages/Cloudflare) in production -> WARN
+# Security headers enforced by scripts/serve_dist.py (except HTTPS-only HSTS 10035); keep WARN to detect header regressions
 10015	WARN	(Re-examine Cache-control Directives)
 10020	WARN	(Anti-clickjacking Header - X-Frame-Options)
 10021	WARN	(X-Content-Type-Options Header Missing)

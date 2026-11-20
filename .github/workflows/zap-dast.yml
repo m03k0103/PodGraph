@@ -61,7 +61,7 @@ jobs:
       - name: Start local server and wait for readiness
         run: |
           mkdir -p .zap/reports
-          nohup python3 -m http.server 8010 --directory dist --bind 127.0.0.1 > .zap/server.log 2>&1 &
+          nohup python3 scripts/serve_dist.py --port 8010 --directory dist --bind 127.0.0.1 > .zap/server.log 2>&1 &
           SERVER_PID=$!
           echo "${SERVER_PID}" > .zap/server.pid
           for i in $(seq 1 30); do
