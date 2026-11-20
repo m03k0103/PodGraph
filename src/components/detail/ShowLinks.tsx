@@ -3,6 +3,7 @@ import React from 'react';
 interface ShowLinksProps {
   spotifyUrl?: string;
   pocketCastsUrl?: string;
+  applePodcastsUrl?: string;
   spotifyLabel?: string;
   showHeadphonesIcon?: boolean;
   compact?: boolean;
@@ -21,9 +22,19 @@ const PocketCastsIcon: React.FC<{ className?: string }> = ({ className = 'h-4 w-
   </svg>
 );
 
+const ApplePodcastsIcon: React.FC<{ className?: string }> = ({ className = 'h-4 w-4' }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
+    <path d="M12 2a10 10 0 0 0-3.17 19.48c.26.08.53-.12.5-.39l-.2-1.7a.46.46 0 0 0-.29-.37A8.13 8.13 0 1 1 20.13 12a8.1 8.1 0 0 1-5.05 7.51.46.46 0 0 0-.29.37l-.2 1.7c-.03.27.24.47.5.39A10 10 0 0 0 12 2z" />
+    <path d="M12 5.65A6.35 6.35 0 0 0 5.65 12c0 2.13 1.05 4.01 2.66 5.16.23.16.55.02.58-.26l.15-1.31a.45.45 0 0 0-.18-.41A4.53 4.53 0 0 1 7.47 12a4.53 4.53 0 0 1 9.06 0c0 1.3-.55 2.47-1.43 3.3a.45.45 0 0 0-.14.4l.15 1.31c.03.28.35.42.58.26A6.34 6.34 0 0 0 18.35 12 6.35 6.35 0 0 0 12 5.65z" />
+    <circle cx="12" cy="10.7" r="2.05" />
+    <path d="M12 13.75c-1.42 0-2.55 1.08-2.36 2.48l.63 4.63c.09.65.64 1.14 1.3 1.14h.86c.66 0 1.21-.49 1.3-1.14l.63-4.63c.19-1.4-.94-2.48-2.36-2.48z" />
+  </svg>
+);
+
 export const ShowLinks: React.FC<ShowLinksProps> = ({
   spotifyUrl,
   pocketCastsUrl,
+  applePodcastsUrl,
   spotifyLabel = 'Spotify',
 }) => {
   const iconClass = 'h-5 w-5';
@@ -52,6 +63,18 @@ export const ShowLinks: React.FC<ShowLinksProps> = ({
           className="inline-flex items-center justify-center text-rose-500 transition hover:opacity-80"
         >
           <PocketCastsIcon className={iconClass} />
+        </a>
+      )}
+      {applePodcastsUrl && (
+        <a
+          href={applePodcastsUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Apple Podcasts"
+          title="Apple Podcasts"
+          className="inline-flex items-center justify-center text-[#9933CC] [data-theme='dark']_&:text-[#b150e2] transition hover:opacity-80"
+        >
+          <ApplePodcastsIcon className={iconClass} />
         </a>
       )}
     </div>

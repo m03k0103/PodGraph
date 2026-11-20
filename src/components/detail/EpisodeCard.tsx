@@ -93,6 +93,7 @@ export const EpisodeCard: React.FC<EpisodeCardProps> = ({
       <ShowLinks
         spotifyUrl={episode.links.spotify}
         pocketCastsUrl={episode.links.pocketCasts}
+        applePodcastsUrl={episode.links.applePodcasts}
         spotifyLabel="Spotifyで聴く"
         showHeadphonesIcon
       />

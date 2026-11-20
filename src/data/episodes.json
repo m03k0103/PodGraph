@@ -4496,5 +4496,872 @@
     "links": {
       "spotify": "https://open.spotify.com/episode/7bnJDIG9XjtZQK9TVVGdKU"
     }
+  },
+  {
+    "id": "kawabe-kinoshita-20261012",
+    "podcastId": "kawabe-no-kaishoku",
+    "title": "#22-1 大人の言うことは、本当に正しいのか──少年時代に芽生えた社会への疑問　ゲスト：木下斉さん",
+    "publishedAt": "2026-10-12",
+    "guestIds": [
+      "hitoshi-kinoshita"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/55545iNl0dSNN5xLcZxBKu"
+    }
+  },
+  {
+    "id": "kawabe-kinoshita-20261019",
+    "podcastId": "kawabe-no-kaishoku",
+    "title": "#22-2 やめるから新しいことができる──高校生社長が失敗から学んだこと　ゲスト：木下斉さん",
+    "publishedAt": "2026-10-19",
+    "guestIds": [
+      "hitoshi-kinoshita"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3YCViEakw9JaLOSTK52tEe"
+    }
+  },
+  {
+    "id": "kawabe-kinoshita-20261026",
+    "podcastId": "kawabe-no-kaishoku",
+    "title": "#22-3 まちづくりは、稼がなければ続かない──現場で挑んだ地域再生　ゲスト：木下斉さん",
+    "publishedAt": "2026-10-26",
+    "guestIds": [
+      "hitoshi-kinoshita"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/61fAlcNul7Vn3R5rGNN29A"
+    }
+  },
+  {
+    "id": "kawabe-kinoshita-20261102",
+    "podcastId": "kawabe-no-kaishoku",
+    "title": "#22-4 笑っちゃうような村をつくろう──AIで変わる地方の未来　ゲスト：木下斉さん",
+    "publishedAt": "2026-11-02",
+    "guestIds": [
+      "hitoshi-kinoshita"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2hIBvlLjYj6J1JYZMje0YH"
+    }
+  },
+  {
+    "id": "kourishoubai-kinoshita-20250203",
+    "podcastId": "kourishoubai-radio",
+    "title": "#32 【ゲスト回】成功する地方創生はすべからく「厚利少売」（木下斉さん）",
+    "publishedAt": "2025-02-03",
+    "guestIds": [
+      "hitoshi-kinoshita"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1fhdbBxL7jSHBOrlet3kJT"
+    }
+  },
+  {
+    "id": "kourishoubai-doshiroto-20260223",
+    "podcastId": "kourishoubai-radio",
+    "title": "#23 【ゲスト:ど素人ホテル再建計画さん】持たざる者が何者かになる魔術。需要を増やす発信の究極系『プロセスエコノミー』を大解剖 前編",
+    "publishedAt": "2026-02-23",
+    "guestIds": [
+      "doshiroto-hotel"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4WW1wcc3HYXBswKMTHSC1X"
+    }
+  },
+  {
+    "id": "kourishoubai-doshiroto-20260302",
+    "podcastId": "kourishoubai-radio",
+    "title": "#24 【ゲスト:ど素人ホテル再建計画さん】持たざる者が何者かになる魔術。需要を増やす発信の究極系『プロセスエコノミー』を大解剖 後編",
+    "publishedAt": "2026-03-02",
+    "guestIds": [
+      "doshiroto-hotel"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/16OKkLzgf797y9RxJzULT4"
+    }
+  },
+  {
+    "id": "kourishoubai-doshiroto-20260615",
+    "podcastId": "kourishoubai-radio",
+    "title": "#39 【最終審査・前編】ゲスト審査員「ど素人ホテル再建計画」登場！プロが教える値上げとSNSバズの極意",
+    "publishedAt": "2026-06-15",
+    "guestIds": [
+      "doshiroto-hotel"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4MukbBzgYdVfjjk7xE2hyC"
+    }
+  },
+  {
+    "id": "kourishoubai-doshiroto-20260622",
+    "podcastId": "kourishoubai-radio",
+    "title": "#40 【最終審査・後編】ゲスト審査員「ど素人ホテル再建計画」登場！プロを動かす「要望の解像度」と弱者のSNS逆転戦略",
+    "publishedAt": "2026-06-22",
+    "guestIds": [
+      "doshiroto-hotel"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4mvr9cpwfWaPWpZhdvg7As"
+    }
+  },
+  {
+    "id": "kourishoubai-iriyama-20250512",
+    "podcastId": "kourishoubai-radio",
+    "title": "#46 【ビデオ】【ゲスト：入山章栄さん】「世界標準の経営学で読み解く、厚利少売の必然性」",
+    "publishedAt": "2025-05-12",
+    "guestIds": [
+      "akie-iriyama"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3XETBT54pJiUV0LsHL8dij"
+    }
+  },
+  {
+    "id": "kourishoubai-ito-20250602",
+    "podcastId": "kourishoubai-radio",
+    "title": "#49【ゲスト：伊藤亜和さん】「“バズらない才能”をヒットする価値に変えた方法」",
+    "publishedAt": "2025-06-02",
+    "guestIds": [
+      "awa-ito"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3SLr0gHoWHx5ele14daejH"
+    }
+  },
+  {
+    "id": "oteage-sugawara-kawahara-20250602",
+    "podcastId": "ito-awa-oteage",
+    "title": "#090【ゲストと私】「厚利少売ラジオ」コラボ　菅原健一（すがけん）さんと川原卓巳さん",
+    "publishedAt": "2025-06-02",
+    "guestIds": [
+      "kenichi-sugawara",
+      "takumi-kawahara"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0NlTkvrQ3M4Qlu9Ahfy3Jt"
+    }
+  },
+  {
+    "id": "inside-kawahara-20220829-1",
+    "podcastId": "inside-vision",
+    "title": "日本からレッドカーペットへ。世界を熱狂させた仕掛け人が見る景色。前編| 川原卓巳（KonMari Media Inc. CEO） | Inside Vision #23",
+    "publishedAt": "2022-08-29",
+    "guestIds": [
+      "takumi-kawahara"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/10NPWYdkPVtrUU33Cd1NIn"
+    }
+  },
+  {
+    "id": "inside-kawahara-20220829-2",
+    "podcastId": "inside-vision",
+    "title": "日本からレッドカーペットへ。世界を熱狂させた仕掛け人が見る景色。後編| 川原卓巳（KonMari Media Inc. CEO） | Inside Vision #24",
+    "publishedAt": "2022-08-29",
+    "guestIds": [
+      "takumi-kawahara"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/64qVdXGYhyQ5lJbyUJ7iKD"
+    }
+  },
+  {
+    "id": "inside-kawabe-20260228",
+    "podcastId": "inside-vision",
+    "title": "【退任の真意】LINEヤフー代表を辞め「AI駆動型人間」になる理由（川邊健太郎/高木新平）",
+    "publishedAt": "2026-02-28",
+    "guestIds": [
+      "kentaro-kawabe"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1Tv7Grv1nmm3mnFJJEjpvM"
+    }
+  },
+  {
+    "id": "kanaderu-yoshiyasu-20240722",
+    "podcastId": "kanaderu-saibou",
+    "title": "3-7.　㊗️2周年特別ゲスト　よしやすさんと「そんなゆりかの時間E」🔬🧬　理科っぽい視点で周りのことを見てみませんか？　＃そんない理科の時間B ＃科学系ポッドキャスト　＃パクリ",
+    "publishedAt": "2024-07-22",
+    "guestIds": [
+      "yoshiyasu-sonnai"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2hVrBWLG1bK95ac4hit0G7"
+    }
+  },
+  {
+    "id": "kanaderu-yoshiyasu-20240731",
+    "podcastId": "kanaderu-saibou",
+    "title": "3-8.　㊗️2周年特別ゲスト　よしやすさんと「そんなゆりかの時間E」後編🔬🧬　理科っぽい視点で周りのことを見てみませんか？　＃そんない理科の時間B ＃科学系ポッドキャスト　＃金メダル　＃ゴーギャン",
+    "publishedAt": "2024-07-31",
+    "guestIds": [
+      "yoshiyasu-sonnai"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6BplZorilSBWUzDoTgOwYN"
+    }
+  },
+  {
+    "id": "uchubanashi-yoshiyasu-20210805",
+    "podcastId": "uchubanashi",
+    "title": "300. 【そんない理科の時間B】祝300回記念！僕がPodcastを始める超参考にした番組を呼んで褒めてもらった",
+    "publishedAt": "2021-08-05",
+    "guestIds": [
+      "yoshiyasu-sonnai"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2FGPQ2Ci2KWxxMb8t9RQnH"
+    }
+  },
+  {
+    "id": "bokusumo-kobayashi",
+    "podcastId": "bokurano-small-business",
+    "title": "2024年に来る、アツい副業とは？【コラボ：副業解禁！稼ぐ力と学ぶ力】（第26人目ゲスト 小林昌裕）",
+    "publishedAt": "2024-01-07",
+    "guestIds": [
+      "masahiro-kobayashi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5kFIGHmXaak6jlICwJO2fX"
+    }
+  },
+  {
+    "id": "bokusumo-takachin-5-1",
+    "podcastId": "bokurano-small-business",
+    "title": "【5-1】起業に才能は必要か？コテンCGOが明かす欲求のヒミツ（第５回ゲスト・たかちん）",
+    "publishedAt": "2022-08-14",
+    "guestIds": [
+      "takashi-sano"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/11wcwUUmgNHa6Ogq8U2tz5"
+    }
+  },
+  {
+    "id": "honnoren-watanabe-1",
+    "podcastId": "honnoren-radio",
+    "title": "松岡正剛とは何だったのか？｜小倉ヒラク・渡邉康太郎・ドミニク・チェンと語る",
+    "publishedAt": "2026-08-04",
+    "guestIds": [
+      "kotaro-watanabe"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5R3bEJXZbgy4pUOP0SPofe"
+    }
+  },
+  {
+    "id": "honnoren-watanabe-2",
+    "podcastId": "honnoren-radio",
+    "title": "僕らの「松岡正剛この1冊」｜小倉ヒラク・渡邉康太郎・ドミニク・チェン",
+    "publishedAt": "2026-08-11",
+    "guestIds": [
+      "kotaro-watanabe"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3LEqytUG4Merey1XZ9vllw"
+    }
+  },
+  {
+    "id": "honnoren-kanda-1",
+    "podcastId": "honnoren-radio",
+    "title": "27-6.【ゲスト回】朝日新聞ポッドキャスト神田大介さん登場！新聞記者さん、いまの「正しさ社会」どう思いますか？炎上でも沈黙でもなく、「喧騒」こそが必要だ!?",
+    "publishedAt": "2025-06-24",
+    "guestIds": [
+      "daisuke-kanda"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2IU6QnHvQadfY95SUTm08K"
+    }
+  },
+  {
+    "id": "honnoren-kanda-2",
+    "podcastId": "honnoren-radio",
+    "title": "35-7.紙より先にウェブが死ぬ？朝日新聞記者・神田大介の「スジ読み」思考法",
+    "publishedAt": "2026-03-03",
+    "guestIds": [
+      "daisuke-kanda"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3PfkpWwe7KQSxc5x2v7Tfv"
+    }
+  },
+  {
+    "id": "honnoren-araki-1",
+    "podcastId": "honnoren-radio",
+    "title": "25-6.【ゲスト回・前編】大人気ポッドキャスト超相対性理論から、荒木博行さんが登場!!!!!! 「学びのデザイン」ご専門の荒木さんに、「やる気」文化との付き合い方を相談してみました。",
+    "publishedAt": "2025-04-29",
+    "guestIds": [
+      "hiroyuki-araki"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5Szgfz2KIHi3hZMVXHVygw"
+    }
+  },
+  {
+    "id": "honnoren-araki-2",
+    "podcastId": "honnoren-radio",
+    "title": "25-7.【ゲスト回・後編】voicy「荒木博行のbook cafe」マスターに、読書のコツや、「感じ」を大事にする習慣・思考・経営の方法を聞きました",
+    "publishedAt": "2025-05-02",
+    "guestIds": [
+      "hiroyuki-araki"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1SRVk0lvRiqrK5K4kHtVAH"
+    }
+  },
+  {
+    "id": "inside-vision-kameyama-1",
+    "podcastId": "inside-vision",
+    "title": "【問答】創業者は会社や資産をどう残すか。経営に求められる哲学とは（亀山敬司/高木新平）",
+    "publishedAt": "2026-06-21",
+    "guestIds": [
+      "keiji-kameyama"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5sc0tq40xtrf7vyDuoP988"
+    }
+  },
+  {
+    "id": "inside-vision-kameyama-2",
+    "podcastId": "inside-vision",
+    "title": "【亀山敬司】DMM会長が語る「ちいかわ」の本質",
+    "publishedAt": "2026-09-27",
+    "guestIds": [
+      "keiji-kameyama"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5Q4sdPYzH94jjiqaFCUGH6"
+    }
+  },
+  {
+    "id": "inside-vision-fukai-1",
+    "podcastId": "inside-vision",
+    "title": "【本音の100分間】絶望と希望の狭間を生きるビジネスパーソンの美学（深井龍之介/高木新平）",
+    "publishedAt": "2026-02-07",
+    "guestIds": [
+      "ryu-fukada"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/7qpz8YW7alNaI7Wxv8OCgF"
+    }
+  },
+  {
+    "id": "inside-vision-fukai-2",
+    "podcastId": "inside-vision",
+    "title": "【深井龍之介】世界を良くするのは誰の仕事？いま人文知に投資すべき真実と、3つのアジェンダ",
+    "publishedAt": "2026-09-06",
+    "guestIds": [
+      "ryu-fukada"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6ISx39jyrn0qSC0Ijvm63G"
+    }
+  },
+  {
+    "id": "inside-vision-minowa-1",
+    "podcastId": "inside-vision",
+    "title": "前編：【38歳、アイデンティティの喪失】箕輪厚介が語る本音。天才編集者の迷いとブレない軸。｜箕輪厚介x高木新平",
+    "publishedAt": "2024-06-19",
+    "guestIds": [
+      "kosuke-minowa"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/607vPX2YYsk7TZBBnqcDIo"
+    }
+  },
+  {
+    "id": "inside-vision-minowa-2",
+    "podcastId": "inside-vision",
+    "title": "後編：【38歳、アイデンティティの喪失】箕輪厚介が語る本音。天才編集者の迷いとブレない軸。｜箕輪厚介x高木新平",
+    "publishedAt": "2024-06-23",
+    "guestIds": [
+      "kosuke-minowa"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4vbaOy0DMmsYdvxZu1pG8f"
+    }
+  },
+  {
+    "id": "inside-vision-minowa-3",
+    "podcastId": "inside-vision",
+    "title": "【雑談】言語化や考察が溢れる時代に、なぜ人は“意味ないもの”を求めるのか（箕輪厚介/高木新平）",
+    "publishedAt": "2026-05-10",
+    "guestIds": [
+      "kosuke-minowa"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/54vB1nuWC635HowZS9zKXk"
+    }
+  },
+  {
+    "id": "inside-vision-imai",
+    "podcastId": "inside-vision",
+    "title": "【核心】なぜSHIROは選ばれるのか？創業者の原点とブランドの本質がつながる瞬間（今井浩恵/高木新平）",
+    "publishedAt": "2026-04-19",
+    "guestIds": [
+      "hiroe-imai"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0dk45NsUIZ1u4Yhk6TkDdQ"
+    }
+  },
+  {
+    "id": "inside-vision-kensuu-1",
+    "podcastId": "inside-vision",
+    "title": "前編：なぜ、僕たちはインターネットに繋がりを求め、熱中するのか。｜けんすう（アル株式会社 代表取締役）",
+    "publishedAt": "2023-08-21",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3aMV3QTdMLZRNiDfzTfFbd"
+    }
+  },
+  {
+    "id": "inside-vision-kensuu-2",
+    "podcastId": "inside-vision",
+    "title": "後編：なぜ、僕たちはインターネットに繋がりを求め、熱中するのか。｜けんすう（アル株式会社 代表取締役）",
+    "publishedAt": "2023-08-28",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/7Jq8YSba12kTox37Mbj7cj"
+    }
+  },
+  {
+    "id": "inside-vision-kensuu-3",
+    "podcastId": "inside-vision",
+    "title": "【ガチ事業相談】なぜ今Podcastなのか？（けんすう/高木新平）",
+    "publishedAt": "2026-03-15",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0FDkSioj3ZnLPNTf3MSn1m"
+    }
+  },
+  {
+    "id": "ito-awa-janesu-56",
+    "podcastId": "ito-awa-oteage",
+    "title": "#056【スーさんと私】コラムニスト/ラジオパーソナリティのジェーン・スーさんがやってきた！",
+    "publishedAt": "2024-09-30",
+    "guestIds": [
+      "jane-su"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6u1ySl9JexXpmVFcHgGjcP"
+    }
+  },
+  {
+    "id": "ito-awa-janesu-sakura-118-1",
+    "podcastId": "ito-awa-oteage",
+    "title": "#118-第1夜【特別回】ゲスト：ジェーン・スーさん＆桜林直子さん",
+    "publishedAt": "2025-12-15",
+    "guestIds": [
+      "jane-su",
+      "naoko-sakurabayashi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1P6WmcfHzYJRrRYvMIIhya"
+    }
+  },
+  {
+    "id": "kamecchi-aoyagi-372",
+    "podcastId": "kamecchi-radio",
+    "title": "#372(週末版) 家に帰らない子どもたち「トー横キッズ」の実態（青柳貴哉さん編①）",
+    "publishedAt": "2023-06-14",
+    "guestIds": [
+      "takaya-aoyagi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3yOaGc6cxCW2orWVLjs74L"
+    }
+  },
+  {
+    "id": "kiku-atarashii-rika-06",
+    "podcastId": "kiku-atarashii-rika",
+    "title": "06.教科書ってどうやってできるの?【おしゃべりな理科】",
+    "publishedAt": "2025-11-04",
+    "guestIds": [
+      "oshaberinarika-host"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3tU0ZzIbq2OMCXuRlSQxkx"
+    }
+  },
+  {
+    "id": "manimani-ushiwaka-47",
+    "podcastId": "manimani-radio",
+    "title": "【#47】《ゲスト回》アクアリウム／ゲスト:ウシワカさん(工業高校農業部)《後編》",
+    "publishedAt": "2026-01-04",
+    "guestIds": [
+      "ushiwaka-kounoubu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/20ptxLrL4xwKaktnE3jqTb"
+    }
+  },
+  {
+    "id": "manimani-masubou-50",
+    "podcastId": "manimani-radio",
+    "title": "【#50】《ゲスト回》DIY／ゲスト:ますぼうさん(工業高校農業部)《後編》",
+    "publishedAt": "2026-01-18",
+    "guestIds": [
+      "masubou-kounoubu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5gY06bE4UK9uv7RpjKEGUK"
+    }
+  },
+  {
+    "id": "oshaberi-rika-scientalk-175",
+    "podcastId": "oshaberi-na-rika",
+    "title": "金魚は3秒前に見た景色を忘れている？【サイエントークコラボ回】#175",
+    "publishedAt": "2026-05-27",
+    "guestIds": [
+      "ren-scientalk"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0cKQ994r5dMuUpvuLH5riX"
+    }
+  },
+  {
+    "id": "otomarke-haraguchi-170",
+    "podcastId": "otomarke",
+    "title": "#170 社内アナウンサーに聞く音声配信の「話し方」のコツ｜ゲスト：オトナル原口大輝さん",
+    "publishedAt": "2025-03-24",
+    "guestIds": [
+      "daiki-haraguchi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3H1NHV9E1lVf7SMQRyEGXh"
+    }
+  },
+  {
+    "id": "seiji-douraku-mizogami-208",
+    "podcastId": "seiji-douraku",
+    "title": "Ep.208「大人気ドラマ『銀河の一票』についてワイワイ語ろう！（ゲスト：テレビ朝日・溝上由夏さん）」",
+    "publishedAt": "2026-07-20",
+    "guestIds": [
+      "yuka-mizogami"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6xCpz8FZDbaFd4HffSJztr"
+    }
+  },
+  {
+    "id": "seiji-douraku-nomura-69",
+    "podcastId": "seiji-douraku",
+    "title": "Ep.69「コラボ企画・『セイケイおじさんズ、中学受験に挑む』」",
+    "publishedAt": "2024-03-04",
+    "guestIds": [
+      "takahiro-nomura"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1V6BHMbjkAi9TQbbPrCFjA"
+    }
+  },
+  {
+    "id": "tokyo-business-hub-seiji-douraku",
+    "podcastId": "tokyo-business-hub",
+    "title": "特別編「セイジドウラク」コラボ企画『セイケイおじさんズ 中学受験に挑む』後編",
+    "publishedAt": "2024-03-04",
+    "guestIds": [
+      "daiki-sawada",
+      "jeffrey-miyahara"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3VbWjPsOKd7PftCvD7GcWs"
+    }
+  },
+  {
+    "id": "studio-smokey-arashi-588",
+    "podcastId": "studio-smokey",
+    "title": "第588回。プロ野球評論家・嵐よういちさんが語る2025年のベイスターズ",
+    "publishedAt": "2025-01-19",
+    "guestIds": [
+      "yoichi-arashi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6GmdQXhDIPfLwei3XkEuBt"
+    }
+  },
+  {
+    "id": "kikikaikai-uesaka-2024",
+    "podcastId": "kikikaikai",
+    "title": "言語感覚2024（ゲスト 上坂あゆ美）",
+    "publishedAt": "2024-12-21",
+    "guestIds": [
+      "ayumi-uesaka"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0iG4M0wI95lDYpVt6K51wE"
+    }
+  },
+  {
+    "id": "kikikaikai-pointy-2024",
+    "podcastId": "kikikaikai",
+    "title": "裏語りコンテンツ問題とか（ゲスト 佐伯ポインティ)",
+    "publishedAt": "2024-09-17",
+    "guestIds": [
+      "saeki-pointy"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2cSSaNWVJCmXW8lo1CGGnf"
+    }
+  },
+  {
+    "id": "kopeten-suzuki-2023",
+    "podcastId": "kopeten-night",
+    "title": "地球から出たくない私たちの宇宙ばなし【ゲスト: 鈴木大輔さん/腸内細菌相談室】",
+    "publishedAt": "2023-04-28",
+    "guestIds": [
+      "daisuke-suzuki"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2zsTiqlEIgCcyji99deH1k"
+    }
+  },
+  {
+    "id": "beyond-k-point-iriyama",
+    "podcastId": "beyond-k-point",
+    "title": "2 / 9 田中渓のBeyond K-point『本日は早稲田大学ビジネススクール教授の入山章栄先生をゲストにお迎えしてお話を伺いました』",
+    "publishedAt": "2026-02-09",
+    "guestIds": [
+      "akie-iriyama"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4UbZx5vaaWwwH7YZOeAD6i"
+    }
+  },
+  {
+    "id": "fa-radio-kanemaru-435",
+    "podcastId": "fa-radio",
+    "title": "#435 【コラボ回】DCSについて教えてもらう回【かねまるさん】",
+    "publishedAt": "2025-10-01",
+    "guestIds": [
+      "kanemaru-plantlife"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5DdXJ6fFyDrBu5uinQNcnP"
+    }
+  },
+  {
+    "id": "shaberitarinai-kanemaru",
+    "podcastId": "shaberitarinai-bu",
+    "title": "S3E89 ★同世代トーク！ 本当の雑談回（feat. かねまるさん）",
+    "publishedAt": "2025-10-01",
+    "guestIds": [
+      "kanemaru-plantlife"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4ZpZK8AFypQqX7aN9c8h3D"
+    }
+  },
+  {
+    "id": "jakusho-kashiwagi-1",
+    "podcastId": "jakusho-radio",
+    "title": "第1回　ゲスト：ぶっちょカシワギさん",
+    "publishedAt": "2024-12-01",
+    "guestIds": [
+      "buccho-kashiwagi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/55OLfPehTlIfUC8xjzhRyQ"
+    }
+  },
+  {
+    "id": "jakusho-kashiwagi-2",
+    "podcastId": "jakusho-radio",
+    "title": "第2回　ゲスト：ぶっちょカシワギさん",
+    "publishedAt": "2024-12-08",
+    "guestIds": [
+      "buccho-kashiwagi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6WAy8WdHpeAUcO7kgb7NAE"
+    }
+  },
+  {
+    "id": "listen-news-local-night-nippon",
+    "podcastId": "listen-news",
+    "title": "Podcast Weekend：夫婦で移住・Podcast配信のリアル／湯浅章太郎さん・あきさん「ローカルナイトニッポン 〜地方移住・関係人口を楽しく話すポッドキャスト番組〜」",
+    "publishedAt": "2024-11-18",
+    "guestIds": [
+      "yuasa-localnight"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2jDyYgnxHg7N9XNkW6QiZ3"
+    }
+  },
+  {
+    "id": "listen-news-sbcast",
+    "podcastId": "listen-news",
+    "title": "8/20 LISTENオフ会後半！ 新しく音声配信を始めたいまーちんさんフレンズ＆高見知英さんご登場！",
+    "publishedAt": "2024-08-22",
+    "guestIds": [
+      "sbcast-host"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/0d6zwycQXuDkTzEHP6I2rC"
+    }
+  },
+  {
+    "id": "zassou-ogawa-134",
+    "podcastId": "zassou-radio",
+    "title": "小川達大さんとザッソウ第１回｜徒弟制度の先達に聞く（#134）",
+    "publishedAt": "2024-05-01",
+    "guestIds": [
+      "cdi-hechamocha"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/1gxFPCSs39pw3RslFxyOYm"
+    }
+  },
+  {
+    "id": "mazu-chanto-kiku-ogawa-07",
+    "podcastId": "mazu-chanto-kiku",
+    "title": "vol.07 小川達大さん（前編）「ビューティフルライフ」と「聴く」",
+    "publishedAt": "2024-06-01",
+    "guestIds": [
+      "cdi-hechamocha"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6YTZLo79S0KCLbomtgCeR2"
+    }
+  },
+  {
+    "id": "anri-057-fukai",
+    "podcastId": "heart-ni-hi-wo-tsukero",
+    "title": "#057 「定量化ドグマを打ち破れ」既存金融の限界を超えて真のイノベーションに投資する方法とは",
+    "publishedAt": "2026-11-16",
+    "guestIds": [
+      "ryu-fukada"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4VQswsxcmmqKHOKu72fSO1"
+    }
+  },
+  {
+    "id": "anri-056-kensuu",
+    "podcastId": "heart-ni-hi-wo-tsukero",
+    "title": "#056「情熱」と「裏面の偏愛」を引き出すポッドキャストの未来とVCの本質とは",
+    "publishedAt": "2026-10-19",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/6ZtmIf0BP4Gg1CSxcIwBNf"
+    }
+  },
+  {
+    "id": "anri-028-kensuu",
+    "podcastId": "heart-ni-hi-wo-tsukero",
+    "title": "#028 プロジェクトの始め方・モチベーションについて・投資教育について…リスナーさんからの質問に大回答スペシャル！【ゲスト：アル株式会社 代表取締役 - けんすうさん】",
+    "publishedAt": "2025-05-27",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2cgPeYLd8YZ9MmfuEQ9cYA"
+    }
+  },
+  {
+    "id": "anri-027-kensuu",
+    "podcastId": "heart-ni-hi-wo-tsukero",
+    "title": "#027 AI時代、ネットメディアはどうなる？これからのコンテンツ産業の構造について【ゲスト：アル株式会社 代表取締役 - けんすうさん】",
+    "publishedAt": "2025-05-13",
+    "guestIds": [
+      "kensuu"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/4qLJtc12zmVsW6hxeOED0G"
+    }
+  },
+  {
+    "id": "investors-sunday-samata-1",
+    "podcastId": "investors-sunday",
+    "title": "ベンチャーキャピタリスト佐俣アンリさん（株式会社ANRI）さんが語る「NOT A HOTELに投資した理由」",
+    "publishedAt": "2026-08-23",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/2SP4avguJnJMX4nCbEdj9t"
+    }
+  },
+  {
+    "id": "investors-sunday-samata-2",
+    "podcastId": "investors-sunday",
+    "title": "佐俣アンリさん後編〜LUUPとの出会い、そして15年のベンチャーキャピタル歴から導いた「結論」とは・・・",
+    "publishedAt": "2026-08-30",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5pkq2Hi09E40KCsqmwmgU9"
+    }
+  },
+  {
+    "id": "changer-story-samata",
+    "podcastId": "changer-story",
+    "title": "NOT A HOTEL創業者濵渦伸次とキャピタリスト佐俣アンリの対談",
+    "publishedAt": "2026-06-26",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/3M95ZxTJ35bx780oubq6hC"
+    }
+  },
+  {
+    "id": "sevenbank-gbc-samata-1",
+    "podcastId": "sevenbank-gbc",
+    "title": "ANRI株式会社 代表パートナー 佐俣アンリさん #1",
+    "publishedAt": "2024-09-23",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/07Oud2LYJiG5zbPLt3pQUo"
+    }
+  },
+  {
+    "id": "sevenbank-gbc-samata-2",
+    "podcastId": "sevenbank-gbc",
+    "title": "ANRI株式会社 代表パートナー 佐俣アンリさん #2",
+    "publishedAt": "2024-09-24",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5AoZPr9eGQgtcHSzXdVplC"
+    }
+  },
+  {
+    "id": "sevenbank-gbc-samata-3",
+    "podcastId": "sevenbank-gbc",
+    "title": "ANRI株式会社 代表パートナー 佐俣アンリさん #3",
+    "publishedAt": "2024-09-25",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5wHmnMFsdA2AsYy86KcEM1"
+    }
+  },
+  {
+    "id": "sevenbank-gbc-samata-4",
+    "podcastId": "sevenbank-gbc",
+    "title": "ANRI株式会社 代表パートナー 佐俣アンリさん #4",
+    "publishedAt": "2024-09-26",
+    "guestIds": [
+      "anri-samata"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/episode/5ISMfWmsDXoTz7Kyu5mg79"
+    }
   }
 ]

@@ -133,6 +133,7 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
                     <ShowLinks
                       spotifyUrl={show.links.spotify}
                       pocketCastsUrl={show.links.pocketCasts}
+                      applePodcastsUrl={show.links.applePodcasts}
                       compact
                     />
                   </div>

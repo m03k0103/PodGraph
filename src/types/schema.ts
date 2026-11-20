@@ -22,8 +22,10 @@ export interface Podcast {
   links: {
     spotify?: string;
     pocketCasts?: string;
+    applePodcasts?: string;
   };
   spotifyShowId?: string;
+  lastCrawledAt?: string;
 }
 
 export interface GuestEpisode {
@@ -36,6 +38,7 @@ export interface GuestEpisode {
   links: {
     spotify?: string;
     pocketCasts?: string;
+    applePodcasts?: string;
   };
 }
 

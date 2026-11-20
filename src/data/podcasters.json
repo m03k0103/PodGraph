@@ -1482,5 +1482,137 @@
     "links": {
       "twitter": "https://x.com/dennotai"
     }
+  },
+  {
+    "id": "hitoshi-kinoshita",
+    "name": "木下 斉",
+    "aliases": [
+      "木下斉"
+    ],
+    "bio": "エリアマネジメント・地域再生・都市経営の実践家。『木下斉の今日はズバリいいますよ！』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "kenichi-sugawara",
+    "name": "菅原 健一",
+    "aliases": [
+      "すがけん",
+      "菅原健一"
+    ],
+    "bio": "株式会社Moonshot 代表取締役。『厚利少売ラジオ』パーソナリティ。",
+    "links": {
+      "twitter": "https://x.com/xxkenai"
+    }
+  },
+  {
+    "id": "takumi-kawahara",
+    "name": "川原 卓巳",
+    "aliases": [
+      "川原卓巳"
+    ],
+    "bio": "KonMari Media Inc. CEO / プロデューサー。『厚利少売ラジオ』パーソナリティ。",
+    "links": {
+      "twitter": "https://x.com/takumikawahara"
+    }
+  },
+  {
+    "id": "awa-ito",
+    "name": "伊藤 亜和",
+    "aliases": [
+      "伊藤亜和"
+    ],
+    "bio": "文筆家・エッセイスト。『伊藤亜和のお手上げラジオ』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "akie-iriyama",
+    "name": "入山 章栄",
+    "aliases": [
+      "入山章栄"
+    ],
+    "bio": "経営学者・早稲田大学大学院教授。『入山章栄の経営理論でイシューを語ろう』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "shimpei-takagi",
+    "name": "高木 新平",
+    "aliases": [
+      "高木新平"
+    ],
+    "bio": "NEWPEACE代表。『深夜1時の経営者ラジオ「インサイドビジョン」』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "yoshiyasu-sonnai",
+    "name": "よしやす",
+    "aliases": [],
+    "bio": "そんないプロジェクト。『そんない理科の時間』パーソナリティ。",
+    "links": {
+      "twitter": "https://x.com/Yoshi_yasu"
+    }
+  },
+  {
+    "id": "kaori-sonnai",
+    "name": "かおり",
+    "aliases": [],
+    "bio": "そんないプロジェクト。『そんない理科の時間』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "naoko-sakurabayashi",
+    "name": "桜林 直子"
+  },
+  {
+    "id": "ayumi-uesaka",
+    "name": "上坂 あゆ美",
+    "links": {
+      "x": "https://x.com/aymuesk"
+    }
+  },
+  {
+    "id": "saeki-pointy",
+    "name": "佐伯 ポインティ",
+    "links": {
+      "x": "https://x.com/saekipointy"
+    }
+  },
+  {
+    "id": "daisuke-suzuki",
+    "name": "鈴木 大輔"
+  },
+  {
+    "id": "chris-takahashi",
+    "name": "高橋 クリス"
+  },
+  {
+    "id": "maikou-shaberi",
+    "name": "まいこう"
+  },
+  {
+    "id": "zassou-host",
+    "name": "ザッソウラジオ"
+  },
+  {
+    "id": "mazu-chanto-kiku-host",
+    "name": "『まず、ちゃんと聴く。』ラジオ"
+  },
+  {
+    "id": "michihiko-sakatani",
+    "name": "坂谷 通彦"
+  },
+  {
+    "id": "anri-samata",
+    "name": "佐俣 アンリ",
+    "links": {
+      "x": "https://x.com/Anrit"
+    }
+  },
+  {
+    "id": "changer-story-host",
+    "name": "Changer Story"
+  },
+  {
+    "id": "sevenbank-gbc-host",
+    "name": "SEVENBANK GLOBAL BUSINESS CHARGE"
   }
 ]

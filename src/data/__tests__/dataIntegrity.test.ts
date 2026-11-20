@@ -62,7 +62,10 @@ describe('data integrity', () => {
       if (show.links.pocketCasts) {
         expect(show.links.pocketCasts).toMatch(/^https:\/\//);
       }
-      expect(Boolean(show.links.spotify || show.links.pocketCasts)).toBe(true);
+      if (show.links.applePodcasts) {
+        expect(show.links.applePodcasts).toMatch(/^https:\/\//);
+      }
+      expect(Boolean(show.links.spotify || show.links.pocketCasts || show.links.applePodcasts)).toBe(true);
     }
     for (const ep of episodes) {
       if (ep.links.spotify) {
@@ -71,7 +74,10 @@ describe('data integrity', () => {
       if (ep.links.pocketCasts) {
         expect(ep.links.pocketCasts).toMatch(/^https:\/\//);
       }
-      expect(Boolean(ep.links.spotify || ep.links.pocketCasts)).toBe(true);
+      if (ep.links.applePodcasts) {
+        expect(ep.links.applePodcasts).toMatch(/^https:\/\//);
+      }
+      expect(Boolean(ep.links.spotify || ep.links.pocketCasts || ep.links.applePodcasts)).toBe(true);
     }
   });
 
