@@ -15,9 +15,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/3qiAapMhh8UgWVfDWTSq2f",
       "pocketCasts": "https://pca.st/coten",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%AD%B4%E5%8F%B2%E3%82%92%E9%9D%A2%E7%99%BD%E3%81%8F%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%86%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA-coten-radio/id1450522865"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%AD%B4%E5%8F%B2%E3%82%92%E9%9D%A2%E7%99%BD%E3%81%8F%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%86%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA-coten-radio/id1450522865",
+      "x": "https://x.com/CotenInc"
     },
-    "spotifyShowId": "3qiAapMhh8UgWVfDWTSq2f"
+    "spotifyShowId": "3qiAapMhh8UgWVfDWTSq2f",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "gichi-higuchi",
@@ -32,7 +34,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%84%9B%E3%81%AE%E6%A5%BD%E6%9B%B2%E5%B7%A5%E6%88%BF/id1492904431",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%84%9B%E3%81%AE%E6%A5%BD%E6%9B%B2%E5%B7%A5%E6%88%BF/6e23e390-ef9a-0138-e80c-0acc26574db2"
     },
-    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk"
+    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "a-scope",
@@ -48,7 +51,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/a-scope-%E3%83%AA%E3%83%99%E3%83%A9%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%84%E3%81%A7%E4%B8%96%E7%95%8C%E3%82%92%E8%A6%96%E3%82%8B%E7%9B%AE%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B/id1583407085",
       "pocketCasts": "https://pocketcasts.com/podcast/a-scope-%E3%83%AA%E3%83%99%E3%83%A9%E3%83%AB%E3%82%A2%E3%83%BC%E3%83%84%E3%81%A7%E4%B8%96%E7%95%8C%E3%82%92%E8%A6%96%E3%82%8B%E7%9B%AE%E3%81%8C%E5%A4%89%E3%82%8F%E3%82%8B/a2c182e0-ef49-0139-d4ce-0acc26574db2"
     },
-    "spotifyShowId": "5J4aIjFLjTF06PiFrZ5lhW"
+    "spotifyShowId": "5J4aIjFLjTF06PiFrZ5lhW",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "news-connect",
@@ -63,7 +67,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/news-connect-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E7%B5%8C%E6%B8%88%E3%82%92%E3%81%A4%E3%81%AA%E3%81%905%E5%88%86%E9%96%93-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88/id1608666340",
       "pocketCasts": "https://pocketcasts.com/podcast/news-connect-%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E7%B5%8C%E6%B8%88%E3%82%92%E3%81%A4%E3%81%AA%E3%81%905%E5%88%86%E9%96%93-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88/53303f60-69d8-013a-d75f-0acc26574db2"
     },
-    "spotifyShowId": "1EiRggj17tBgkoZHpv34Cn"
+    "spotifyShowId": "1EiRggj17tBgkoZHpv34Cn",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "maboroshi-kaigi",
@@ -77,9 +82,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/24dWQdih85kk6TKa58VrGV",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%B7%B1%E4%BA%95-%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%81%AE%E3%81%BE%E3%81%BC%E3%82%8D%E3%81%97%E4%BC%9A%E8%AD%B0/id1821780907",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E6%B7%B1%E4%BA%95%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%81%AE%E3%81%BE%E3%81%BC%E3%82%8D%E3%81%97%E4%BC%9A%E8%AD%B0/491890e0-31f2-013e-1c02-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%B7%B1%E4%BA%95%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%81%AE%E3%81%BE%E3%81%BC%E3%82%8D%E3%81%97%E4%BC%9A%E8%AD%B0/491890e0-31f2-013e-1c02-0acc26574db2",
+      "x": "https://x.com/maboroshi_kaigi"
     },
-    "spotifyShowId": "24dWQdih85kk6TKa58VrGV"
+    "spotifyShowId": "24dWQdih85kk6TKa58VrGV",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "madanai",
@@ -95,7 +102,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%9E%E3%83%80%E3%83%8A%E3%82%A4/id1896774264",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%9E%E3%83%80%E3%83%8A%E3%82%A4/b752a4d0-3adb-013f-5419-0affd890ae35"
     },
-    "spotifyShowId": "033jcbhjRJsPGoho3ALPlm"
+    "spotifyShowId": "033jcbhjRJsPGoho3ALPlm",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "genkai-toppa-lifehack",
@@ -111,7 +119,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%99%90%E7%95%8C%E7%AA%81%E7%A0%B4%E3%83%A9%E3%82%A4%E3%83%95%E3%83%8F%E3%83%83%E3%82%AF/id1866434136",
       "pocketCasts": "https://pocketcasts.com/podcast/%E9%99%90%E7%95%8C%E7%AA%81%E7%A0%B4%E3%83%A9%E3%82%A4%E3%83%95%E3%83%8F%E3%83%83%E3%82%AF/4269b2b0-cf74-013e-e9b9-0acc26574db2"
     },
-    "spotifyShowId": "4CcQlw0zqIRvWsO4sR2GuV"
+    "spotifyShowId": "4CcQlw0zqIRvWsO4sR2GuV",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "news-no-genba",
@@ -125,9 +134,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/392h0MYfvMTndEVzf2cOvC",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%8B%E3%82%89/id1526773927",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%8B%E3%82%89/ce4f8cb0-c119-0138-e716-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AE%E7%8F%BE%E5%A0%B4%E3%81%8B%E3%82%89/ce4f8cb0-c119-0138-e716-0acc26574db2",
+      "x": "https://x.com/AsahiPodcast"
     },
-    "spotifyShowId": "392h0MYfvMTndEVzf2cOvC"
+    "spotifyShowId": "392h0MYfvMTndEVzf2cOvC",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "hou-dan",
@@ -141,9 +152,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/5Dt1uyQaJpM6hPV8aEMP3R",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%B7%B1%E3%81%8F%E9%9D%A2%E7%99%BD%E3%81%8F-%E5%A0%B1%E8%AB%87-hou-dan-%E3%83%9B%E3%82%A6%E3%83%80%E3%83%B3/id1822960480",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%B7%B1%E3%81%8F%E9%9D%A2%E7%99%BD%E3%81%8F%E5%A0%B1%E8%AB%87-hou-dan%E3%83%9B%E3%82%A6%E3%83%80%E3%83%B3/e2bb4c60-c679-0138-e72c-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%92%E6%B7%B1%E3%81%8F%E9%9D%A2%E7%99%BD%E3%81%8F%E5%A0%B1%E8%AB%87-hou-dan%E3%83%9B%E3%82%A6%E3%83%80%E3%83%B3/e2bb4c60-c679-0138-e72c-0acc26574db2",
+      "x": "https://x.com/AsahiPodcast"
     },
-    "spotifyShowId": "5Dt1uyQaJpM6hPV8aEMP3R"
+    "spotifyShowId": "5Dt1uyQaJpM6hPV8aEMP3R",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "watashi-to-honne",
@@ -160,7 +173,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%A8%E3%83%9B%E3%83%B3%E3%83%8D-%E3%83%A2%E3%83%A4%E3%83%8F%E3%83%AC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E4%BC%9A%E8%AD%B0/id1770427874",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%8F%E3%81%9F%E3%81%97%E3%81%A8%E3%83%9B%E3%83%B3%E3%83%8D%E3%83%A2%E3%83%A4%E3%83%8F%E3%83%AC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E4%BC%9A%E8%AD%B0/ead46820-5f7e-013d-1994-0acc26574db2"
     },
-    "spotifyShowId": "0Hf3oS5qxyudE2cjcYMKsk"
+    "spotifyShowId": "0Hf3oS5qxyudE2cjcYMKsk",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "donuts-podcast",
@@ -174,9 +188,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/392h0MYfvMTndEVzf2cOvC",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84-%E3%81%93%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%AFsns%E3%81%A7%E3%81%99/id6798131655",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84-%E3%81%93%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%AFsns%E3%81%A7%E3%81%99/eac35880-7806-013f-17c3-0affc24a29f5"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%89%E3%83%BC%E3%83%8A%E3%83%84-%E3%81%93%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%AFsns%E3%81%A7%E3%81%99/eac35880-7806-013f-17c3-0affc24a29f5",
+      "x": "https://x.com/AsahiPodcast"
     },
-    "spotifyShowId": "392h0MYfvMTndEVzf2cOvC"
+    "spotifyShowId": "392h0MYfvMTndEVzf2cOvC",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "no-radio",
@@ -192,7 +208,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%AE%E3%82%89%E3%81%98%E3%81%8A/id1567125177",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%AE%E3%82%89%E3%81%98%E3%81%8A/2bee0390-9496-0139-745d-0acc26574db2"
     },
-    "spotifyShowId": "3TuK58U8pNEiDwiM6xJIRm"
+    "spotifyShowId": "3TuK58U8pNEiDwiM6xJIRm",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kensuu-speak",
@@ -207,7 +224,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AF/id6798145396",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%82%B9%E3%83%94%E3%83%BC%E3%82%AF/31dd1420-7933-013f-aeb2-0e76ff9c8f21"
     },
-    "spotifyShowId": "4MPPE9yNaZjgRIbGi6F5PB"
+    "spotifyShowId": "4MPPE9yNaZjgRIbGi6F5PB",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "anata-no-nayami-metaka",
@@ -223,7 +241,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%82%A9%E3%81%BF-%E3%83%A1%E3%82%BF%E5%8C%96%E3%81%97%E3%81%BE%E3%81%99/id6826998507",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%82%E3%81%AA%E3%81%9F%E3%81%AE%E6%82%A9%E3%81%BF%E3%83%A1%E3%82%BF%E5%8C%96%E3%81%97%E3%81%BE%E3%81%99/39e99690-b4b5-013f-7974-0efff22b0435"
     },
-    "spotifyShowId": "2jdylUN7Kl1Ls4EBzpnqPC"
+    "spotifyShowId": "2jdylUN7Kl1Ls4EBzpnqPC",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "higuchi-sekai",
@@ -238,7 +257,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%A8%8B%E5%8F%A3%E8%81%96%E5%85%B8%E3%81%AE%E4%B8%96%E7%95%8C/id1498582796",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%A8%8B%E5%8F%A3%E8%81%96%E5%85%B8%E3%81%AE%E4%B8%96%E7%95%8C/cd16e2d0-e427-0138-e7cf-0acc26574db2"
     },
-    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk"
+    "spotifyShowId": "4R16jUMYzX3JfbrJkgYfsk",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kanda-daisuke-keiken",
@@ -253,7 +273,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%A5%9E%E7%94%B0%E5%A4%A7%E4%BB%8B%E3%81%AE%E7%B5%8C%E9%A8%93/id1717188199",
       "pocketCasts": "https://pocketcasts.com/podcast/%E7%A5%9E%E7%94%B0%E5%A4%A7%E4%BB%8B%E3%81%AE%E7%B5%8C%E9%A8%93/61d27810-9956-013c-9597-0e76ec147af9"
     },
-    "spotifyShowId": "3cnu5CB6BQFEC5npKEY1O1"
+    "spotifyShowId": "3cnu5CB6BQFEC5npKEY1O1",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "cho-sotaisei-riron",
@@ -270,7 +291,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%B6%85%E7%9B%B8%E5%AF%BE%E6%80%A7%E7%90%86%E8%AB%96/id1567192930",
       "pocketCasts": "https://pocketcasts.com/podcast/%E8%B6%85%E7%9B%B8%E5%AF%BE%E6%80%A7%E7%90%86%E8%AB%96/b283f680-84ac-0139-34d1-0acc26574db2"
     },
-    "spotifyShowId": "5xCiKGwndGU37pIuJTXpmD"
+    "spotifyShowId": "5xCiKGwndGU37pIuJTXpmD",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "torikago-hoso",
@@ -285,7 +307,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%88%E3%83%AA%E3%82%AB%E3%82%B4%E6%94%BE%E9%80%81/id1531626433",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%88%E3%83%AA%E3%82%AB%E3%82%B4%E6%94%BE%E9%80%81/186eeca0-f7b2-0138-4148-0acc26574db2"
     },
-    "spotifyShowId": "46fYCxixO3eDgxd90blwHq"
+    "spotifyShowId": "46fYCxixO3eDgxd90blwHq",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "sakura-tsushin",
@@ -301,7 +324,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%95%E3%81%8F%E3%82%89%E9%80%9A%E4%BF%A1/id434402681",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%95%E3%81%8F%E3%82%89%E9%80%9A%E4%BF%A1/f17b9bf0-1b8e-012f-f625-525400c11844"
     },
-    "spotifyShowId": "6TPJwP0oJtDb8tletkXYrH"
+    "spotifyShowId": "6TPJwP0oJtDb8tletkXYrH",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "bengoshi-hoso",
@@ -317,7 +341,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%BC%81%E8%AD%B7%E5%A3%AB%E6%94%BE%E9%80%81/id1552361601",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%BC%81%E8%AD%B7%E5%A3%AB%E6%94%BE%E9%80%81%E6%97%A7rss/4c4b9e80-f641-012e-e500-525400c11844"
     },
-    "spotifyShowId": "1pK65p4wL34eAXRRxIdgKy"
+    "spotifyShowId": "1pK65p4wL34eAXRRxIdgKy",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "eiwata",
@@ -333,7 +358,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%8B%B1%E3%83%AF%E3%82%BF-%E8%8B%B1%E8%AA%9E%E3%81%A7%E3%82%AF%E3%82%A4%E3%82%BA-%E7%A7%81%E3%81%AF%E8%AA%B0%E3%81%A7%E3%81%97%E3%82%87%E3%81%86-%E5%88%9D%E5%BF%83%E8%80%85%E7%B7%A8/id1635982863",
       "pocketCasts": "https://pocketcasts.com/podcast/%E8%8B%B1%E3%83%AF%E3%82%BF-%E8%8B%B1%E8%AA%9E%E3%81%A7%E3%82%AF%E3%82%A4%E3%82%BA%E7%A7%81%E3%81%AF%E8%AA%B0%E3%81%A7%E3%81%97%E3%82%87%E3%81%86%E5%88%9D%E5%BF%83%E8%80%85%E7%B7%A8/14c1b8a0-f22c-013a-da44-0acc26574db2"
     },
-    "spotifyShowId": "1sJm73KN7V5zyhY6UPHKfo"
+    "spotifyShowId": "1sJm73KN7V5zyhY6UPHKfo",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "saba-radio",
@@ -363,7 +389,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%80%81%E6%B0%B4%E3%83%A9%E3%82%B8%E3%82%AA/id517871627",
       "pocketCasts": "https://pocketcasts.com/podcast/%E9%80%81%E6%B0%B4%E3%83%A9%E3%82%B8%E3%82%AA/19fc16c0-c9be-0130-3661-723c91aeae46"
     },
-    "spotifyShowId": "3n5ZMnuRFbuEcE0jAgI6Pv"
+    "spotifyShowId": "3n5ZMnuRFbuEcE0jAgI6Pv",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "media-talk",
@@ -384,9 +411,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0yhef9ORZkUZs9ZeotdCSY",
       "pocketCasts": "https://pocketcasts.com/podcast/media-talk-%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%88%E3%83%BC%E3%82%AF/e2e4c3f0-c679-0138-e72c-0acc26574db2",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/media-talk-%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%88%E3%83%BC%E3%82%AF/id1527037575"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/media-talk-%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2%E3%83%88%E3%83%BC%E3%82%AF/id1527037575",
+      "x": "https://x.com/AsahiPodcast"
     },
-    "spotifyShowId": "0yhef9ORZkUZs9ZeotdCSY"
+    "spotifyShowId": "0yhef9ORZkUZs9ZeotdCSY",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "yuru-gengogaku",
@@ -402,7 +431,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E8%A8%80%E8%AA%9E%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1550243290",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E8%A8%80%E8%AA%9E%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/23b9d510-45ef-0139-3366-0acc26574db2"
     },
-    "spotifyShowId": "3nBZ3AgBAfSYdHbpJflIHZ"
+    "spotifyShowId": "3nBZ3AgBAfSYdHbpJflIHZ",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "chirinuru",
@@ -418,7 +448,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%A1%E3%82%8A%E3%81%AC%E3%82%8B/id1675090368",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%A1%E3%82%8A%E3%81%AC%E3%82%8B/b02b87d0-9de0-013b-f35c-0acc26574db2"
     },
-    "spotifyShowId": "7gDf9A98c0iqNis8J7kfAU"
+    "spotifyShowId": "7gDf9A98c0iqNis8J7kfAU",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kaigai-blackroad",
@@ -433,7 +464,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%B5%B7%E5%A4%96%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89/id1604150286",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%B5%B7%E5%A4%96%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%89/306dc160-4c5b-013b-f1a6-0acc26574db2"
     },
-    "spotifyShowId": "0niaz05dfIaWDpO8FgSCL8"
+    "spotifyShowId": "0niaz05dfIaWDpO8FgSCL8",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "fukugyo-kaikin",
@@ -449,7 +481,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%89%AF%E6%A5%AD%E8%A7%A3%E7%A6%81-%E7%A8%BC%E3%81%90%E5%8A%9B%E3%81%A8%E5%AD%A6%E3%81%B6%E5%8A%9B/id1451281521",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%89%AF%E6%A5%AD%E8%A7%A3%E7%A6%81%E7%A8%BC%E3%81%90%E5%8A%9B%E3%81%A8%E5%AD%A6%E3%81%B6%E5%8A%9B/95da8c80-cd7e-0137-1e18-0acc26574db2"
     },
-    "spotifyShowId": "2lPuGVGbXnGsv0b3CeqqZ6"
+    "spotifyShowId": "2lPuGVGbXnGsv0b3CeqqZ6",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kiku-zukan",
@@ -465,7 +498,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%81%9E%E3%81%8F%E5%9B%B3%E9%91%91/id1813814072",
       "pocketCasts": "https://pocketcasts.com/podcast/%E8%81%9E%E3%81%8F%E5%9B%B3%E9%91%91/949abcb0-1f5e-013e-d275-0eeccf47baff"
     },
-    "spotifyShowId": "4XXdWmi4AQATBuNnvxxOTG"
+    "spotifyShowId": "4XXdWmi4AQATBuNnvxxOTG",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "honnoren-radio",
@@ -480,7 +514,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0ORVv606DTyn2LKrt5Fi7O",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%BB%E3%82%93%E3%81%AE%E3%82%8C%E3%82%93%E3%83%A9%E3%82%B8%E3%82%AA/id1685521940",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%BB%E3%82%93%E3%81%AE%E3%82%8C%E3%82%93%E3%83%A9%E3%82%B8%E3%82%AA/279ab900-3ee9-013c-f6d4-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%BB%E3%82%93%E3%81%AE%E3%82%8C%E3%82%93%E3%83%A9%E3%82%B8%E3%82%AA/279ab900-3ee9-013c-f6d4-0acc26574db2",
+      "x": "https://x.com/honnoren_radio"
     },
     "spotifyShowId": "0ORVv606DTyn2LKrt5Fi7O",
     "lastCrawledAt": "2026-11-16"
@@ -498,7 +533,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/6Kgh5ProKEHvwXOltIOz62",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%AB%E3%82%A6%E3%83%81%E3%83%9D%E3%83%86%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA/id1616469211",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%AB%E3%82%A6%E3%83%81%E3%83%9D%E3%83%86%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA/41d293d0-f2d5-013a-da47-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%AB%E3%82%A6%E3%83%81%E3%83%9D%E3%83%86%E3%83%88%E3%83%96%E3%83%A9%E3%82%B6%E3%83%BC%E3%82%BA/41d293d0-f2d5-013a-da47-0acc26574db2",
+      "x": "https://x.com/radio_CPB"
     },
     "spotifyShowId": "6Kgh5ProKEHvwXOltIOz62",
     "lastCrawledAt": "2026-11-16"
@@ -515,9 +551,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1RiXatFxbCFjVKIS26tJPb",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%A5%BD%E6%9B%B8%E5%A5%BD%E6%97%A5-%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E6%98%BC%E4%BC%91%E3%81%BF/id1586762102",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%BD%E6%9B%B8%E5%A5%BD%E6%97%A5%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E6%98%BC%E4%BC%91%E3%81%BF/1f327100-fc76-0139-d51d-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%BD%E6%9B%B8%E5%A5%BD%E6%97%A5%E6%9C%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E6%98%BC%E4%BC%91%E3%81%BF/1f327100-fc76-0139-d51d-0acc26574db2",
+      "x": "https://x.com/BOOK_asahi_com"
     },
-    "spotifyShowId": "1RiXatFxbCFjVKIS26tJPb"
+    "spotifyShowId": "1RiXatFxbCFjVKIS26tJPb",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "podcast-ga-dekiru-made",
@@ -532,7 +570,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%8C%E5%87%BA%E6%9D%A5%E3%82%8B%E3%81%BE%E3%81%A7/id1559851243",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%8C%E5%87%BA%E6%9D%A5%E3%82%8B%E3%81%BE%E3%81%A7/ffd37950-72a2-013a-d791-0acc26574db2"
     },
-    "spotifyShowId": "7GaWDODiakfaicagQ96Bi0"
+    "spotifyShowId": "7GaWDODiakfaicagQ96Bi0",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "uchubanashi",
@@ -547,7 +586,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BD%90%E3%80%85%E6%9C%A8%E4%BA%AE%E3%81%AE%E5%AE%87%E5%AE%99%E3%81%B0%E3%81%AA%E3%81%97/id1530818711",
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BD%90%E3%80%85%E6%9C%A8%E4%BA%AE%E3%81%AE%E5%AE%87%E5%AE%99%E3%81%B0%E3%81%AA%E3%81%97/dcd248c0-d341-0138-e773-0acc26574db2"
     },
-    "spotifyShowId": "1L36EH14fS6dHgpBF58lkW"
+    "spotifyShowId": "1L36EH14fS6dHgpBF58lkW",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "inyo",
@@ -578,9 +618,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/6FiSfMWUcSONwIZDHcRoAq",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B2%E3%82%A4%E3%81%A8%E5%A5%B3%E3%81%AE5%E7%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/id1554494510",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B2%E3%82%A4%E3%81%A8%E5%A5%B3%E3%81%AE5%E7%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/5b162190-54f7-0139-33b6-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B2%E3%82%A4%E3%81%A8%E5%A5%B3%E3%81%AE5%E7%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/5b162190-54f7-0139-33b6-0acc26574db2",
+      "x": "https://x.com/bargoten1242"
     },
-    "spotifyShowId": "6FiSfMWUcSONwIZDHcRoAq"
+    "spotifyShowId": "6FiSfMWUcSONwIZDHcRoAq",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "ny-gochisocho",
@@ -593,9 +635,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/56NXIbSOLP9xOEed3Zs6jJ",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%B8%8A%E5%87%BA%E9%81%BC%E5%B9%B3-ny%E5%BE%A1%E9%A6%B3%E8%B5%B0%E5%B8%96/id1714405591",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E4%B8%8A%E5%87%BA%E9%81%BC%E5%B9%B3-ny%E5%BE%A1%E9%A6%B3%E8%B5%B0%E5%B8%96/4f84faa0-5d99-013c-9f00-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E4%B8%8A%E5%87%BA%E9%81%BC%E5%B9%B3-ny%E5%BE%A1%E9%A6%B3%E8%B5%B0%E5%B8%96/4f84faa0-5d99-013c-9f00-0acc26574db2",
+      "x": "https://x.com/tbs_ny"
     },
-    "spotifyShowId": "56NXIbSOLP9xOEed3Zs6jJ"
+    "spotifyShowId": "56NXIbSOLP9xOEed3Zs6jJ",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "off-topic",
@@ -609,9 +653,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/2vQEUz4VUnLcl7vuqSBgJp",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/off-topic-%E3%82%AA%E3%83%95%E3%83%88%E3%83%94%E3%83%83%E3%82%AF/id1444665909",
-      "pocketCasts": "https://pocketcasts.com/podcast/off-topic-%E3%82%AA%E3%83%95%E3%83%88%E3%83%94%E3%83%83%E3%82%AF/6c0db7b0-d175-0136-3249-08b04944ede4"
+      "pocketCasts": "https://pocketcasts.com/podcast/off-topic-%E3%82%AA%E3%83%95%E3%83%88%E3%83%94%E3%83%83%E3%82%AF/6c0db7b0-d175-0136-3249-08b04944ede4",
+      "x": "https://x.com/OffTopicJP"
     },
-    "spotifyShowId": "2vQEUz4VUnLcl7vuqSBgJp"
+    "spotifyShowId": "2vQEUz4VUnLcl7vuqSBgJp",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "voice-crossing",
@@ -626,7 +672,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/voice-crossing/id1789921209",
       "pocketCasts": "https://pocketcasts.com/podcast/voice-crossing/52ea8920-cd31-013d-0d58-0243b8a24f53"
     },
-    "spotifyShowId": "2YesmvXPd9UDg1C8SIowoU"
+    "spotifyShowId": "2YesmvXPd9UDg1C8SIowoU",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "temple-morning-radio",
@@ -676,7 +723,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%8E%E3%82%A6%E3%82%AB%E3%83%8E%E3%82%BF%E3%83%8D/id1452121272",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8E%E3%82%A6%E3%82%AB%E3%83%8E%E3%82%BF%E3%83%8D/cef2cfb0-f1c3-0134-ec5e-4114446340cb"
     },
-    "spotifyShowId": "7EOy8IQKj6UrmtzBhGK5WQ"
+    "spotifyShowId": "7EOy8IQKj6UrmtzBhGK5WQ",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "scientalk",
@@ -690,9 +738,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/7xSdoDeakt5aMs7s31GVsz",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%88%E3%83%BC%E3%82%AF/id1566371326",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%88%E3%83%BC%E3%82%AF/ec4b8530-836a-0139-34c7-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%88%E3%83%BC%E3%82%AF/ec4b8530-836a-0139-34c7-0acc26574db2",
+      "x": "https://x.com/SciEn_TALK"
     },
-    "spotifyShowId": "7xSdoDeakt5aMs7s31GVsz"
+    "spotifyShowId": "7xSdoDeakt5aMs7s31GVsz",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kopeten-night",
@@ -706,7 +756,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1398RBhlHD463IU2tx7nTK",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B3%E3%83%9A%E3%83%86%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88/id1556996795",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B3%E3%83%9A%E3%83%86%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88/ef32fcf0-62cd-0139-33f9-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B3%E3%83%9A%E3%83%86%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88/ef32fcf0-62cd-0139-33f9-0acc26574db2",
+      "x": "https://x.com/copetennight"
     },
     "spotifyShowId": "1398RBhlHD463IU2tx7nTK",
     "lastCrawledAt": "2026-11-16"
@@ -722,10 +773,12 @@
     "links": {
       "spotify": "https://open.spotify.com/show/493Yfo6yHSYqeQoSuM2ZC4",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%95%B7%E5%B4%8E%E6%96%B0%E8%81%9E%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88-%E3%81%88%E3%81%AD%E3%81%AD%E3%81%AC/id1536703997",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E9%95%B7%E5%B4%8E%E6%96%B0%E8%81%9E%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%88%E3%81%AD%E3%81%AD%E3%81%AC/a39538e0-f585-0138-e82b-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E9%95%B7%E5%B4%8E%E6%96%B0%E8%81%9E%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%88%E3%81%AD%E3%81%AD%E3%81%AC/a39538e0-f585-0138-e82b-0acc26574db2",
+      "x": "https://x.com/NnnNagasaki"
     },
     "spotifyShowId": "493Yfo6yHSYqeQoSuM2ZC4",
-    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a1/35/94/a1359437-ccba-c839-40e1-498e5b6c10bc/mza_2283085909181515450.jpg/600x600bb.jpg"
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a1/35/94/a1359437-ccba-c839-40e1-498e5b6c10bc/mza_2283085909181515450.jpg/600x600bb.jpg",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "seishun-arudehido",
@@ -757,9 +810,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4Vjj3kkElde5jmbMLDcMci",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%AD%B4%E5%8F%B2%E3%82%92%E9%9D%A2%E7%99%BD%E3%81%8F%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%86%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA-coten-radio/id1450522865",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E6%AD%B4%E5%8F%B2%E3%82%92%E9%9D%A2%E7%99%BD%E3%81%8F%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%86%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA-coten-radio/145c9980-0220-0137-f265-1d245fc5f9cf"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%AD%B4%E5%8F%B2%E3%82%92%E9%9D%A2%E7%99%BD%E3%81%8F%E5%AD%A6%E3%81%B6%E3%82%B3%E3%83%86%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA-coten-radio/145c9980-0220-0137-f265-1d245fc5f9cf",
+      "x": "https://x.com/CotenInc"
     },
-    "spotifyShowId": "4Vjj3kkElde5jmbMLDcMci"
+    "spotifyShowId": "4Vjj3kkElde5jmbMLDcMci",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "buta-ni-mahjong",
@@ -773,9 +828,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4iyCgunLQVizGNV5Rw4dWR",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%B1%9A%E3%81%AB%E9%BA%BB%E5%B0%86/id1715410425",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E8%B1%9A%E3%81%AB%E9%BA%BB%E5%B0%86/481b5ab0-5f6d-013c-9f07-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E8%B1%9A%E3%81%AB%E9%BA%BB%E5%B0%86/481b5ab0-5f6d-013c-9f07-0acc26574db2",
+      "x": "https://x.com/pigs_mahjong"
     },
-    "spotifyShowId": "4iyCgunLQVizGNV5Rw4dWR"
+    "spotifyShowId": "4iyCgunLQVizGNV5Rw4dWR",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "runrun-yanyan-radio",
@@ -791,7 +848,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%AB%E3%83%B3%E3%83%AB%E3%83%B3%E3%83%A4%E3%83%B3%E3%83%A4%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/id6820367508",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%AB%E3%83%B3%E3%83%AB%E3%83%B3%E3%83%A4%E3%83%B3%E3%83%A4%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/66335ce0-bd7e-013f-da0d-0affe749a535"
     },
-    "spotifyShowId": "1U3oylXUVyjNGPwG5bRWZs"
+    "spotifyShowId": "1U3oylXUVyjNGPwG5bRWZs",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "gichi-kanzen-ningen-land",
@@ -807,7 +865,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%AE%E3%83%81%E3%81%AE%E5%AE%8C%E5%85%A8%E4%BA%BA%E9%96%93%E3%83%A9%E3%83%B3%E3%83%89/id1561370651",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%AE%E3%83%81%E3%81%AE%E5%AE%8C%E5%85%A8%E4%BA%BA%E9%96%93%E3%83%A9%E3%83%B3%E3%83%89/5b2edc30-7881-0139-3471-0acc26574db2"
     },
-    "spotifyShowId": "0pdwidbObN1wYlvtg4m6wi"
+    "spotifyShowId": "0pdwidbObN1wYlvtg4m6wi",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "sakuragawa-maxim",
@@ -820,7 +879,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4udIVwYFmxoyh6IHLzhzlU"
     },
-    "spotifyShowId": "4udIVwYFmxoyh6IHLzhzlU"
+    "spotifyShowId": "4udIVwYFmxoyh6IHLzhzlU",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "sakuragawa-maxima",
@@ -835,7 +895,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%A1%9C%E5%B7%9D%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%83%A0/id6785147544",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%A1%9C%E5%B7%9D%E3%83%9E%E3%82%AD%E3%82%B7%E3%83%9E%E3%83%A0/eb714d20-5a68-013f-76ce-02f62b6aab15"
     },
-    "spotifyShowId": "033G11N13J7Z7L7bx41FJb"
+    "spotifyShowId": "033G11N13J7Z7L7bx41FJb",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "maruyama-kimyo-bukken",
@@ -851,7 +912,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%B8%B8%E5%B1%B1%E3%82%B4%E3%83%B3%E3%82%B6%E3%83%AC%E3%82%B9%E3%81%AE%E6%80%96%E3%81%8F%E3%81%A6%E5%A5%87%E5%A6%99%E3%81%AA%E7%89%A9%E4%BB%B6%E3%81%AE%E8%A9%B1/id1722019292",
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%B8%B8%E5%B1%B1%E3%82%B4%E3%83%B3%E3%82%B6%E3%83%AC%E3%82%B9%E3%81%AE%E6%80%96%E3%81%8F%E3%81%A6%E5%A5%87%E5%A6%99%E3%81%AA%E7%89%A9%E4%BB%B6%E3%81%AE%E8%A9%B1/8cc0f9d0-9117-013c-74fe-027201e7e97f"
     },
-    "spotifyShowId": "5FOtFgtsaWEK43sRjeLTmx"
+    "spotifyShowId": "5FOtFgtsaWEK43sRjeLTmx",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "harley-and-race",
@@ -866,7 +928,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%A9%E3%82%B8%E3%82%AA%E6%97%A5%E6%9C%AC-%E7%9C%9F%E5%A4%9C%E4%B8%AD%E3%81%AE%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%BC-%E3%83%AC%E3%82%A4%E3%82%B9-%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id1735270003",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%A9%E3%82%B8%E3%82%AA%E6%97%A5%E6%9C%AC%E7%9C%9F%E5%A4%9C%E4%B8%AD%E3%81%AE%E3%83%8F%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%AC%E3%82%A4%E3%82%B9%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/be6b3e00-d1fe-013c-5ced-0acc26574db2"
     },
-    "spotifyShowId": "1hOg5ZcrDzgt2Mfm4imjK1"
+    "spotifyShowId": "1hOg5ZcrDzgt2Mfm4imjK1",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "vaja-mizuiro-time",
@@ -881,7 +944,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/vaja%E3%81%AE%E3%83%9F%E3%82%BA%E3%82%A4%E3%83%AD%E3%82%BF%E3%82%A4%E3%83%A0/id1798923938",
       "pocketCasts": "https://pocketcasts.com/podcast/vaja%E3%81%AE%E3%83%9F%E3%82%BA%E3%82%A4%E3%83%AD%E3%82%BF%E3%82%A4%E3%83%A0/dd4f41a0-e5c3-013d-0d71-0243b8a24f53"
     },
-    "spotifyShowId": "59rgVvsrasY33Rhj5h7ZbK"
+    "spotifyShowId": "59rgVvsrasY33Rhj5h7ZbK",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "vaja-the-radio",
@@ -896,7 +960,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/vaja%E3%81%AEthe-radio/id1739761799",
       "pocketCasts": "https://pocketcasts.com/podcast/vaja%E3%81%AEthe-radio/8fe62650-d587-013c-240b-0e0713ac2c8b"
     },
-    "spotifyShowId": "2h2dQjLmqOZy1LiLAMryz9"
+    "spotifyShowId": "2h2dQjLmqOZy1LiLAMryz9",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "podcast-soken",
@@ -912,7 +977,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/podcast%E7%B7%8F%E7%A0%94/id1609855568",
       "pocketCasts": "https://pocketcasts.com/podcast/podcast%E7%B7%8F%E7%A0%94/6bf859a0-736e-013a-d793-0acc26574db2"
     },
-    "spotifyShowId": "2PA3gDp4wchQWDB7blbubi"
+    "spotifyShowId": "2PA3gDp4wchQWDB7blbubi",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "tokyo-business-hub",
@@ -925,9 +991,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0qqdTvNOIHfveOoWBs98wN",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%9D%B1%E4%BA%AC%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%8F%E3%83%96/id1697442115",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E6%9D%B1%E4%BA%AC%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%8F%E3%83%96/ae13f7e0-092d-013c-f5a9-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%9D%B1%E4%BA%AC%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%8F%E3%83%96/ae13f7e0-092d-013c-f5a9-0acc26574db2",
+      "x": "https://x.com/tokyobusinessh"
     },
-    "spotifyShowId": "0qqdTvNOIHfveOoWBs98wN"
+    "spotifyShowId": "0qqdTvNOIHfveOoWBs98wN",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "beyond-k-point",
@@ -942,7 +1010,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/beyond-k-point/id1818271357",
       "pocketCasts": "https://pocketcasts.com/podcast/beyond-k-point/a725a520-2886-013e-4d70-0afff1c060b9"
     },
-    "spotifyShowId": "4Hkfzuzp0KBohPB9aMSDXz"
+    "spotifyShowId": "4Hkfzuzp0KBohPB9aMSDXz",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "valture-radio",
@@ -957,7 +1026,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/valture-radio/id1891021458",
       "pocketCasts": "https://pocketcasts.com/podcast/valture-radio/342eb550-152a-013f-2de5-0affcdc07cdd"
     },
-    "spotifyShowId": "1iTeGMFPOap6FWKMkUgeWF"
+    "spotifyShowId": "1iTeGMFPOap6FWKMkUgeWF",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "money-and-mate",
@@ -972,7 +1042,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/money-mate-newspicks/id1868929057",
       "pocketCasts": "https://pocketcasts.com/podcast/moneymatenewspicks/6309dd40-e3d0-013e-2fcc-0e6fcf3ee949"
     },
-    "spotifyShowId": "2Hu77GgdpCXYC9NYWBEHSR"
+    "spotifyShowId": "2Hu77GgdpCXYC9NYWBEHSR",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "tanakakei-lifestyle-blueprint",
@@ -985,7 +1056,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1MeKuYmTQgWU02jsOv1NIU"
     },
-    "spotifyShowId": "1MeKuYmTQgWU02jsOv1NIU"
+    "spotifyShowId": "1MeKuYmTQgWU02jsOv1NIU",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "maruyama-genba-no-oto",
@@ -998,7 +1070,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/5WKjc92oHwwYyO5jAV31e5"
     },
-    "spotifyShowId": "5WKjc92oHwwYyO5jAV31e5"
+    "spotifyShowId": "5WKjc92oHwwYyO5jAV31e5",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "samuibo-radio",
@@ -1027,9 +1100,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/725rp00cSgXRpCfWKgMJMK",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%A4%A7%E7%AB%B9%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-%E5%A4%A7%E7%AB%B9%E3%81%BE%E3%81%93%E3%81%A8%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/id254179829",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A4%A7%E7%AB%B9%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-%E5%A4%A7%E7%AB%B9%E3%81%BE%E3%81%93%E3%81%A8%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/ae5275c0-f719-012e-e573-525400c11844"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A4%A7%E7%AB%B9%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5-%E5%A4%A7%E7%AB%B9%E3%81%BE%E3%81%93%E3%81%A8%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%A9%E3%82%B8%E3%82%AA/ae5275c0-f719-012e-e573-525400c11844",
+      "x": "https://x.com/1134golden"
     },
-    "spotifyShowId": "725rp00cSgXRpCfWKgMJMK"
+    "spotifyShowId": "725rp00cSgXRpCfWKgMJMK",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kamecchi-radio",
@@ -1060,7 +1135,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/tokyo-midtown-presents-the-lifestyle-museum/id278170377",
       "pocketCasts": "https://pocketcasts.com/podcast/tokyo-midtown-presents-the-lifestyle-museum/8f3a1130-a6aa-012e-56d0-00163e1b201c"
     },
-    "spotifyShowId": "3TSWky5TdieD5UCOSIphxi"
+    "spotifyShowId": "3TSWky5TdieD5UCOSIphxi",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "crosspod",
@@ -1076,7 +1152,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%A9%8B%E6%9C%AC%E7%9B%B4%E3%81%A8%E9%88%B4%E6%9C%A8%E7%9C%9F%E6%B5%B7%E5%AD%90%E3%81%AEcrosspod/id1654642334",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%A9%8B%E6%9C%AC%E7%9B%B4%E3%81%A8%E9%88%B4%E6%9C%A8%E7%9C%9F%E6%B5%B7%E5%AD%90%E3%81%AEcrosspod/8ceebed0-4ab2-013b-f19e-0acc26574db2"
     },
-    "spotifyShowId": "6teJie1V7WBui2T2PP2eT9"
+    "spotifyShowId": "6teJie1V7WBui2T2PP2eT9",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "chunichi-ashitanotane",
@@ -1089,9 +1166,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/2KH6BTR1dAzB3JmhrdOIAR",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%B8%AD%E6%97%A5%E6%96%B0%E8%81%9E-%E3%81%82%E3%81%97%E3%81%9F%E3%81%AE%E3%81%9F%E3%81%AD/id1654880851",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E4%B8%AD%E6%97%A5%E6%96%B0%E8%81%9E%E3%81%82%E3%81%97%E3%81%9F%E3%81%AE%E3%81%9F%E3%81%AD/bec53c30-4946-013b-f199-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E4%B8%AD%E6%97%A5%E6%96%B0%E8%81%9E%E3%81%82%E3%81%97%E3%81%9F%E3%81%AE%E3%81%9F%E3%81%AD/bec53c30-4946-013b-f199-0acc26574db2",
+      "x": "https://x.com/chupodcasts"
     },
-    "spotifyShowId": "2KH6BTR1dAzB3JmhrdOIAR"
+    "spotifyShowId": "2KH6BTR1dAzB3JmhrdOIAR",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "gay-140",
@@ -1104,9 +1183,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1s7KZUXPuv1kBlVjeWE0i5",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/140%E5%AD%97%E4%BB%A5%E4%B8%8A%E3%81%AE%E3%82%B2%E3%82%A4/id1548530312",
-      "pocketCasts": "https://pocketcasts.com/podcast/140%E5%AD%97%E4%BB%A5%E4%B8%8A%E3%81%AE%E3%82%B2%E3%82%A4/e058a030-371b-0139-3321-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/140%E5%AD%97%E4%BB%A5%E4%B8%8A%E3%81%AE%E3%82%B2%E3%82%A4/e058a030-371b-0139-3321-0acc26574db2",
+      "x": "https://x.com/140jigay"
     },
-    "spotifyShowId": "1s7KZUXPuv1kBlVjeWE0i5"
+    "spotifyShowId": "1s7KZUXPuv1kBlVjeWE0i5",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "michibata-dokoka",
@@ -1121,7 +1202,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%81%93%E7%AB%AF%E3%83%89%E3%82%B3%E3%82%AB%E3%81%AE%E8%BF%B7%E3%81%84%E9%81%93/id1671835219",
       "pocketCasts": "https://pocketcasts.com/podcast/%E9%81%93%E7%AB%AF%E3%83%89%E3%82%B3%E3%82%AB%E3%81%AE%E8%BF%B7%E3%81%84%E9%81%93/3833dd30-9e62-013b-f35f-0acc26574db2"
     },
-    "spotifyShowId": "2tRVVeES1jcFEJg3o1jJvb"
+    "spotifyShowId": "2tRVVeES1jcFEJg3o1jJvb",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "gay-shumatsu-uchu",
@@ -1134,9 +1216,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/3sGNZw2LtO1njPw0PfcFqX",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B2%E3%82%A4%E3%81%AE%E9%80%B1%E6%9C%AB%E3%81%AF%E4%B8%80%E6%97%A6%E3%81%8A%E5%AE%87%E5%AE%99%E3%81%B8%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%99/id1554477128",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B2%E3%82%A4%E3%81%AE%E9%80%B1%E6%9C%AB%E3%81%AF%E4%B8%80%E6%97%A6%E3%81%8A%E5%AE%87%E5%AE%99%E3%81%B8%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%99/701bfae0-54e8-0139-33b7-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B2%E3%82%A4%E3%81%AE%E9%80%B1%E6%9C%AB%E3%81%AF%E4%B8%80%E6%97%A6%E3%81%8A%E5%AE%87%E5%AE%99%E3%81%B8%E5%B8%B0%E3%82%8A%E3%81%BE%E3%81%99/701bfae0-54e8-0139-33b7-0acc26574db2",
+      "x": "https://x.com/gay_osora"
     },
-    "spotifyShowId": "3sGNZw2LtO1njPw0PfcFqX"
+    "spotifyShowId": "3sGNZw2LtO1njPw0PfcFqX",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "podcast-lab-fukuoka",
@@ -1151,7 +1235,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/podcast-lab-fukuoka/id1722041524",
       "pocketCasts": "https://pocketcasts.com/podcast/podcast-lab-fukuoka/49152320-81b8-013c-9fb9-0acc26574db2"
     },
-    "spotifyShowId": "4NHxMCrCHykb1dRKeipbaY"
+    "spotifyShowId": "4NHxMCrCHykb1dRKeipbaY",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "totobanashi",
@@ -1166,7 +1251,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%BB%94%E3%80%85%E5%92%84-%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86%E3%81%B0%E3%81%AA%E3%81%97/id1756450242",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%BB%94%E3%80%85%E5%92%84%E3%81%A8%E3%81%86%E3%81%A8%E3%81%86%E3%81%B0%E3%81%AA%E3%81%97/8f76d270-335f-013d-0d28-0243b8a24f53"
     },
-    "spotifyShowId": "2mY484YOcciXCyvSEP8D8k"
+    "spotifyShowId": "2mY484YOcciXCyvSEP8D8k",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kekkon-radio",
@@ -1181,7 +1267,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%B5%90%E5%A9%9A%E3%83%A9%E3%82%B8%E3%82%AA/id1896672084",
       "pocketCasts": "https://pocketcasts.com/podcast/%E7%B5%90%E5%A9%9A%E3%83%A9%E3%82%B8%E3%82%AA/d1a23df0-3ca0-013f-9959-0afff26cbb09"
     },
-    "spotifyShowId": "033fPbdBTZyRY6KeB86ppF"
+    "spotifyShowId": "033fPbdBTZyRY6KeB86ppF",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "oishii-soshiki",
@@ -1196,7 +1283,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B5%84%E7%B9%94-%E3%81%84%E3%81%BE%E7%B5%8C%E5%96%B6%E8%80%85%E3%81%AB%E3%81%8D%E3%81%84%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E4%BA%BA%E4%BA%8B%E3%81%A8%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A9%B1/id1812931317",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E7%B5%84%E7%B9%94-%E3%81%84%E3%81%BE%E7%B5%8C%E5%96%B6%E8%80%85%E3%81%AB%E3%81%8D%E3%81%84%E3%81%A6%E3%81%BB%E3%81%97%E3%81%84%E4%BA%BA%E4%BA%8B%E3%81%A8%E4%BA%8B%E6%A5%AD%E3%81%AE%E8%A9%B1/07b3af70-1127-013e-0d68-0269e71698d3"
     },
-    "spotifyShowId": "2ZGV7xMXtw4uqts7DcZTIY"
+    "spotifyShowId": "2ZGV7xMXtw4uqts7DcZTIY",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kiku-cinra",
@@ -1211,7 +1299,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%81%9E%E3%81%8Fcinra/id1668276164",
       "pocketCasts": "https://pocketcasts.com/podcast/%E8%81%9E%E3%81%8Fcinra/1d95ba90-848b-013b-f2d4-0acc26574db2"
     },
-    "spotifyShowId": "0BsNwL6TBH4mIsZjnE3Uxq"
+    "spotifyShowId": "0BsNwL6TBH4mIsZjnE3Uxq",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "gekkan-tabishiro",
@@ -1227,7 +1316,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%9C%88%E5%88%8A-tabi-shiro-%E3%82%BF%E3%83%93%E3%82%B7%E3%83%AD/id1739261331",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%9C%88%E5%88%8A-tabi-shiro%E3%82%BF%E3%83%93%E3%82%B7%E3%83%AD/03c3a830-d7a6-013c-6b69-0affe390dc13"
     },
-    "spotifyShowId": "4zvtCZekc4TAGJlewxRkkC"
+    "spotifyShowId": "4zvtCZekc4TAGJlewxRkkC",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "ogiue-chiki-session",
@@ -1240,9 +1330,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/61b8LsCBXFXzLjjWjIquUe",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%8D%BB%E4%B8%8A%E3%83%81%E3%82%AD-session-%E7%99%BA%E4%BF%A1%E5%9E%8B%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9-%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/id1532201544",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E8%8D%BB%E4%B8%8A%E3%83%81%E3%82%ADsession%E7%99%BA%E4%BF%A1%E5%9E%8B%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/15cb7f50-dc25-0138-e7a1-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E8%8D%BB%E4%B8%8A%E3%83%81%E3%82%ADsession%E7%99%BA%E4%BF%A1%E5%9E%8B%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/15cb7f50-dc25-0138-e7a1-0acc26574db2",
+      "x": "https://x.com/Session_1530"
     },
-    "spotifyShowId": "61b8LsCBXFXzLjjWjIquUe"
+    "spotifyShowId": "61b8LsCBXFXzLjjWjIquUe",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "unplugged-podcast",
@@ -1257,7 +1349,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/unplugged-podcast/id1831964771",
       "pocketCasts": "https://pocketcasts.com/podcast/unplugged-podcast/e5cfa240-de05-013e-92af-02e6863e06c5"
     },
-    "spotifyShowId": "0dYobMEIuT3jGi1nEiR6eY"
+    "spotifyShowId": "0dYobMEIuT3jGi1nEiR6eY",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "hon-no-wakusei",
@@ -1272,7 +1365,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%9C%AC%E3%81%AE%E6%83%91%E6%98%9F/id1792099907",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%9C%AC%E3%81%AE%E6%83%91%E6%98%9F/7e3fcda0-bf92-013d-61af-029188530f91"
     },
-    "spotifyShowId": "00XXm8WcgsOUW5TvYFiKEw"
+    "spotifyShowId": "00XXm8WcgsOUW5TvYFiKEw",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "reiwa-seikosha",
@@ -1287,7 +1381,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BB%A4%E5%92%8C%E3%81%AE%E6%88%90%E5%8A%9F%E8%80%85%E5%9B%B3%E9%91%91-by-%E3%81%A9%E7%B4%A0%E4%BA%BA%E3%83%9B%E3%83%86%E3%83%AB%E5%86%8D%E5%BB%BA%E8%A8%88%E7%94%BB/id1885150473",
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BB%A4%E5%92%8C%E3%81%AE%E6%88%90%E5%8A%9F%E8%80%85%E5%9B%B3%E9%91%91-by-%E3%81%A9%E7%B4%A0%E4%BA%BA%E3%83%9B%E3%83%86%E3%83%AB%E5%86%8D%E5%BB%BA%E8%A8%88%E7%94%BB/4f3efd00-0d54-013f-2b05-0e956d54cc61"
     },
-    "spotifyShowId": "6M7uQVdu51iJLsWaIE2NLv"
+    "spotifyShowId": "6M7uQVdu51iJLsWaIE2NLv",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "sakura-inoue-cabbage",
@@ -1302,7 +1397,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BA%95%E4%B8%8A%E5%92%B2%E6%A5%BD%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AF%E8%B8%8A%E3%81%A3%E3%81%9F/id1820957088",
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BA%95%E4%B8%8A%E5%92%B2%E6%A5%BD%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%99%E3%83%84%E3%81%AF%E8%B8%8A%E3%81%A3%E3%81%9F/6d052a60-3141-013e-108b-02f42a2a5c5f"
     },
-    "spotifyShowId": "0LyubXELcbZN1F79hPJu0i"
+    "spotifyShowId": "0LyubXELcbZN1F79hPJu0i",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "running-aloha",
@@ -1318,7 +1414,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/running-aloha/id1860257402",
       "pocketCasts": "https://pocketcasts.com/podcast/running-aloha/e6b957d0-de3a-013e-f843-022038d1b2e1"
     },
-    "spotifyShowId": "5tnv4ZgzdmEVn0XcWGIhEh"
+    "spotifyShowId": "5tnv4ZgzdmEVn0XcWGIhEh",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "hana-taicho-radio",
@@ -1334,7 +1431,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%81%9E%E3%81%8F%E5%81%A5%E5%BA%B7%E7%BF%92%E6%85%A3-hana%E5%8D%9A%E5%A3%AB%E3%81%AE%E4%BD%93%E8%AA%BF%E6%9C%80%E9%AB%98%E3%83%A9%E3%82%B8%E3%82%AA/id1822776290",
       "pocketCasts": "https://pocketcasts.com/podcast/hana/a841b1f0-34a1-013e-1090-02f42a2a5c5f"
     },
-    "spotifyShowId": "3DoZvWd9nPLz4JpkTHTweF"
+    "spotifyShowId": "3DoZvWd9nPLz4JpkTHTweF",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "before-dawn",
@@ -1347,9 +1445,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0ZU5oSJjpjSrAHkaXYfGfE",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/before-dawn/id1806559864",
-      "pocketCasts": "https://pocketcasts.com/podcast/before-dawn/c05d0a80-f49e-013d-c749-0e123f0f7615"
+      "pocketCasts": "https://pocketcasts.com/podcast/before-dawn/c05d0a80-f49e-013d-c749-0e123f0f7615",
+      "x": "https://x.com/BEFOREDAWN813"
     },
-    "spotifyShowId": "0ZU5oSJjpjSrAHkaXYfGfE"
+    "spotifyShowId": "0ZU5oSJjpjSrAHkaXYfGfE",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "investors-sunday",
@@ -1364,7 +1464,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/investors-sunday/id1706243261",
       "pocketCasts": "https://pocketcasts.com/podcast/investors-sunday/76efe480-e786-013c-3063-0affccc8fded"
     },
-    "spotifyShowId": "4N4pLLoSIilvxz9mvXc9eL"
+    "spotifyShowId": "4N4pLLoSIilvxz9mvXc9eL",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "yuru-minzokugaku",
@@ -1378,9 +1479,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/2OPaWdgRVuUv5jLeFBViDU",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E6%B0%91%E4%BF%97%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1669005447",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E6%B0%91%E4%BF%97%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/02e63590-a847-013b-f38f-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E6%B0%91%E4%BF%97%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/02e63590-a847-013b-f38f-0acc26574db2",
+      "x": "https://x.com/yuruminzoku"
     },
-    "spotifyShowId": "2OPaWdgRVuUv5jLeFBViDU"
+    "spotifyShowId": "2OPaWdgRVuUv5jLeFBViDU",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "hechamocha-radio",
@@ -1393,7 +1496,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/28V4NshZY8OzidnhSVWSyK",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%B8%E3%81%A1%E3%82%83%E3%82%82%E3%81%A1%E3%82%83radio-%E7%B5%8C%E5%96%B6%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E6%9C%AC%E6%A3%9A/id1711492380",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%B8%E3%81%A1%E3%82%83%E3%82%82%E3%81%A1%E3%82%83radio-%E7%B5%8C%E5%96%B6%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E6%9C%AC%E6%A3%9A/57ae8120-8c37-013c-957a-0e76ec147af9"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%B8%E3%81%A1%E3%82%83%E3%82%82%E3%81%A1%E3%82%83radio-%E7%B5%8C%E5%96%B6%E3%82%B3%E3%83%B3%E3%82%B5%E3%83%AB%E3%82%BF%E3%83%B3%E3%83%88%E3%81%AE%E6%9C%AC%E6%A3%9A/57ae8120-8c37-013c-957a-0e76ec147af9",
+      "x": "https://x.com/cdi_pr"
     },
     "spotifyShowId": "28V4NshZY8OzidnhSVWSyK",
     "lastCrawledAt": "2026-11-16"
@@ -1412,7 +1516,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B3%E3%82%A8%E3%83%86%E3%82%A4%E3%82%AF-koetake/id1847355496",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B3%E3%82%A8%E3%83%86%E3%82%A4%E3%82%AF-koetake/b4eae760-c124-013e-2a9f-0affd60165f9"
     },
-    "spotifyShowId": "61m7tqIjbpGh1U3DlOKEoh"
+    "spotifyShowId": "61m7tqIjbpGh1U3DlOKEoh",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "local-night-nippon",
@@ -1425,7 +1530,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/7nROQSuectsjVBL7ION8aa",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3-%E7%A7%BB%E4%BD%8F%E3%81%A8%E9%96%A2%E4%BF%82%E4%BA%BA%E5%8F%A3%E3%82%92%E6%A5%BD%E3%81%97%E3%81%8F%E8%A9%B1%E3%81%99/id1715309728",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3-%E7%A7%BB%E4%BD%8F%E3%81%A8%E9%96%A2%E4%BF%82%E4%BA%BA%E5%8F%A3%E3%82%92%E6%A5%BD%E3%81%97%E3%81%8F%E8%A9%B1%E3%81%99/3f2f3b50-18b2-013d-622a-0e67d9781183"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%83%8B%E3%83%83%E3%83%9D%E3%83%B3-%E7%A7%BB%E4%BD%8F%E3%81%A8%E9%96%A2%E4%BF%82%E4%BA%BA%E5%8F%A3%E3%82%92%E6%A5%BD%E3%81%97%E3%81%8F%E8%A9%B1%E3%81%99/3f2f3b50-18b2-013d-622a-0e67d9781183",
+      "x": "https://x.com/lnnradio"
     },
     "spotifyShowId": "7nROQSuectsjVBL7ION8aa",
     "lastCrawledAt": "2026-11-16"
@@ -1443,7 +1549,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/cijas-table-talk-%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%BC%E3%82%AF/id1692058175",
       "pocketCasts": "https://pocketcasts.com/podcast/cijas-table-talk--%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%E3%81%AE%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%83%88%E3%83%BC%E3%82%AF/de3737c0-1a84-0139-328e-0acc26574db2"
     },
-    "spotifyShowId": "5ITZ59xbJTOORsTsQx1ACK"
+    "spotifyShowId": "5ITZ59xbJTOORsTsQx1ACK",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kanzen-ningen-meyasubako",
@@ -1456,7 +1563,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1jYY7gcqBvqzV46WaWuKVB",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%AE%8C%E5%85%A8%E4%BA%BA%E9%96%93%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AE%E7%9B%AE%E5%AE%89%E7%AE%B1/id1627451363",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E5%AE%8C%E5%85%A8%E4%BA%BA%E9%96%93%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AE%E7%9B%AE%E5%AE%89%E7%AE%B1/9d7eeba0-b697-013a-d8f9-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E5%AE%8C%E5%85%A8%E4%BA%BA%E9%96%93%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AE%E7%9B%AE%E5%AE%89%E7%AE%B1/9d7eeba0-b697-013a-d8f9-0acc26574db2",
+      "x": "https://x.com/meyasubako2222"
     },
     "spotifyShowId": "1jYY7gcqBvqzV46WaWuKVB",
     "lastCrawledAt": "2026-11-16"
@@ -1474,7 +1582,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/inter-view-%E9%9B%91%E8%AB%87%E7%B3%BB/id1526474059",
       "pocketCasts": "https://pocketcasts.com/podcast/inter-view-%E9%9B%91%E8%AB%87%E7%B3%BB/40544610-ba2e-0138-e6e8-0acc26574db2"
     },
-    "spotifyShowId": "7MOnToqf9TS39qzpMaSXZ5"
+    "spotifyShowId": "7MOnToqf9TS39qzpMaSXZ5",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kanaderu-saibou",
@@ -1490,7 +1599,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%A5%8F%E3%81%A7%E3%82%8B%E7%B4%B0%E8%83%9E-music-science-podcast/id1631540408",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%8F%E3%81%A7%E3%82%8B%E7%B4%B0%E8%83%9Emusic-science-podcast/a6fa8760-98fb-013b-f344-0acc26574db2"
     },
-    "spotifyShowId": "0xUhOqvpo69YiT7pmYdech"
+    "spotifyShowId": "0xUhOqvpo69YiT7pmYdech",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "atekushi-shikabane",
@@ -1505,7 +1615,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%A2%E3%83%86%E3%82%AF%E3%82%B7%E3%81%AE%E5%B1%8D%E3%82%92%E8%B6%8A%E3%81%88%E3%81%A6%E3%81%A3%E3%81%A6/id1749277250",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%86%E3%82%AF%E3%82%B7%E3%81%AE%E5%B1%8D%E3%82%92%E8%B6%8A%E3%81%88%E3%81%A6%E3%81%A3%E3%81%A6/9df1fca0-05fc-013d-e813-02cacb2c6223"
     },
-    "spotifyShowId": "5rhdqKYQFPqAj6NszKc4De"
+    "spotifyShowId": "5rhdqKYQFPqAj6NszKc4De",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "oshaberi-na-rika",
@@ -1552,7 +1663,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%AA%E3%83%88%E3%83%8A%E3%83%AB%E5%8E%9F%E5%8F%A3%E5%A4%A7%E8%BC%9D%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/id1766215380",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%AA%E3%83%88%E3%83%8A%E3%83%AB%E5%8E%9F%E5%8F%A3%E5%A4%A7%E8%BC%9D%E3%81%AE%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%8B%E3%83%BC/ec166310-56a3-013d-e880-02cacb2c6223"
     },
-    "spotifyShowId": "5GkHKtz59CNVCCw4iyJbE4"
+    "spotifyShowId": "5GkHKtz59CNVCCw4iyJbE4",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "wine-no-wa",
@@ -1601,7 +1713,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%B7%A5%E6%A5%AD%E9%AB%98%E6%A0%A1%E8%BE%B2%E6%A5%AD%E9%83%A8/id1687803681",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%B7%A5%E6%A5%AD%E9%AB%98%E6%A0%A1%E8%BE%B2%E6%A5%AD%E9%83%A8/3481f060-e004-013c-5d14-0acc26574db2"
     },
-    "spotifyShowId": "1MhF3CYuGK9zAWUOC8e2CM"
+    "spotifyShowId": "1MhF3CYuGK9zAWUOC8e2CM",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kiku-atarashii-rika",
@@ -1630,7 +1743,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1UXmBg838OexWK9ZOmzjYL",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%8E%A8%E3%81%97%E6%B4%BB2%E6%AC%A1%E5%85%83life%E3%83%A9%E3%82%B8%E3%82%AA-%E3%81%8A%E3%81%97%E3%81%AB%E3%81%98/id1770280379",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E6%8E%A8%E3%81%97%E6%B4%BB2%E6%AC%A1%E5%85%83life%E3%83%A9%E3%82%B8%E3%82%AA-%E3%81%8A%E3%81%97%E3%81%AB%E3%81%98/0fa3adb0-00b2-013e-e072-0e1ab590d6db"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%8E%A8%E3%81%97%E6%B4%BB2%E6%AC%A1%E5%85%83life%E3%83%A9%E3%82%B8%E3%82%AA-%E3%81%8A%E3%81%97%E3%81%AB%E3%81%98/0fa3adb0-00b2-013e-e072-0e1ab590d6db",
+      "x": "https://x.com/oshi2radio"
     },
     "spotifyShowId": "1UXmBg838OexWK9ZOmzjYL",
     "lastCrawledAt": "2026-11-16"
@@ -1662,7 +1776,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1Orm0xIOhP8qoDRyZcL6Tt",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B9%E3%83%97%E3%82%BF%E3%83%B3%E7%94%B7%E3%81%AE%E3%81%BF%E3%82%93%E3%81%AA%E9%81%95%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%93%E3%81%AA%E8%89%AF%E3%81%84/id1738895663",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B9%E3%83%97%E3%82%BF%E3%83%B3%E7%94%B7%E3%81%AE%E3%81%BF%E3%82%93%E3%81%AA%E9%81%95%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%93%E3%81%AA%E8%89%AF%E3%81%84/f1b4bce0-607b-013d-0d31-0243b8a24f53"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B9%E3%83%97%E3%82%BF%E3%83%B3%E7%94%B7%E3%81%AE%E3%81%BF%E3%82%93%E3%81%AA%E9%81%95%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%93%E3%81%AA%E8%89%AF%E3%81%84/f1b4bce0-607b-013d-0d31-0243b8a24f53",
+      "x": "https://x.com/minchigaTsuN"
     },
     "spotifyShowId": "1Orm0xIOhP8qoDRyZcL6Tt",
     "lastCrawledAt": "2026-11-16"
@@ -1681,7 +1796,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1604353315",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E7%A7%91%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/0c7a8400-56ad-013a-d6f8-0acc26574db2"
     },
-    "spotifyShowId": "32qgIhAHYnseWxiGyrFzSt"
+    "spotifyShowId": "32qgIhAHYnseWxiGyrFzSt",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "yuru-ongaku",
@@ -1695,9 +1811,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/7Ba89bnuEW0pyMeUbGR3oT",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E9%9F%B3%E6%A5%BD%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1669006036",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E9%9F%B3%E6%A5%BD%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/f2a7b760-9941-013b-f344-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E9%9F%B3%E6%A5%BD%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/f2a7b760-9941-013b-f344-0acc26574db2",
+      "x": "https://x.com/yuru_ongaku"
     },
-    "spotifyShowId": "7Ba89bnuEW0pyMeUbGR3oT"
+    "spotifyShowId": "7Ba89bnuEW0pyMeUbGR3oT",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "yuru-tenmon",
@@ -1730,7 +1848,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E7%94%9F%E6%85%8B%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1669005654",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E7%94%9F%E6%85%8B%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/48bdee70-a847-013b-f38d-0acc26574db2"
     },
-    "spotifyShowId": "7tTeHy7MjTGmrFrPGmjwMz"
+    "spotifyShowId": "7tTeHy7MjTGmrFrPGmjwMz",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "yuru-tetsugaku",
@@ -1746,9 +1865,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/7t8NNVqRiisEHL4HG9tArT",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%86%E3%82%8B%E5%93%B2%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1697687442",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E5%93%B2%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/aa83e1a0-12fc-013c-f5e3-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%86%E3%82%8B%E5%93%B2%E5%AD%A6%E3%83%A9%E3%82%B8%E3%82%AA/aa83e1a0-12fc-013c-f5e3-0acc26574db2",
+      "x": "https://x.com/yuru_philosophy"
     },
-    "spotifyShowId": "7t8NNVqRiisEHL4HG9tArT"
+    "spotifyShowId": "7t8NNVqRiisEHL4HG9tArT",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "jinsei-lost-time",
@@ -1764,7 +1885,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BA%BA%E7%94%9F%E3%81%AE%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%B8%E3%82%AA-%E4%B8%AD%E5%B9%B4%E3%82%AA%E3%83%A4%E3%82%B8%E3%81%8C%E6%8D%A7%E3%81%92%E3%82%8B%E4%BA%BA%E7%94%9F%E3%81%AE%E3%83%88%E3%83%AA%E3%82%BB%E3%83%84/id1572478483",
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BA%BA%E7%94%9F%E3%81%AE%E3%83%AD%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%A9%E3%82%B8%E3%82%AA%E4%B8%AD%E5%B9%B4%E3%82%AA%E3%83%A4%E3%82%B8%E3%81%8C%E6%8D%A7%E3%81%92%E3%82%8B%E4%BA%BA%E7%94%9F%E3%81%AE%E3%83%88%E3%83%AA%E3%82%BB%E3%83%84/239b9050-b018-0139-c1a7-0acc26574db2"
     },
-    "spotifyShowId": "2JpatWSBOTUdcG8wbSeOET"
+    "spotifyShowId": "2JpatWSBOTUdcG8wbSeOET",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "science-lover",
@@ -1777,7 +1899,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/05G971XpSQXNUJ18I07UtF",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%A7%91%E5%AD%A6%E3%81%AE%E8%A6%96%E7%82%B9%E3%82%92%E6%98%8E%E6%97%A5%E3%81%AE%E3%83%92%E3%83%B3%E3%83%88%E3%81%AB-%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%90%E3%83%BC/id1631490506",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E7%A7%91%E5%AD%A6%E3%81%AE%E8%A6%96%E7%82%B9%E3%82%92%E6%98%8E%E6%97%A5%E3%81%AE%E3%83%92%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%90%E3%83%BC/f1952e80-e34b-013a-d9f6-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E7%A7%91%E5%AD%A6%E3%81%AE%E8%A6%96%E7%82%B9%E3%82%92%E6%98%8E%E6%97%A5%E3%81%AE%E3%83%92%E3%83%B3%E3%83%88%E3%81%AB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9%E3%83%A9%E3%83%90%E3%83%BC/f1952e80-e34b-013a-d9f6-0acc26574db2",
+      "x": "https://x.com/scilover_radio"
     },
     "spotifyShowId": "05G971XpSQXNUJ18I07UtF",
     "lastCrawledAt": "2026-11-16"
@@ -1795,7 +1918,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%95%99%E3%81%88%E3%82%8B%E3%82%92%E5%AD%A6%E3%81%B6%E3%83%A9%E3%82%B8%E3%82%AA/id1737344445",
       "pocketCasts": "https://pocketcasts.com/podcast/%E6%95%99%E3%81%88%E3%82%8B%E3%82%92%E5%AD%A6%E3%81%B6%E3%83%A9%E3%82%B8%E3%82%AA/825611e0-72c6-013d-aba9-0affd8d03709"
     },
-    "spotifyShowId": "3JwZQtE5rkiwKTpXuJi9HN"
+    "spotifyShowId": "3JwZQtE5rkiwKTpXuJi9HN",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "toran-podcast",
@@ -1808,7 +1932,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1qK72tNHjU98FgRgGtjBAo",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%A8%E3%82%89%E3%82%93podcast-%E3%81%A8%E3%82%89%E3%82%93%E3%83%9D/id1677266956",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%A8%E3%82%89%E3%82%93podcast-%E3%81%A8%E3%82%89%E3%82%93%E3%83%9D/8917c320-2522-013c-f63f-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%A8%E3%82%89%E3%82%93podcast-%E3%81%A8%E3%82%89%E3%82%93%E3%83%9D/8917c320-2522-013c-f63f-0acc26574db2",
+      "x": "https://x.com/tolaerointhesky"
     },
     "spotifyShowId": "1qK72tNHjU98FgRgGtjBAo",
     "lastCrawledAt": "2026-11-16"
@@ -1825,7 +1950,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0Ht0bP00VuW8ew9GdkoTat",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BB%8A%E6%9D%91%E7%BF%94%E5%90%BE-%E5%B1%B1%E5%B4%8E%E6%80%9C%E5%A5%88%E3%81%AE%E8%A8%80%E3%81%A3%E3%81%A6%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6/id1750228865",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E4%BB%8A%E6%9D%91%E7%BF%94%E5%90%BE%E5%B1%B1%E5%B4%8E%E6%80%9C%E5%A5%88%E3%81%AE%E8%A8%80%E3%81%A3%E3%81%A6%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6/55f7a7f0-4bd7-013b-f1a5-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E4%BB%8A%E6%9D%91%E7%BF%94%E5%90%BE%E5%B1%B1%E5%B4%8E%E6%80%9C%E5%A5%88%E3%81%AE%E8%A8%80%E3%81%A3%E3%81%A6%E8%81%9E%E3%81%8B%E3%81%9B%E3%81%A6/55f7a7f0-4bd7-013b-f1a5-0acc26574db2",
+      "x": "https://x.com/ittekikaseteABC"
     },
     "spotifyShowId": "0Ht0bP00VuW8ew9GdkoTat",
     "lastCrawledAt": "2026-11-16"
@@ -1843,7 +1969,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/listen-news/id1684187908",
       "pocketCasts": "https://pocketcasts.com/podcast/listen-news/92380070-c382-013b-f419-0acc26574db2"
     },
-    "spotifyShowId": "4cEcRkdVe0BvkxscNjWKhD"
+    "spotifyShowId": "4cEcRkdVe0BvkxscNjWKhD",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kikikaikai",
@@ -1857,7 +1984,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0DEV2gUjx4tgwBLpJFlX7j",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA/id1512077804",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA/b9aa8c80-723f-0138-edca-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%87%E5%A5%87%E6%80%AA%E6%80%AA/b9aa8c80-723f-0138-edca-0acc26574db2",
+      "x": "https://x.com/kikikaikai_noto"
     },
     "spotifyShowId": "0DEV2gUjx4tgwBLpJFlX7j",
     "lastCrawledAt": "2026-11-16"
@@ -1875,7 +2003,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/side-quest/id6796589319",
       "pocketCasts": "https://pocketcasts.com/podcast/side-quest/f0767d60-72f6-013f-aec8-0affe66a1943"
     },
-    "spotifyShowId": "033YQkxfvXFRRbPiBWOWmc"
+    "spotifyShowId": "033YQkxfvXFRRbPiBWOWmc",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "seikatsu-wa-odoru-2022",
@@ -1904,7 +2033,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1RqZ3T4so5JGRTGURCzBiJ",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-%E3%81%97%E3%81%B6%E3%81%95%E3%82%8F%E3%81%8F%E3%82%93fm/id1707959916",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-%E3%81%97%E3%81%B6%E3%81%95%E3%82%8F%E3%81%8F%E3%82%93fm/d356fae0-b61c-013c-dfe8-0e1ab590d6db"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88-%E3%81%97%E3%81%B6%E3%81%95%E3%82%8F%E3%81%8F%E3%82%93fm/d356fae0-b61c-013c-dfe8-0e1ab590d6db",
+      "x": "https://x.com/shibusawakunfm"
     },
     "spotifyShowId": "1RqZ3T4so5JGRTGURCzBiJ",
     "lastCrawledAt": "2026-11-16"
@@ -1920,9 +2050,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/1VjVCCBfIhPbKK1RWIgKjO",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%97%A5%E6%9C%AC%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E5%8D%94%E4%BC%9A-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AC%E3%82%BF%E3%83%BC/id1553680711",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E6%97%A5%E6%9C%AC%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E5%8D%94%E4%BC%9A-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AC%E3%82%BF%E3%83%BC/1fc3ed90-523a-0139-33a4-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%97%A5%E6%9C%AC%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E5%8D%94%E4%BC%9A-%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%83%AC%E3%82%BF%E3%83%BC/1fc3ed90-523a-0139-33a4-0acc26574db2",
+      "x": "https://x.com/podcasting_jp"
     },
-    "spotifyShowId": "1VjVCCBfIhPbKK1RWIgKjO"
+    "spotifyShowId": "1VjVCCBfIhPbKK1RWIgKjO",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "monozukuri-no-radio",
@@ -1937,7 +2069,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%82%E3%81%AE%E3%81%A5%E3%81%8F%E3%82%8Ano%E3%83%A9%E3%82%B8%E3%82%AA-%E3%81%97%E3%81%B6%E3%81%A1%E3%82%87%E3%83%BC%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80/id1646913578",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%82%E3%81%AE%E3%81%A5%E3%81%8F%E3%82%8Ano%E3%83%A9%E3%82%B8%E3%82%AA-%E3%81%97%E3%81%B6%E3%81%A1%E3%82%87%E3%83%BC%E6%8A%80%E8%A1%93%E7%A0%94%E7%A9%B6%E6%89%80/18f14db0-f30e-013b-f51f-0acc26574db2"
     },
-    "spotifyShowId": "2mSgpHJqUKZzS27eJBVfCA"
+    "spotifyShowId": "2mSgpHJqUKZzS27eJBVfCA",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kiku-gyoza",
@@ -1999,7 +2132,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4EhlxWK1qVs1SsWFjO05JE",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%A5%BD%E3%81%8D%E8%B6%A3%E5%91%B3%E7%99%BA%E8%A6%8B-%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%83%A9%E3%82%B8%E3%82%AA/id1798020567",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%BD%E3%81%8D%E8%B6%A3%E5%91%B3%E7%99%BA%E8%A6%8B%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%83%A9%E3%82%B8%E3%82%AA/bcd94b70-a7d0-013e-bb78-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E5%A5%BD%E3%81%8D%E8%B6%A3%E5%91%B3%E7%99%BA%E8%A6%8B%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%83%A9%E3%82%B8%E3%82%AA/bcd94b70-a7d0-013e-bb78-0acc26574db2",
+      "x": "https://x.com/mani2radio"
     },
     "spotifyShowId": "4EhlxWK1qVs1SsWFjO05JE",
     "lastCrawledAt": "2026-11-16"
@@ -2013,8 +2147,10 @@
       "daisuke-kanda"
     ],
     "links": {
-      "spotify": "https://open.spotify.com/playlist/2H3SMQ51i2FG9ZX86R5VH8"
-    }
+      "spotify": "https://open.spotify.com/playlist/2H3SMQ51i2FG9ZX86R5VH8",
+      "x": "https://x.com/AsahiPodcast"
+    },
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "koizumi-shinjiro-podcast",
@@ -2030,7 +2166,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%B0%8F%E6%B3%89%E9%80%B2%E6%AC%A1%E9%83%8E%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id1813805872",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%B0%8F%E6%B3%89%E9%80%B2%E6%AC%A1%E9%83%8E%E3%81%AE%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/2b88ff90-138b-013e-1b93-0acc26574db2"
     },
-    "spotifyShowId": "0qcdTxc1YzNdPpwP0PA0q9"
+    "spotifyShowId": "0qcdTxc1YzNdPpwP0PA0q9",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "hyper-kigyo-radio",
@@ -2046,7 +2183,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E8%B5%B7%E6%A5%AD%E3%83%A9%E3%82%B8%E3%82%AA/id1716743074",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E8%B5%B7%E6%A5%AD%E3%83%A9%E3%82%B8%E3%82%AA/6f0f1ed0-6b01-013c-9f51-0acc26574db2"
     },
-    "spotifyShowId": "1jqqag2PGUtWIHgQ2AU9zg"
+    "spotifyShowId": "1jqqag2PGUtWIHgQ2AU9zg",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "studio-smokey",
@@ -2078,7 +2216,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%AE%95%E8%BC%AA-%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%81%AE%E3%81%94%E7%A5%9E%E8%A8%97%E3%83%A9%E3%82%B8%E3%82%AA/id1799977292",
       "pocketCasts": "https://pocketcasts.com/podcast/%E7%AE%95%E8%BC%AA%E3%81%91%E3%82%93%E3%81%99%E3%81%86%E3%81%AE%E3%81%94%E7%A5%9E%E8%A8%97%E3%83%A9%E3%82%B8%E3%82%AA/790c5340-051e-013e-3179-0affd846786d"
     },
-    "spotifyShowId": "2thIuyUXldHzxGY6NZE4AH"
+    "spotifyShowId": "2thIuyUXldHzxGY6NZE4AH",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "bokurano-small-business",
@@ -2092,7 +2231,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/5gWnZO9obpsTI9mWfDr6o9",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9/id1621624946",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9/542829e0-d44a-013a-d99d-0acc26574db2"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%BC%E3%81%8F%E3%82%89%E3%81%AE%E3%82%B9%E3%83%A2%E3%83%BC%E3%83%AB%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9/542829e0-d44a-013a-d99d-0acc26574db2",
+      "x": "https://x.com/oursmallbiz"
     },
     "spotifyShowId": "5gWnZO9obpsTI9mWfDr6o9",
     "lastCrawledAt": "2026-11-16"
@@ -2126,7 +2266,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%8C%E5%87%BA%E6%9D%A5%E3%82%8B%E3%81%BE%E3%81%A7-%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3%EF%BC%92/id1665847883",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%81%8C%E5%87%BA%E6%9D%A5%E3%82%8B%E3%81%BE%E3%81%A7-%E3%82%B7%E3%83%BC%E3%82%BA%E3%83%B3/1a08fef0-7b3f-013b-f29c-0acc26574db2"
     },
-    "spotifyShowId": "0swiwciYIlSxr0SoVlB9BE"
+    "spotifyShowId": "0swiwciYIlSxr0SoVlB9BE",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "seiji-douraku",
@@ -2178,7 +2319,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%B7%9D%E9%82%8A%E3%81%AE%E4%BC%9A%E9%A3%9F-%E4%BA%BA%E7%94%9F%E6%9C%80%E9%AB%98%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC/id1780453983",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%B7%9D%E9%82%8A%E3%81%AE%E4%BC%9A%E9%A3%9F%E4%BA%BA%E7%94%9F%E6%9C%80%E9%AB%98%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC/47192950-9b04-013d-1a38-0acc26574db2"
     },
-    "spotifyShowId": "6h0rcXpsJiw6C3xWJIheFT"
+    "spotifyShowId": "6h0rcXpsJiw6C3xWJIheFT",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "kinoshita-zubari",
@@ -2212,7 +2354,8 @@
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E5%8E%9A%E5%88%A9%E5%B0%91%E5%A3%B2%E3%83%A9%E3%82%B8%E3%82%AA/id1766667429",
       "pocketCasts": "https://pocketcasts.com/podcast/%E5%8E%9A%E5%88%A9%E5%B0%91%E5%A3%B2%E3%83%A9%E3%82%B8%E3%82%AA/60d06f50-616e-013d-1284-0e3599e31a25"
     },
-    "spotifyShowId": "2wLsug60xjyDNUKr0WI9Mg"
+    "spotifyShowId": "2wLsug60xjyDNUKr0WI9Mg",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "ito-awa-oteage",
@@ -2278,7 +2421,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/0lS3hXH9FzxGSPe5wneuzg",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%9D%E3%82%93%E3%81%AA%E3%81%84%E7%90%86%E7%A7%91%E3%81%AE%E6%99%82%E9%96%93/id493897999",
-      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%9D%E3%82%93%E3%81%AA%E3%81%84%E7%90%86%E7%A7%91%E3%81%AE%E6%99%82%E9%96%93/b0780340-3155-012f-fefd-525400c11844"
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%9D%E3%82%93%E3%81%AA%E3%81%84%E7%90%86%E7%A7%91%E3%81%AE%E6%99%82%E9%96%93/b0780340-3155-012f-fefd-525400c11844",
+      "x": "https://x.com/sonnaip"
     },
     "spotifyShowId": "0lS3hXH9FzxGSPe5wneuzg",
     "lastCrawledAt": "2026-11-16"
@@ -2294,9 +2438,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4hxv8gX5lgmBpMkp2jasGK",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%A8%E3%81%AA%E3%82%8A%E3%81%AE%E9%9B%91%E8%AB%87/de565e20-8817-013b-f2e6-0acc26574db2",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%A8%E3%81%AA%E3%82%8A%E3%81%AE%E9%9B%91%E8%AB%87/id1669681273"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%A8%E3%81%AA%E3%82%8A%E3%81%AE%E9%9B%91%E8%AB%87/id1669681273",
+      "x": "https://x.com/zatsudan954"
     },
-    "spotifyShowId": "4hxv8gX5lgmBpMkp2jasGK"
+    "spotifyShowId": "4hxv8gX5lgmBpMkp2jasGK",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "watashiyori-sakini",
@@ -2308,9 +2454,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/3sPGEXpPpLhl79fYfr0mbk",
       "pocketCasts": "https://pocketcasts.com/podcast/%E7%A7%81%E3%82%88%E3%82%8A%E5%85%88%E3%81%AB%E4%B8%81%E5%AF%A7%E3%81%AB%E6%9A%AE%E3%82%89%E3%81%99%E3%81%AA/f0578000-cc95-013c-b003-0e4cbdc68eeb",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%A7%81%E3%82%88%E3%82%8A%E5%85%88%E3%81%AB%E4%B8%81%E5%AF%A7%E3%81%AB%E6%9A%AE%E3%82%89%E3%81%99%E3%81%AA/id1726626112"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E7%A7%81%E3%82%88%E3%82%8A%E5%85%88%E3%81%AB%E4%B8%81%E5%AF%A7%E3%81%AB%E6%9A%AE%E3%82%89%E3%81%99%E3%81%AA/id1726626112",
+      "x": "https://x.com/yori_suna"
     },
-    "spotifyShowId": "3sPGEXpPpLhl79fYfr0mbk"
+    "spotifyShowId": "3sPGEXpPpLhl79fYfr0mbk",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "saeki-pointy-ikihodai",
@@ -2324,7 +2472,8 @@
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BD%90%E4%BC%AF%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%81%AE%E7%94%9F%E3%81%8D%E6%94%BE%E9%A1%8C%E3%83%A9%E3%82%B8%E3%82%AA/022f0b30-40f9-013d-193a-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BD%90%E4%BC%AF%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%81%AE%E7%94%9F%E3%81%8D%E6%94%BE%E9%A1%8C%E3%83%A9%E3%82%B8%E3%82%AA/id1756894794"
     },
-    "spotifyShowId": "3VFN0WlSL775nmcl2QR4ot"
+    "spotifyShowId": "3VFN0WlSL775nmcl2QR4ot",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "chikyu-senpuku",
@@ -2337,7 +2486,8 @@
     "links": {
       "pocketCasts": "https://pocketcasts.com/podcast/%E4%BC%8A%E8%97%A4%E4%BA%9C%E5%92%8C%E3%81%A8%E4%BD%90%E4%BC%AF%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%81%AE%E5%9C%B0%E7%90%83%E6%BD%9C%E4%BC%8F%E9%80%9A%E4%BF%A1/9d71d310-8068-013d-19f0-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E4%BC%8A%E8%97%A4%E4%BA%9C%E5%92%8C%E3%81%A8%E4%BD%90%E4%BC%AF%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%86%E3%82%A3%E3%81%AE%E5%9C%B0%E7%90%83%E6%BD%9C%E4%BC%8F%E9%80%9A%E4%BF%A1/id1778386176"
-    }
+    },
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "chonai-saikin",
@@ -2349,9 +2499,11 @@
     "links": {
       "spotify": "https://open.spotify.com/show/5cg5yMYD7FA9NQSSbksEVx",
       "pocketCasts": "https://pocketcasts.com/podcast/%E8%85%B8%E5%86%85%E7%B4%B0%E8%8F%8C%E7%9B%B8%E8%AB%87%E5%AE%A4/8efa1300-43f6-013b-f17b-0acc26574db2",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%85%B8%E5%86%85%E7%B4%B0%E8%8F%8C%E7%9B%B8%E8%AB%87%E5%AE%A4/id1641121382"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E8%85%B8%E5%86%85%E7%B4%B0%E8%8F%8C%E7%9B%B8%E8%AB%87%E5%AE%A4/id1641121382",
+      "x": "https://x.com/chonai_saikin"
     },
-    "spotifyShowId": "5cg5yMYD7FA9NQSSbksEVx"
+    "spotifyShowId": "5cg5yMYD7FA9NQSSbksEVx",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "fa-radio",
@@ -2365,7 +2517,8 @@
       "pocketCasts": "https://pocketcasts.com/podcast/%E9%AB%98%E6%A9%8B%E3%82%AF%E3%83%AA%E3%82%B9%E3%81%AEfa_radio%E5%B7%A5%E5%A0%B4%E8%87%AA%E5%8B%95%E5%8C%96%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/d1818ef0-66e1-013d-19aa-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%AB%98%E6%A9%8B%E3%82%AF%E3%83%AA%E3%82%B9%E3%81%AEfa-radio-%E5%B7%A5%E5%A0%B4%E8%87%AA%E5%8B%95%E5%8C%96%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id1768375478"
     },
-    "spotifyShowId": "6lsWTSSeaOJCGriCS9O8O4"
+    "spotifyShowId": "6lsWTSSeaOJCGriCS9O8O4",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "shaberitarinai-bu",
@@ -2379,21 +2532,24 @@
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E8%B6%B3%E3%82%8A%E3%81%AA%E3%81%84%E9%83%A8-30%E4%BB%A3%E4%BC%9A%E7%A4%BE%E5%93%A1%E3%81%AE%E3%82%86%E3%82%8B%E9%9B%91%E8%AB%87%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/a241a760-fb21-013c-5d66-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%81%97%E3%82%83%E3%81%B9%E3%82%8A%E8%B6%B3%E3%82%8A%E3%81%AA%E3%81%84%E9%83%A8-30%E4%BB%A3%E4%BC%9A%E7%A4%BE%E5%93%A1%E3%81%AE%E3%82%86%E3%82%8B%E9%9B%91%E8%AB%87%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88/id1663739416"
     },
-    "spotifyShowId": "76YLu4NfmscBT9X0FGLfEG"
+    "spotifyShowId": "76YLu4NfmscBT9X0FGLfEG",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "zassou-radio",
     "title": "ザッソウラジオ",
     "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/fc/2e/f3/fc2ef31c-3ae7-0689-d416-ffe1beac4b0f/mza_8820816194652637051.jpg/600x600bb.jpg",
     "hostIds": [
-      "zassou-host"
+      "yoshito-kuranuki",
+      "shinya-nakayama"
     ],
     "links": {
       "spotify": "https://open.spotify.com/show/4Qx1P7o7W16A1Io6jyKO3R",
       "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%B6%E3%83%83%E3%82%BD%E3%82%A6%E3%83%A9%E3%82%B8%E3%82%AA/2e03a870-9b30-013a-d863-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%B6%E3%83%83%E3%82%BD%E3%82%A6%E3%83%A9%E3%82%B8%E3%82%AA/id1609919699"
     },
-    "spotifyShowId": "4Qx1P7o7W16A1Io6jyKO3R"
+    "spotifyShowId": "4Qx1P7o7W16A1Io6jyKO3R",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "mazu-chanto-kiku",
@@ -2405,7 +2561,8 @@
     "links": {
       "spotify": "https://open.spotify.com/show/4itGsG9eYVn8KOA5jDDblV"
     },
-    "spotifyShowId": "4itGsG9eYVn8KOA5jDDblV"
+    "spotifyShowId": "4itGsG9eYVn8KOA5jDDblV",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "jakusho-radio",
@@ -2419,7 +2576,8 @@
       "pocketCasts": "https://pocketcasts.com/podcast/%E9%80%9F%E5%A0%B1-%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E9%81%93-%E5%BC%B1%E5%B0%8F%E3%83%A9%E3%82%B8%E3%82%AA%E8%B5%A4%E5%AD%97ordie/51419cb0-97f0-013d-1a30-0acc26574db2",
       "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E9%80%9F%E5%A0%B1-%E3%83%9D%E3%83%83%E3%83%89%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%81%B8%E3%81%AE%E9%81%93-%E5%BC%B1%E5%B0%8F%E3%83%A9%E3%82%B8%E3%82%AA%E8%B5%A4%E5%AD%97ordie/id1782807918"
     },
-    "spotifyShowId": "5fnU5LaxnbmTMuzzvsUnYw"
+    "spotifyShowId": "5fnU5LaxnbmTMuzzvsUnYw",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "heart-ni-hi-wo-tsukero",
@@ -2446,20 +2604,199 @@
     "links": {
       "spotify": "https://open.spotify.com/show/033EQ28obKWrAZIQYZvjLc"
     },
-    "spotifyShowId": "033EQ28obKWrAZIQYZvjLc"
+    "spotifyShowId": "033EQ28obKWrAZIQYZvjLc",
+    "lastCrawledAt": "2026-11-21"
   },
   {
     "id": "sevenbank-gbc",
     "title": "SEVENBANK GLOBAL BUSINESS CHARGE",
     "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/68/ea/5168ea8c-dea4-a037-3b37-cd5289fbfbef/mza_13429262087651238126.jpg/600x600bb.jpg",
     "hostIds": [
-      "sevenbank-gbc-host"
+      "motoaki-nishiwaki"
     ],
     "links": {
       "spotify": "https://open.spotify.com/show/4W65UEGK6YywKlwcDgpUVo",
       "pocketCasts": "https://pocketcasts.com/podcast/sevenbank-global-business-charge/eeef95f0-c433-013d-0d49-0243b8a24f53",
-      "applePodcasts": "https://podcasts.apple.com/jp/podcast/sevenbank-global-business-charge/id1739718444"
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/sevenbank-global-business-charge/id1739718444",
+      "x": "https://x.com/sgbc813"
     },
-    "spotifyShowId": "4W65UEGK6YywKlwcDgpUVo"
+    "spotifyShowId": "4W65UEGK6YywKlwcDgpUVo",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "know-food-radio",
+    "title": "KNOWフードラジオ〜知って味わう理科・社会。",
+    "description": "農学ガチ勢TTと農学ビギナーゆとの2人が、食と農を科学・社会・ビジネスの視点から楽しく紐解くポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/78/34/1c/78341cac-5fd6-1b2d-989e-df85f517670b/mza_15589907559691634233.jpg/600x600bb.jpg",
+    "hostIds": [
+      "tt-yuto-knowfood"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/100MQ8ee5acV8HtAYVgm4C",
+      "pocketCasts": "https://pocketcasts.com/podcast/know%E3%83%95%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B8%E3%82%AA%E7%9F%A5%E3%81%A3%E3%81%A6%E5%91%B3%E3%82%8F%E3%81%86%E7%90%86%E7%A7%91%E7%A4%BE%E4%BC%9A/33277840-9baf-013a-d86b-0acc26574db2",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/know%E3%83%95%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B8%E3%82%AA-%E7%9F%A5%E3%81%A3%E3%81%A6%E5%91%B3%E3%82%8F%E3%81%86%E7%90%86%E7%A7%91-%E7%A4%BE%E4%BC%9A/id1598116589",
+      "x": "https://x.com/noshokuradio"
+    },
+    "spotifyShowId": "100MQ8ee5acV8HtAYVgm4C",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "utamaru-at6-2",
+    "title": "アフター6ジャンクション 2",
+    "description": "ライムスター宇多丸がパーソナリティを務めるTBSラジオのカルチャー・キュレーション番組「アトロク2」公式ポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/df/a6/7b/dfa67bee-ebad-83e6-25a6-e0248398e5f4/mza_14678389558391108721.jpg/600x600bb.jpg",
+    "hostIds": [
+      "utamaru"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/3Xvbka6gUb0Sxsf4Iiu8qJ",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC6%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-2/40503270-55ce-0138-97b3-0acc26574db2",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC6%E3%82%B8%E3%83%A3%E3%83%B3%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3-2/id1505337177",
+      "x": "https://x.com/after6junction"
+    },
+    "spotifyShowId": "3Xvbka6gUb0Sxsf4Iiu8qJ",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "alco-peace-bunkajin",
+    "title": "アルコ＆ピースの#文化人が1番やばい〜Produced by しくじり先生〜",
+    "description": "アルコ＆ピースが様々なジャンルの文化人・クリエイターをゲストに迎え、知られざる裏話や本音に迫るトーク番組。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/8e/c8/8b8ec850-791d-4c5a-5b5e-4c9233a70bf7/mza_11312883178115442183.jpg/600x600bb.jpg",
+    "hostIds": [
+      "alco-peace"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/34iTsW2afPAZEfaNMY1U2Q",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%94%E3%83%BC%E3%82%B9%E3%81%AE%E6%96%87%E5%8C%96%E4%BA%BA%E3%81%8C1%E7%95%AA%E3%82%84%E3%81%B0%E3%81%84produced-by-%E3%81%97%E3%81%8F%E3%81%98%E3%82%8A%E5%85%88%E7%94%9F/b2f30750-b335-013c-a04a-0acc26574db2",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%A2%E3%83%AB%E3%82%B3-%E3%83%94%E3%83%BC%E3%82%B9%E3%81%AE-%E6%96%87%E5%8C%96%E4%BA%BA%E3%81%8C1%E7%95%AA%E3%82%84%E3%81%B0%E3%81%84-produced-by-%E3%81%97%E3%81%8F%E3%81%98%E3%82%8A%E5%85%88%E7%94%9F/id1731950389"
+    },
+    "spotifyShowId": "34iTsW2afPAZEfaNMY1U2Q",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "tokitoke-talk",
+    "title": "トキトケトーク",
+    "description": "ダウ90000・蓮見翔が各界のゲストとリラックスしながら本音で語り合うトークポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/6f/d1/be6fd1c4-75a2-7394-7ada-7d2df8b2915a/mza_5687403616354593999.jpeg/600x600bb.jpg",
+    "hostIds": [
+      "sho-hasumi"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/0HElb0ko3duIHrLzoOFBvo",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%88%E3%82%AD%E3%83%88%E3%82%B1%E3%83%88%E3%83%BC%E3%82%AF/d34b2eb0-ef97-013d-1b31-0acc26574db2",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%88%E3%82%AD%E3%83%88%E3%82%B1%E3%83%88%E3%83%BC%E3%82%AF/id1805089540"
+    },
+    "spotifyShowId": "0HElb0ko3duIHrLzoOFBvo",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "suzuki-jeronimo-kanjo",
+    "title": "鈴木ジェロニモの感情",
+    "description": "ピン芸人・歌人の鈴木ジェロニモが日常の感情や違和感、ゲストとの対話を通じて言葉を紡ぐSpotifyオリジナル・トーク番組。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f314570002ee77002e4a565ae",
+    "hostIds": [
+      "jeronimo-suzuki"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/0T2YroLBsZXymDtkmy6RIr"
+    },
+    "spotifyShowId": "0T2YroLBsZXymDtkmy6RIr",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "momoyama-shoji",
+    "title": "桃山商事",
+    "description": "恋バナ収集ユニット・桃山商事（清田隆之ほか）が恋愛・ジェンダー・現代社会のモヤモヤを語り合うポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/1d/b1/ae1db1a2-dc28-e01a-86fc-1096062492a6/mza_17270516739020161832.jpg/600x600bb.jpg",
+    "hostIds": [
+      "takayuki-kiyota"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/4CFYwK1OjR5LwVVvHQecer",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E6%A1%83%E5%B1%B1%E5%95%86%E4%BA%8B/47938680-6349-0139-33fc-0acc26574db2",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E6%A1%83%E5%B1%B1%E5%95%86%E4%BA%8B/id1557567193"
+    },
+    "spotifyShowId": "4CFYwK1OjR5LwVVvHQecer",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "the-solutions",
+    "title": "The Solutions",
+    "description": "The Breakthrough Company GO 代表の三浦崇宏らがビジネス・クリエイティブ・人生の本質的課題を議論するポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/67/c8/29/67c829fd-db2a-decd-2257-a5b9feb425a0/mza_10400397619944582853.jpg/600x600bb.jpg",
+    "hostIds": [
+      "takahiro-miura"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/1YCiEvTOBfR00MX5EMdlAm",
+      "pocketCasts": "https://pocketcasts.com/podcast/the-solutions/5ae2a900-de10-013e-db1d-0affda67fe45",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/the-solutions/id1868937583"
+    },
+    "spotifyShowId": "1YCiEvTOBfR00MX5EMdlAm",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "ma-camp",
+    "title": "MA CAMP",
+    "description": "しゅんダイアリーの福田駿がMCを務め、起業家・投資家・経営者を招いてビジネスやキャリアのリアルに迫る対談番組。",
+    "imageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6772ab000015be3195820a5314552419102a5e",
+    "hostIds": [
+      "shun-fukuda"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/6itBf4C9JZtvLD8xdcePdK"
+    },
+    "spotifyShowId": "6itBf4C9JZtvLD8xdcePdK",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "radio-shokudo",
+    "title": "ラジオ食堂 SEASON2",
+    "description": "食べもの系お気楽ネットラジオ。坂谷充彦主宰、今治セフィーロらが出演。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/44/cc/f0/44ccf02a-25d6-fc21-c88a-46c5eedb0700/mza_1600461203408081118.jpg/600x600bb.jpg",
+    "hostIds": [
+      "michihiko-sakatani",
+      "imabari-cefiro"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/0Vi2DlAYmYLh1MYiOdrvvz",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%A9%E3%82%B8%E3%82%AA%E9%A3%9F%E5%A0%82-season2/789c0eb0-eec4-0133-9c6b-59d98c6b72b8",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%A9%E3%82%B8%E3%82%AA%E9%A3%9F%E5%A0%82-season2/id1104608955"
+    },
+    "spotifyShowId": "0Vi2DlAYmYLh1MYiOdrvvz",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "nogitz-r",
+    "title": "【バブル氷河期ラジオ】ノギツ-R",
+    "description": "バブル世代と氷河期世代の働くおっさん（東横名人・坂本）による「食」や「職」、カルチャーを語るポッドキャスト。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fb/f9/8c/fbf98c13-8c37-2e2f-424a-387349921ce7/mza_2668025674701065653.png/600x600bb.jpg",
+    "hostIds": [
+      "toyoko-meijin",
+      "sakamoto-nogitz"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/0KBioNtBLoEXKFHod5JMTk",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%83%90%E3%83%96%E3%83%AB%E6%B0%B7%E6%B2%B3%E6%9C%9F%E3%83%A9%E3%82%B8%E3%82%AA%E3%83%8E%E3%82%AE%E3%83%84-r/43f68000-6c02-0132-daf8-5f4c86fd3263",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%83%90%E3%83%96%E3%83%AB%E6%B0%B7%E6%B2%B3%E6%9C%9F%E3%83%A9%E3%82%B8%E3%82%AA-%E3%83%8E%E3%82%AE%E3%83%84-r/id633488255"
+    },
+    "spotifyShowId": "0KBioNtBLoEXKFHod5JMTk",
+    "lastCrawledAt": "2026-11-21"
+  },
+  {
+    "id": "amzp-radio",
+    "title": "アマゾンプロダクツ 遊びのラジオ",
+    "description": "鮫島礼二・筆川太らがTVゲームを中心に映画・漫画・日々の遊びについて語る長寿ネットラジオ番組。",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ef/94/52/ef945294-7e3d-039b-a2cd-6f080ee7c842/mza_2751662319070980668.jpg/600x600bb.jpg",
+    "hostIds": [
+      "reiji-samejima"
+    ],
+    "links": {
+      "spotify": "https://open.spotify.com/show/1LQTS77gD9VrUeWkYbXMJY",
+      "pocketCasts": "https://pocketcasts.com/podcast/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%84-%E9%81%8A%E3%81%B3%E3%81%AE%E3%83%A9%E3%82%B8%E3%82%AA/b197c8a0-a274-012f-4145-525400c11844",
+      "applePodcasts": "https://podcasts.apple.com/jp/podcast/%E3%82%A2%E3%83%9E%E3%82%BE%E3%83%B3%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%84-%E9%81%8A%E3%81%B3%E3%81%AE%E3%83%A9%E3%82%B8%E3%82%AA/id301355885"
+    },
+    "spotifyShowId": "1LQTS77gD9VrUeWkYbXMJY",
+    "lastCrawledAt": "2026-11-21"
   }
 ]

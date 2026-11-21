@@ -134,6 +134,7 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
                       spotifyUrl={show.links.spotify}
                       pocketCastsUrl={show.links.pocketCasts}
                       applePodcastsUrl={show.links.applePodcasts}
+                      xUrl={show.links.x}
                       compact
                     />
                   </div>
@@ -203,6 +204,16 @@ export const PodcasterDetail: React.FC<PodcasterDetailProps> = ({
                         </div>
                       )}
                     </div>
+                  </div>
+
+                  <div className="mt-3">
+                    <ShowLinks
+                      spotifyUrl={show.links.spotify}
+                      pocketCastsUrl={show.links.pocketCasts}
+                      applePodcastsUrl={show.links.applePodcasts}
+                      xUrl={show.links.x}
+                      compact
+                    />
                   </div>
                 </div>
               );

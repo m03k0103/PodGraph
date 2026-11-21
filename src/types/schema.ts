@@ -23,6 +23,7 @@ export interface Podcast {
     spotify?: string;
     pocketCasts?: string;
     applePodcasts?: string;
+    x?: string;
   };
   spotifyShowId?: string;
   lastCrawledAt?: string;

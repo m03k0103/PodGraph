@@ -79,4 +79,20 @@ describe('Design.md compliance & quality gate', () => {
     expect(popupSource).toContain('select-text');
     expect(popupSource).not.toContain('select-none');
   });
+
+  it('keeps HeaderBar search dropdown stacking order above DetailPopup', () => {
+    const headerSource = readFileSync(
+      resolve(ROOT, 'src/components/HeaderBar.tsx'),
+      'utf-8'
+    );
+    const popupSource = readFileSync(
+      resolve(ROOT, 'src/components/DetailPopup.tsx'),
+      'utf-8'
+    );
+    const headerZMatch = headerSource.match(/<header[^>]*\bz-(\d+)\b/);
+    const popupZMatch = popupSource.match(/<aside[^>]*\bz-(\d+)\b/);
+    expect(headerZMatch).not.toBeNull();
+    expect(popupZMatch).not.toBeNull();
+    expect(Number(headerZMatch![1])).toBeGreaterThan(Number(popupZMatch![1]));
+  });
 });

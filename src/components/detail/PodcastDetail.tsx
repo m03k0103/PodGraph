@@ -52,6 +52,7 @@ export const PodcastDetail: React.FC<PodcastDetailProps> = ({
               spotifyUrl={show.links.spotify}
               pocketCastsUrl={show.links.pocketCasts}
               applePodcastsUrl={show.links.applePodcasts}
+              xUrl={show.links.x}
               spotifyLabel="Spotifyで番組を開く"
             />
           </div>

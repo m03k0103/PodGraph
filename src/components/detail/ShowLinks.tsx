@@ -4,6 +4,7 @@ interface ShowLinksProps {
   spotifyUrl?: string;
   pocketCastsUrl?: string;
   applePodcastsUrl?: string;
+  xUrl?: string;
   spotifyLabel?: string;
   showHeadphonesIcon?: boolean;
   compact?: boolean;
@@ -31,10 +32,17 @@ const ApplePodcastsIcon: React.FC<{ className?: string }> = ({ className = 'h-4 
   </svg>
 );
 
+const XIcon: React.FC<{ className?: string }> = ({ className = 'h-4 w-4' }) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className={className}>
+    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  </svg>
+);
+
 export const ShowLinks: React.FC<ShowLinksProps> = ({
   spotifyUrl,
   pocketCastsUrl,
   applePodcastsUrl,
+  xUrl,
   spotifyLabel = 'Spotify',
 }) => {
   const iconClass = 'h-5 w-5';
@@ -75,6 +83,18 @@ export const ShowLinks: React.FC<ShowLinksProps> = ({
           className="inline-flex items-center justify-center text-[#9933CC] [data-theme='dark']_&:text-[#b150e2] transition hover:opacity-80"
         >
           <ApplePodcastsIcon className={iconClass} />
+        </a>
+      )}
+      {xUrl && (
+        <a
+          href={xUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="番組公式X (Twitter)"
+          title="番組公式X (Twitter)"
+          className="theme-text-secondary inline-flex items-center justify-center transition hover:opacity-80"
+        >
+          <XIcon className="h-4 w-4" />
         </a>
       )}
     </div>

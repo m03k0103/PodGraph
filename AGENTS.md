@@ -33,7 +33,7 @@
 
 2. **ポッドキャスト追加時のルール**
    - 指示がなくとも、追加対象ポッドキャストに対して**クロール**を実施すること。
-   - リンクは Spotify (`links.spotify`) に加えて、**Pocket Casts (`links.pocketCasts`)** および **Apple Podcasts (`links.applePodcasts`)** の有無を確認し、存在する場合は追加すること。
+   - リンクは Spotify (`links.spotify`) に加えて、**Pocket Casts (`links.pocketCasts`)**、**Apple Podcasts (`links.applePodcasts`)**、および **番組公式X（旧 Twitter）アカウント (`links.x`)** の有無を確認し、存在する場合は追加すること。
    - クロールを実施したポッドキャストには、最終クロール日（`lastCrawledAt`: `YYYY-MM-DD` 形式）を記録すること。
 
 3. **人物（ポッドキャスター）追加時のルール**

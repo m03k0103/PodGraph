@@ -65,6 +65,9 @@ describe('data integrity', () => {
       if (show.links.applePodcasts) {
         expect(show.links.applePodcasts).toMatch(/^https:\/\//);
       }
+      if (show.links.x) {
+        expect(show.links.x).toMatch(/^https:\/\//);
+      }
       expect(Boolean(show.links.spotify || show.links.pocketCasts || show.links.applePodcasts)).toBe(true);
     }
     for (const ep of episodes) {

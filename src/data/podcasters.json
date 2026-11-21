@@ -1589,16 +1589,20 @@
     "name": "まいこう"
   },
   {
-    "id": "zassou-host",
-    "name": "ザッソウラジオ"
-  },
-  {
     "id": "mazu-chanto-kiku-host",
     "name": "『まず、ちゃんと聴く。』ラジオ"
   },
   {
     "id": "michihiko-sakatani",
-    "name": "坂谷 通彦"
+    "name": "坂谷 充彦",
+    "aliases": [
+      "坂谷充彦",
+      "坂谷"
+    ],
+    "bio": "ネットラジオ『ラジオ食堂 SEASON2』『速報！ポッドキャストイベントへの道！　弱小ラジオ赤字orDie』主宰・パーソナリティ。",
+    "links": {
+      "x": "https://x.com/sakatani_M"
+    }
   },
   {
     "id": "anri-samata",
@@ -1612,7 +1616,176 @@
     "name": "Changer Story"
   },
   {
-    "id": "sevenbank-gbc-host",
-    "name": "SEVENBANK GLOBAL BUSINESS CHARGE"
+    "id": "motoaki-nishiwaki",
+    "name": "西脇 資哲",
+    "aliases": [
+      "西脇資哲",
+      "Motoaki Nishiwaki"
+    ],
+    "bio": "日本マイクロソフト株式会社 業務執行役員・エバンジェリスト。J-WAVE『SEVENBANK GLOBAL BUSINESS CHARGE』ナビゲーター。",
+    "links": {
+      "x": "https://x.com/waki"
+    }
+  },
+  {
+    "id": "yoshito-kuranuki",
+    "name": "倉貫 義人",
+    "aliases": [
+      "倉貫義人"
+    ],
+    "bio": "株式会社ソニックガーデン代表取締役。『ザッソウラジオ』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/kuranuki"
+    }
+  },
+  {
+    "id": "shinya-nakayama",
+    "name": "仲山 進也",
+    "aliases": [
+      "仲山進也",
+      "がくちょ"
+    ],
+    "bio": "楽天大学学長・仲山考材代表。『ザッソウラジオ』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/nakayamashinya"
+    }
+  },
+  {
+    "id": "tt-yuto-knowfood",
+    "name": "TT・ゆと",
+    "aliases": [
+      "TT",
+      "ゆと",
+      "KNOWフードラジオ"
+    ],
+    "bio": "農学ガチ勢のTTと農学ビギナーのゆとによる二人組。『KNOWフードラジオ〜知って味わう理科・社会。』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/noshokuradio"
+    }
+  },
+  {
+    "id": "utamaru",
+    "name": "宇多丸",
+    "aliases": [
+      "ライムスター宇多丸",
+      "RHYMESTER宇多丸"
+    ],
+    "bio": "ヒップホップグループRHYMESTERのラッパー・ラジオパーソナリティ。TBSラジオ『アフター6ジャンクション 2』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "alco-peace",
+    "name": "アルコ＆ピース",
+    "aliases": [
+      "アルコ&ピース",
+      "平子祐希",
+      "酒井健太"
+    ],
+    "bio": "平子祐希・酒井健太によるお笑いコンビ。『アルコ＆ピースの#文化人が1番やばい』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "sho-hasumi",
+    "name": "蓮見 翔",
+    "aliases": [
+      "蓮見翔",
+      "ダウ90000蓮見",
+      "ダウ蓮見"
+    ],
+    "bio": "8人組ユニット・ダウ90000主宰、脚本家・演出家。『トキトケトーク』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/Show0408S"
+    }
+  },
+  {
+    "id": "jeronimo-suzuki",
+    "name": "鈴木 ジェロニモ",
+    "aliases": [
+      "鈴木ジェロニモ"
+    ],
+    "bio": "お笑い芸人・歌人・文筆家。『鈴木ジェロニモの感情』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/suzukigeno"
+    }
+  },
+  {
+    "id": "takayuki-kiyota",
+    "name": "清田 隆之",
+    "aliases": [
+      "清田隆之",
+      "桃山商事"
+    ],
+    "bio": "文筆家・恋バナ収集ユニット「桃山商事」代表。『桃山商事』パーソナリティ。",
+    "links": {}
+  },
+  {
+    "id": "takahiro-miura",
+    "name": "三浦 崇宏",
+    "aliases": [
+      "三浦崇宏",
+      "GO三浦"
+    ],
+    "bio": "The Breakthrough Company GO 代表取締役 PR/Creative Director。『The Solutions』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/TAKAHIRO3IURA"
+    }
+  },
+  {
+    "id": "shun-fukuda",
+    "name": "福田 駿",
+    "aliases": [
+      "福田駿",
+      "しゅんダイアリー"
+    ],
+    "bio": "株式会社Diary代表取締役。『MA CAMP』MC。",
+    "links": {
+      "x": "https://x.com/shundiary55"
+    }
+  },
+  {
+    "id": "imabari-cefiro",
+    "name": "今治セフィーロ",
+    "aliases": [
+      "今治・MENSA・セフィーロ",
+      "今治"
+    ],
+    "bio": "ネットラジオ『ラジオ食堂 SEASON2』出演メンバー。",
+    "links": {
+      "x": "https://x.com/8483104"
+    }
+  },
+  {
+    "id": "toyoko-meijin",
+    "name": "東横名人",
+    "aliases": [
+      "東横名人さん"
+    ],
+    "bio": "ポッドキャスト『【バブル氷河期ラジオ】ノギツ-R』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/tyk_meijin"
+    }
+  },
+  {
+    "id": "sakamoto-nogitz",
+    "name": "坂本",
+    "aliases": [
+      "坂本さん",
+      "ノギツ坂本"
+    ],
+    "bio": "ポッドキャスト『【バブル氷河期ラジオ】ノギツ-R』パーソナリティ。",
+    "links": {
+      "x": "https://x.com/nogitz_sakamoto"
+    }
+  },
+  {
+    "id": "reiji-samejima",
+    "name": "鮫島 礼二",
+    "aliases": [
+      "鮫島礼二"
+    ],
+    "bio": "ネットラジオ『アマゾンプロダクツ 遊びのラジオ』リーダー・パーソナリティ。",
+    "links": {
+      "x": "https://x.com/samejima_reiji"
+    }
   }
 ]

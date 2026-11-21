@@ -65,7 +65,7 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
     searchResults.matchedPodcasts.length > 0;
 
   return (
-    <header className="pointer-events-none fixed top-0 right-0 left-0 z-20 flex flex-col gap-3 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-4">
+    <header className="pointer-events-none fixed top-0 right-0 left-0 z-40 flex flex-col gap-3 p-3 sm:flex-row sm:items-center sm:justify-between sm:p-4">
       {/* 左側：ロゴ ＆ 人物/番組モード切替トグル */}
       <div className="theme-surface-glass pointer-events-auto flex flex-wrap items-center gap-3 rounded-2xl border px-3.5 py-2 backdrop-blur-md">
         <div className="flex items-center gap-2 pr-1">
@@ -151,7 +151,7 @@ export const HeaderBar: React.FC<HeaderBarProps> = ({
 
           {/* 検索候補ドロップダウン */}
           {isOpen && query.trim() !== '' && (
-            <div className="theme-surface-glass absolute right-0 left-0 mt-1.5 max-h-80 overflow-y-auto rounded-xl border p-2 backdrop-blur-md">
+            <div className="theme-surface-glass absolute right-0 left-0 z-50 mt-1.5 max-h-80 overflow-y-auto rounded-xl border p-2 backdrop-blur-md">
               {!hasResults ? (
                 <p className="theme-text-muted py-4 text-center text-xs">
                   該当するポッドキャスター・番組が見つかりません
